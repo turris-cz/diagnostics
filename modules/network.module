@@ -1,10 +1,12 @@
 #!modules/module.sh
 
 help="
-prints uci network settings, current ip addresses and routes
+prints uci network and wireless settings, current ip addresses and routes
 "
 
 run () {
+	uci show wireless | grep -v ".key="
+	echo
 	uci show network
 	echo
 	echo ipv4:
