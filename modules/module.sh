@@ -1,4 +1,9 @@
 #!/bin/sh
+
+echo_sec() {
+	echo "== $@ =="
+}
+
 . "$1"
 
 case "$2" in
