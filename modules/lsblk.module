@@ -1,9 +1,0 @@
-#!modules/module.sh
-
-help="
-list all block devices
-"
-
-run () {
-	lsblk -O
-}

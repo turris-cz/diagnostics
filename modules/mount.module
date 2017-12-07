@@ -1,9 +1,0 @@
-#!modules/module.sh
-
-help="
-List all mount points and mount options
-"
-
-run () {
-	mount
-}
