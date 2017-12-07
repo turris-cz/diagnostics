@@ -1,6 +1,6 @@
 #!/bin/sh
 
-MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-10000}
+MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-100000}
 
 # enter the script directory
 cd "$(dirname $0)"
