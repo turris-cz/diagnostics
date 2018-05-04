@@ -1,0 +1,16 @@
+#!modules/module.sh
+
+help="
+Print current date and verify that NTP can synchronize time.
+"
+
+run () {
+	echo_sec "Current time"
+	date
+
+	echo_sec "NTP synchronization"
+	. /etc/init.d/ntpdate
+	for S in $STEP_SERVERS; do
+		/usr/sbin/ntpdate -b -u -t 2 "$S"
+	done
+}
