@@ -1,0 +1,9 @@
+#!modules/module.sh
+
+help="
+lists u-boot environment
+"
+
+run () {
+	fw_printenv
+}
