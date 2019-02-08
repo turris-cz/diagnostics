@@ -6,7 +6,7 @@ try to run updater, read /tmp/updater_crash.log and dump configuration
 
 run () {
 	echo_sec "Updater execution"
-	updater.sh -n -e TRACE
+	pkgupdate -e TRACE
 	echo
 	local CRASH_LOG="/tmp/updater_crash.log"
 	if [ -e "$CRASH_LOG" ]; then
