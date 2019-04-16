@@ -10,9 +10,8 @@ resolve() {
 }
 
 run () {
-	# resolver config
+	echo_sec "Resolver config"
 	uci -q show resolver
-	echo
 
 	echo_sec "resolv.conf*"
 	grep -H '' /etc/resolv.conf* /tmp/resolv.conf*
