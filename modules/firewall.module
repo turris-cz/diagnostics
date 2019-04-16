@@ -5,18 +5,17 @@ print uci firewall settings and the currnet content of iptables
 "
 
 run () {
+	echo_sec "Uci firewall configuration"
 	uci show firewall
 	uci show firewall-turris
-	echo
 
-	# get md5sum of the firewall scripts and rules
+	echo_sec "md5sum of firewall scripts"
 	md5sum /usr/share/firewall/*
-	echo
 
-	# list user defined scripts
+	echo_sec "List of user defined scripts"
 	ls -al /etc/firewall.user
 	ls -al /etc/firewall.d/*
-	echo
 
+	echo_sec "Current iptables configuration"
 	iptables-save
 }
