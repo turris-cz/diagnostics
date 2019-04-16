@@ -8,9 +8,16 @@ run () {
 	echo_sec "Current time"
 	date
 
-	echo_sec "NTP synchronization"
-	. /etc/init.d/ntpdate
-	for S in $STEP_SERVERS; do
-		/usr/sbin/ntpdate -b -u -t 2 "$S"
-	done
+	echo_sec "NTP configuration"
+	uci show system.ntp
+
+	echo_sec "Is /etc/init.d/sysntpd enabled?"
+	find /etc/init.d/*sysntpd* -exec md5sum {} \;
+	find /etc/rc.d/*sysntpd* -exec md5sum {} \;
+
+	echo_sec "/etc/init.d/sysntpd restart to force sync"
+	/etc/init.d/sysntpd restart
+
+	echo_sec "Current time after sync"
+	date
 }
