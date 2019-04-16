@@ -5,10 +5,10 @@ shows mounted devices and examines files in /tmp/
 "
 
 run () {
+	echo_sec "df -h"
 	df -h
-	echo
-
+	echo_sec "du -ahcx /tmp"
 	du -ahcx /tmp/
 }
 
-
+# vim: ft=sh
