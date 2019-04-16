@@ -7,3 +7,5 @@ lists u-boot environment
 run () {
 	fw_printenv
 }
+
+# vim: ft=sh

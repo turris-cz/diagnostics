@@ -10,3 +10,5 @@ run () {
 	echo_sec lsblk
 	lsblk -O
 }
+
+# vim: ft=sh

@@ -7,3 +7,5 @@ list installed packages
 run () {
 	opkg list-installed
 }
+
+# vim: ft=sh

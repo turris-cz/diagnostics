@@ -27,3 +27,5 @@ run () {
 	find /etc/init.d/*cron* -exec md5sum {} \;
 	find /etc/rc.d/*cron* -exec md5sum {} \;
 }
+
+# vim: ft=sh

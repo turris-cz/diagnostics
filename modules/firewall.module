@@ -19,3 +19,5 @@ run () {
 	echo_sec "Current iptables configuration"
 	iptables-save
 }
+
+# vim: ft=sh

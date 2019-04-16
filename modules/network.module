@@ -19,3 +19,5 @@ run () {
 	ip -6 address
 	ip -6 route
 }
+
+# vim: ft=sh

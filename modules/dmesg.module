@@ -7,3 +7,5 @@ display output of dmesg
 run () {
 	dmesg
 }
+
+# vim: ft=sh

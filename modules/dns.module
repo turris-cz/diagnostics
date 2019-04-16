@@ -49,3 +49,5 @@ run () {
 	resolve www.wilda.0skar.cz  # should pass
 	resolve *.wilda.rhybar.ecdsa.0skar.cz  # should fail
 }
+
+# vim: ft=sh

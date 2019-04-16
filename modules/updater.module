@@ -18,3 +18,5 @@ run () {
 	echo_sec "Updater execution"
 	pkgupdate -e TRACE
 }
+
+# vim: ft=sh

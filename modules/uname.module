@@ -7,3 +7,5 @@ show info about linux kernel
 run () {
 	uname -a
 }
+
+# vim: ft=sh

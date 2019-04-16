@@ -21,3 +21,5 @@ run () {
 	echo_sec "Current time after sync"
 	date
 }
+
+# vim: ft=sh

@@ -15,3 +15,5 @@ run () {
 	test_web "https://repo.turris.cz"
 	test_web "https://www.turris.cz"
 }
+
+# vim: ft=sh

@@ -7,3 +7,5 @@ how long is the router running
 run () {
 	uptime
 }
+
+# vim: ft=sh

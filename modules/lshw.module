@@ -16,3 +16,5 @@ run () {
 	echo_sec sensors
 	sensors
 }
+
+# vim: ft=sh

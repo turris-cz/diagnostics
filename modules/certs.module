@@ -12,3 +12,5 @@ run () {
 	# print certificates from /etc/ssl/certs/
 	ls -al /etc/ssl/certs/
 }
+
+# vim: ft=sh

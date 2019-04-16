@@ -45,3 +45,5 @@ run () {
 	esac
 	)
 }
+
+# vim: ft=sh

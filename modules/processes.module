@@ -11,3 +11,5 @@ run () {
 	echo_sec "pstree"
 	pstree -a
 }
+
+# vim: ft=sh

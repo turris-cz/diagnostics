@@ -12,4 +12,4 @@ run () {
 	ls -al /etc/rc.d/
 }
 
-
+# vim: ft=sh
