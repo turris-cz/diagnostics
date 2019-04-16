@@ -5,9 +5,10 @@ examines running services and shows whether the services are started after boot
 "
 
 run () {
+	echo_sec "Service list trough ubus"
 	ubus call service list '{"verbose": true}'
-	echo
 
+	echo_sec "List enabled services (/etc/rc.d)"
 	ls -al /etc/rc.d/
 }
 
