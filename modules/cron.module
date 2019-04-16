@@ -5,18 +5,25 @@ info about about the cron
 "
 
 run () {
-	# is running
-	sh modules/processes.module run | grep cron | grep -v 'grep\|cron\.module\|diagnostics'
-	echo
+	echo_sec "Is cron running?"
+	busybox ps w | grep cron | grep -v 'grep\|cron\.module\|diagnostics'
 
-	# get the package info
-	opkg info $(opkg search "$(which cron)" | cut -d ' ' -f1)
+	echo_sec "Package providing crond or cron"
+	if [ -n "$(which crond >/dev/null)" ]; then
+		opkg info $(opkg search $(which crond) | awk '{print $1}')
+	elif [ -n "$(which cron >/dev/null)" ]; then
+		echo_sec "Package providing cron"
+		opkg info $(opkg search $(which cron) | awk '{print $1}')
+	else
+		echo "There is no crond nor cron executable!"
+	fi
 
-	# read the cron files
+	echo_sec "Cronfiles from /etc/cron.d"
 	grep '' /etc/cron.d/*
-	echo
+	echo_sec "Cronfiles from /etc/crontabs"
+	grep '' /etc/crontabs/*
 
-	# is cron enabled
+	echo_sec "Is cron service enables?"
 	find /etc/init.d/*cron* -exec md5sum {} \;
 	find /etc/rc.d/*cron* -exec md5sum {} \;
 }
