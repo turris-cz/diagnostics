@@ -5,5 +5,9 @@ list running processes
 "
 
 run () {
+	echo_sec "ps w"
 	busybox ps w
+
+	echo_sec "pstree"
+	pstree -a
 }
