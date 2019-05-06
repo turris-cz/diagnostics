@@ -8,7 +8,7 @@ test_web() {
 	local url="$1"
 	shift
 	echo_sec "$url"
-	curl --location --verbose "$@" https://api.turris.cz/ > /dev/null
+	curl --location --verbose "$url" https://api.turris.cz/ > /dev/null
 }
 
 run () {
