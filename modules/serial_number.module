@@ -1,9 +1,11 @@
 #!modules/module.sh
 
 help="
-get serial number from mox-otp or atsha204
+$(gettext "get serial number from mox-otp or atsha204")
 "
 
 run () {
 	crypto-wrapper serial-number
 }
+
+# vim: ft=sh

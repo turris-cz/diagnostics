@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-examines running services and shows whether the services are started after boot
+$(gettext "examines running services and shows whether the services are started after boot")
 "
 
 run () {

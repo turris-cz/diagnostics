@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-shows mounted devices and examines files in /tmp/
+$(gettext "shows mounted devices and examines files in /tmp/")
 "
 
 run () {

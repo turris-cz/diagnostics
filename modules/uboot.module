@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-lists u-boot environment
+$(gettext "lists u-boot environment")
 "
 
 run () {

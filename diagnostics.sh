@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# set proper gettext domain
+export TEXTDOMAIN=turris-diagnostics
+
 MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-100000}
 
 # enter the script directory
@@ -36,11 +39,11 @@ module_help() {
 
 print_help() {
 	echo "$(basename $0) [-b] [-o <file> | -O <file>] [module1[ module2[...]]]"
-	echo "	-b		run in background"
-	echo "	-o <file>	print output to a file"
-	echo "	-O <file>	print output to a directory module per file"
+	echo "	-b		$(gettext "run in background")"
+	echo "	-o <file>	$(gettext "print output to a file")"
+	echo "	-O <file>	$(gettext "print output to a directory module per file")"
 	echo
-	echo modules:
+	gettext "modules:"
 	module_help
 }
 

@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-list installed packages
+$(gettext "list installed packages")
 "
 
 run () {

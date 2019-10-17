@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-gather dns related informations
+$(gettext "gather dns related informations")
 "
 
 resolve() {

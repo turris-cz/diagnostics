@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-Print current date and verify that NTP can synchronize time.
+$(gettext "Print current date and verify that NTP can synchronize time.")
 "
 
 run () {

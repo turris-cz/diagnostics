@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-show info about linux kernel
+$(gettext "show info about linux kernel")
 "
 
 run () {

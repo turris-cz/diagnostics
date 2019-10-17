@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-print uci firewall settings and the currnet content of iptables
+$(gettext "print uci firewall settings and the currnet content of iptables")
 "
 
 run () {

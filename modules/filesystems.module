@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-list all mount points and mount options and all block devices
+$(gettext "list all mount points and mount options and all block devices")
 "
 
 run () {
