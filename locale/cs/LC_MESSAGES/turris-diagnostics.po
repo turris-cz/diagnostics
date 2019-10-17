@@ -8,86 +8,94 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-17 11:30+0200\n"
-"PO-Revision-Date: 2019-10-17 11:30+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-10-18 10:52+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1-dev\n"
 
 msgid "run in background"
-msgstr ""
+msgstr "spustit na pozadí"
 
 msgid "print output to a file"
-msgstr ""
+msgstr "vypsat výstup do souboru"
 
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "vypsat výstup do složky do zvlášť souborů pro jednotlivé moduly"
 
 msgid "modules:"
-msgstr ""
+msgstr "moduly:"
 
 msgid "list installed packages"
-msgstr ""
+msgstr "vypsat nainstalované balíčky"
 
 msgid "how long is the router running"
-msgstr ""
+msgstr "jak dlouho je router zapnutý"
 
 msgid "get serial number from mox-otp or atsha204"
-msgstr ""
+msgstr "získat sériové číslo z mox-otp nebo atsha204"
 
 msgid "info about about the cron"
-msgstr ""
+msgstr "informace o naplánovaných úlohách"
 
 msgid "list all mount points and mount options and all block devices"
 msgstr ""
+"vypsat veškeré přípojné body a předvolby připojení pro všechna bloková "
+"zařízení"
 
 msgid "show info about linux kernel"
-msgstr ""
+msgstr "zobrazit informace o linuxovém jádře"
 
 msgid "gather dns related informations"
-msgstr ""
+msgstr "shromáždit informace související s dns"
 
 msgid "lists u-boot environment"
-msgstr ""
+msgstr "vypíše u-boot prostředí"
 
 msgid "test whether the turris webs are available"
-msgstr ""
+msgstr "vyzkoušet, zda jsou dostupné weby turris"
 
 msgid "list running processes"
-msgstr ""
+msgstr "vypsat spuštěné procesy"
 
 msgid "dump configuration and try to run updater"
-msgstr ""
+msgstr "vypsat nastavení a zkusit spustit aktualizaci"
 
 msgid "list detected hardware on usb and pci"
-msgstr ""
+msgstr "vypsat hardware zjištěné na usb a pci sběrnicích"
 
 msgid "try to send firewall logs to the server"
-msgstr ""
+msgstr "zkusit odeslat záznamy událostí na bráně firewall na server"
 
 msgid "Print current date and verify that NTP can synchronize time."
-msgstr ""
+msgstr "Vypsat stávající datum a ověřit, že NTP může synchronizovat čas."
 
 msgid "print uci firewall settings and the currnet content of iptables"
 msgstr ""
+"vypsat nastavení brány firewall v rozhraní uci a stávající obsah iptables"
 
 msgid "read /var/log/messages"
-msgstr ""
+msgstr "přečíst /var/log/messages"
 
 msgid ""
 "prints uci network and wireless settings, current ip addresses and routes"
 msgstr ""
+"vypíše nastavení sítě a WiFi z rozhraní uci, stávající IP adresy a trasy"
 
 msgid "shows mounted devices and examines files in /tmp/"
-msgstr ""
+msgstr "zobrazí připojená zařízení a prozkoumá soubory v /tmp/"
 
 msgid ""
 "examines running services and shows whether the services are started after "
 "boot"
 msgstr ""
+"prozkoumá spuštěné služby a zobrazí, zda jsou služby spouštěné po zavedení "
+"systému"
 
 msgid "display output of dmesg"
-msgstr ""
+msgstr "zobrazí výstup z dmesg"
