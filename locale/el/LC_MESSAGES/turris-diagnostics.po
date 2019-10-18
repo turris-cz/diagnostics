@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the turris-diagnostics package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: turris-diagnostics\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 11:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "run in background"
+msgstr ""
+
+msgid "print output to a file"
+msgstr ""
+
+msgid "print output to a directory module per file"
+msgstr ""
+
+msgid "modules:"
+msgstr ""
+
+msgid "list installed packages"
+msgstr ""
+
+msgid "how long is the router running"
+msgstr ""
+
+msgid "get serial number from mox-otp or atsha204"
+msgstr ""
+
+msgid "info about about the cron"
+msgstr ""
+
+msgid "list all mount points and mount options and all block devices"
+msgstr ""
+
+msgid "show info about linux kernel"
+msgstr ""
+
+msgid "gather dns related informations"
+msgstr ""
+
+msgid "lists u-boot environment"
+msgstr ""
+
+msgid "test whether the turris webs are available"
+msgstr ""
+
+msgid "list running processes"
+msgstr ""
+
+msgid "dump configuration and try to run updater"
+msgstr ""
+
+msgid "list detected hardware on usb and pci"
+msgstr ""
+
+msgid "try to send firewall logs to the server"
+msgstr ""
+
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr ""
+
+msgid "print uci firewall settings and the currnet content of iptables"
+msgstr ""
+
+msgid "read /var/log/messages"
+msgstr ""
+
+msgid ""
+"prints uci network and wireless settings, current ip addresses and routes"
+msgstr ""
+
+msgid "shows mounted devices and examines files in /tmp/"
+msgstr ""
+
+msgid ""
+"examines running services and shows whether the services are started after "
+"boot"
+msgstr ""
+
+msgid "display output of dmesg"
+msgstr ""
