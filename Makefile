@@ -42,4 +42,4 @@ endef
 $(foreach LANG, $(LANGS), $(eval $(call COMPILE_MESSAGES,$(LANG))))
 
 install: $(foreach LANG, $(LANGS), locale/$(LANG)/LC_MESSAGES/turris-diagnostics.mo)
-	$(foreach mo_file,$^,install -D $(mo_file) $(INSTALL_TARGET)/$(mo_file))
+	$(foreach mo_file,$^,install -D $(mo_file) $(INSTALL_TARGET)/$(mo_file);)

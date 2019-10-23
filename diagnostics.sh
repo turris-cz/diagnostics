@@ -44,6 +44,7 @@ print_help() {
 	echo "	-O <file>	$(gettext "print output to a directory module per file")"
 	echo
 	gettext "modules:"
+	echo
 	module_help
 }
 
