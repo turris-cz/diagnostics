@@ -2,6 +2,7 @@
 
 # set proper gettext domain
 export TEXTDOMAIN=turris-diagnostics
+export TEXTDOMAINDIR=/usr/share/locale
 
 MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-100000}
 
