@@ -8,46 +8,53 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-17 11:30+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-10-27 17:53+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1-dev\n"
 
 msgid "run in background"
-msgstr ""
+msgstr "kjør i bakgrunnen"
 
 msgid "print output to a file"
-msgstr ""
+msgstr "skriv utdata til en fil"
 
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "skriv utdata til en katalogmodul per fil"
 
+#, fuzzy
 msgid "modules:"
-msgstr ""
+msgstr "moduler:"
 
 msgid "list installed packages"
-msgstr ""
+msgstr "list opp installerte pakker"
 
+#, fuzzy
 msgid "how long is the router running"
-msgstr ""
+msgstr "hvor lenge ruteren kjører"
 
 msgid "get serial number from mox-otp or atsha204"
-msgstr ""
+msgstr "hent serienummer fra mox-otp eller atsha204"
 
+#, fuzzy
 msgid "info about about the cron"
-msgstr ""
+msgstr "info om cron-jobber"
 
 msgid "list all mount points and mount options and all block devices"
 msgstr ""
+"list opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter"
 
 msgid "show info about linux kernel"
-msgstr ""
+msgstr "vis info om Linux-kjerne"
 
 msgid "gather dns related informations"
-msgstr ""
+msgstr "hent DNS-relatert info"
 
 msgid "lists u-boot environment"
 msgstr ""
@@ -56,16 +63,16 @@ msgid "test whether the turris webs are available"
 msgstr ""
 
 msgid "list running processes"
-msgstr ""
+msgstr "list opp kjørende prosesser"
 
 msgid "dump configuration and try to run updater"
-msgstr ""
+msgstr "dump oppsett og prøv å kjøre oppdatereren"
 
 msgid "list detected hardware on usb and pci"
-msgstr ""
+msgstr "list opp oppdaget maskinvare på USB og PCI"
 
 msgid "try to send firewall logs to the server"
-msgstr ""
+msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
 
 msgid "Print current date and verify that NTP can synchronize time."
 msgstr ""
@@ -74,7 +81,7 @@ msgid "print uci firewall settings and the currnet content of iptables"
 msgstr ""
 
 msgid "read /var/log/messages"
-msgstr ""
+msgstr "les /var/log/messages"
 
 msgid ""
 "prints uci network and wireless settings, current ip addresses and routes"
@@ -88,5 +95,6 @@ msgid ""
 "boot"
 msgstr ""
 
+#, fuzzy
 msgid "display output of dmesg"
-msgstr ""
+msgstr "vis utdata fra dmesg"
