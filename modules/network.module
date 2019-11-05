@@ -11,13 +11,17 @@ run () {
 	echo_sec "Uci network"
 	uci show network
 
+	echo_sec "Links"
+	ip -d link
+
+
 	echo_sec "IPv4"
-	ip -4 address
-	ip -4 route
+	ip -d -4 address
+	ip -d -4 route
 
 	echo_sec "IPv6"
-	ip -6 address
-	ip -6 route
+	ip -d -6 address
+	ip -d -6 route
 }
 
 # vim: ft=sh
