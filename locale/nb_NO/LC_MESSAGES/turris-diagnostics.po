@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-17 11:30+0200\n"
-"PO-Revision-Date: 2019-10-27 17:53+0000\n"
+"PO-Revision-Date: 2019-11-10 14:04+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 msgid "run in background"
 msgstr "kjør i bakgrunnen"
@@ -57,10 +57,11 @@ msgid "gather dns related informations"
 msgstr "hent DNS-relatert info"
 
 msgid "lists u-boot environment"
-msgstr ""
+msgstr "Lister opp U-Boot-miljø"
 
+#, fuzzy
 msgid "test whether the turris webs are available"
-msgstr ""
+msgstr "Tester hvorvidt Turris-nettsiden er tilgjengelig"
 
 msgid "list running processes"
 msgstr "list opp kjørende prosesser"
@@ -74,26 +75,33 @@ msgstr "list opp oppdaget maskinvare på USB og PCI"
 msgid "try to send firewall logs to the server"
 msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
 
+#, fuzzy
 msgid "Print current date and verify that NTP can synchronize time."
-msgstr ""
+msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
 
 msgid "print uci firewall settings and the currnet content of iptables"
-msgstr ""
+msgstr "Skriv ut UCI-brannmursinnstillinger og nåværende iptables-innhold."
 
 msgid "read /var/log/messages"
 msgstr "les /var/log/messages"
 
+#, fuzzy
 msgid ""
 "prints uci network and wireless settings, current ip addresses and routes"
 msgstr ""
+"Skriver ut UCI-nettverk- og trådløs-innstillinger, nåværende IP-adresser og "
+"ruter"
 
+#, fuzzy
 msgid "shows mounted devices and examines files in /tmp/"
-msgstr ""
+msgstr "Viser monterte enheter og undersøker filer i /tmp/"
 
 msgid ""
 "examines running services and shows whether the services are started after "
 "boot"
 msgstr ""
+"Undersøker kjørende tjenester, og viser hvorvidt tjenestene er startet etter "
+"oppstart"
 
 #, fuzzy
 msgid "display output of dmesg"
