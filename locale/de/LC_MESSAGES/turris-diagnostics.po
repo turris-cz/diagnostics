@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-17 11:30+0200\n"
-"PO-Revision-Date: 2019-10-20 12:52+0000\n"
-"Last-Translator: nautilusx <mail.ka@mailbox.org>\n"
+"PO-Revision-Date: 2019-11-12 12:04+0000\n"
+"Last-Translator: Ulrich Günther <mail@ulrich-guenther.at>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/de/>\n"
 "Language: de\n"
@@ -17,16 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 msgid "run in background"
 msgstr "im Hintergrund ausführen"
 
 msgid "print output to a file"
-msgstr ""
+msgstr "Schreibe das Ergebnis in eine Datei"
 
 msgid "print output to a directory module per file"
 msgstr ""
+"Schreibe die Ausgabe in einen Ordner in separate Dateien für einzelne Module"
 
 msgid "modules:"
 msgstr "Module:"
@@ -35,61 +36,68 @@ msgid "list installed packages"
 msgstr "installierte Pakete auflisten"
 
 msgid "how long is the router running"
-msgstr ""
+msgstr "Wie lange ist der Router eingeschaltet"
 
 msgid "get serial number from mox-otp or atsha204"
-msgstr ""
+msgstr "Hole die Seriennummer von mox-otp oder atsha204"
 
 msgid "info about about the cron"
-msgstr ""
+msgstr "Informationen über Cron"
 
 msgid "list all mount points and mount options and all block devices"
-msgstr ""
+msgstr "Liste alle Einhängepunkte und Einhängeoptionen und alle Blockgeräte"
 
 msgid "show info about linux kernel"
-msgstr ""
+msgstr "Zeige Informationen über den Linux Kernel"
 
 msgid "gather dns related informations"
-msgstr ""
+msgstr "Sammle zu DNS gehörende Informationen"
 
 msgid "lists u-boot environment"
-msgstr ""
+msgstr "Listet die U-Boot Umgebung auf"
 
 msgid "test whether the turris webs are available"
-msgstr ""
+msgstr "Prüfe ob die Turris Webseite verfügbar ist"
 
 msgid "list running processes"
-msgstr ""
+msgstr "Liste laufende Prozesse auf"
 
 msgid "dump configuration and try to run updater"
-msgstr ""
+msgstr "Liste die Einstellungen auf und versuche das Update auszuführen"
 
 msgid "list detected hardware on usb and pci"
-msgstr ""
+msgstr "Liste erkannte Geräte an USB und PCI auf"
 
 msgid "try to send firewall logs to the server"
-msgstr ""
+msgstr "Versuche Firewall Protokolldaten an den Server zu senden"
 
 msgid "Print current date and verify that NTP can synchronize time."
 msgstr ""
+"Zeige das jetzige Datum und überprüfe ob NTP die Zeit synchronisieren kann."
 
 msgid "print uci firewall settings and the currnet content of iptables"
 msgstr ""
+"Liste die UCI Firewall Einstellungen und den momentanen Inhalt der IP-"
+"Tabellen"
 
 msgid "read /var/log/messages"
-msgstr ""
+msgstr "Lese /var/log/messages"
 
 msgid ""
 "prints uci network and wireless settings, current ip addresses and routes"
 msgstr ""
+"Liste die UCI Netzwerk- und Drahtlos- Einstellungen, die momentanen IP "
+"Adressen und Routen"
 
 msgid "shows mounted devices and examines files in /tmp/"
-msgstr ""
+msgstr "Zeige eingehängte Geräte und untersuche Dateien /tmp/"
 
 msgid ""
 "examines running services and shows whether the services are started after "
 "boot"
 msgstr ""
+"Untersuche laufende Dienste und zeige ob die Dienste nach dem Hochfahren "
+"gestartet wurden"
 
 msgid "display output of dmesg"
-msgstr ""
+msgstr "Zeige die Ausgabe von dmesg"
