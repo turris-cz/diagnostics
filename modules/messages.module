@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "read /var/log/messages")
+$(gettext "Read /var/log/messages.")
 "
 
 run () {

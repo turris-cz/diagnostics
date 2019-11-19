@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "prints uci network and wireless settings, current ip addresses and routes")
+$(gettext "Prints UCI network and wireless settings, current IP addresses, and routes.")
 "
 
 run () {

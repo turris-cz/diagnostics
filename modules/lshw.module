@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "list detected hardware on usb and pci")
+$(gettext "List detected hardware on USB and PCI.")
 "
 
 run () {

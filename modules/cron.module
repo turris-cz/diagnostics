@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "info about about the cron")
+$(gettext "Info about the cron.")
 "
 
 run () {

@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "try to send firewall logs to the server")
+$(gettext "Try to send firewall logs to the server.")
 "
 
 run () {

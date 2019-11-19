@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "how long is the router running")
+$(gettext "Show how long is the router running.")
 "
 
 run () {

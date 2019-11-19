@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-17 11:30+0200\n"
+"POT-Creation-Date: 2019-11-19 15:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -28,65 +28,65 @@ msgstr ""
 msgid "modules:"
 msgstr ""
 
-msgid "list installed packages"
+msgid "List installed packages."
 msgstr ""
 
-msgid "how long is the router running"
+msgid "Show how long is the router running."
 msgstr ""
 
-msgid "get serial number from mox-otp or atsha204"
+msgid "Get the serial number from MOX OTP or atsha204."
 msgstr ""
 
-msgid "info about about the cron"
+msgid "Info about the cron."
 msgstr ""
 
-msgid "list all mount points and mount options and all block devices"
+msgid "List all mount points and mount options and all block devices."
 msgstr ""
 
-msgid "show info about linux kernel"
+msgid "Show info about Linux kernel."
 msgstr ""
 
-msgid "gather dns related informations"
+msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
 
-msgid "lists u-boot environment"
+msgid "Gather DNS related information."
 msgstr ""
 
-msgid "test whether the turris webs are available"
+msgid "Lists U-Boot environment."
 msgstr ""
 
-msgid "list running processes"
+msgid "Test whether the Turris webs are available."
 msgstr ""
 
-msgid "dump configuration and try to run updater"
+msgid "Dump configuration and try to run the updater."
 msgstr ""
 
-msgid "list detected hardware on usb and pci"
+msgid "List running processes."
 msgstr ""
 
-msgid "try to send firewall logs to the server"
+msgid "Try to send firewall logs to the server."
 msgstr ""
 
 msgid "Print current date and verify that NTP can synchronize time."
 msgstr ""
 
-msgid "print uci firewall settings and the currnet content of iptables"
+msgid "List detected hardware on USB and PCI."
 msgstr ""
 
-msgid "read /var/log/messages"
-msgstr ""
-
-msgid ""
-"prints uci network and wireless settings, current ip addresses and routes"
-msgstr ""
-
-msgid "shows mounted devices and examines files in /tmp/"
+msgid "Read /var/log/messages."
 msgstr ""
 
 msgid ""
-"examines running services and shows whether the services are started after "
-"boot"
+"Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
 
-msgid "display output of dmesg"
+msgid "Show mounted devices and examine files in /tmp/."
+msgstr ""
+
+msgid ""
+"Examine running services and show whether the services are started after "
+"boot."
+msgstr ""
+
+msgid "Display output of dmesg."
 msgstr ""

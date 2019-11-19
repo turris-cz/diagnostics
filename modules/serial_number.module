@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "get serial number from mox-otp or atsha204")
+$(gettext "Get the serial number from MOX OTP or atsha204.")
 "
 
 run () {

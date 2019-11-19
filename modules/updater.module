@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "dump configuration and try to run updater")
+$(gettext "Dump configuration and try to run the updater.")
 "
 
 run () {
