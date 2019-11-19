@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "test whether the turris webs are available")
+$(gettext "Test whether the Turris webs are available.")
 "
 
 test_web() {

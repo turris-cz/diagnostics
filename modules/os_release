@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "current and factory /etc/os-release file (/etc/turris-version for factory as well)")
+$(gettext "Current and factory /etc/os-release file (/etc/turris-version for factory as well).")
 "
 
 version_btrfs() {

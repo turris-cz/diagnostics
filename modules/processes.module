@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "list running processes")
+$(gettext "List running processes.")
 "
 
 run () {
