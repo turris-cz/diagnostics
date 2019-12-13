@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-17 11:30+0200\n"
-"PO-Revision-Date: 2019-12-11 16:46+0000\n"
+"PO-Revision-Date: 2019-12-14 05:06+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/ru/>\n"
@@ -53,46 +53,47 @@ msgid "show info about linux kernel"
 msgstr "показать информацию о ядре Linux"
 
 msgid "gather dns related informations"
-msgstr ""
+msgstr "собрать DNS-связанную информацию"
 
 msgid "lists u-boot environment"
-msgstr ""
+msgstr "списки среды загрузки"
 
 msgid "test whether the turris webs are available"
-msgstr ""
+msgstr "проверка доступности сетей Turris"
 
 msgid "list running processes"
-msgstr ""
+msgstr "список запущенных процессов"
 
 msgid "dump configuration and try to run updater"
-msgstr ""
+msgstr "сбросить конфигурацию и попытаться запустить сервис обновлений"
 
 msgid "list detected hardware on usb and pci"
-msgstr ""
+msgstr "список обнаруженного оборудования USB и PCI"
 
 msgid "try to send firewall logs to the server"
-msgstr ""
+msgstr "попытка отправить журналы брандмауэра на сервер"
 
 msgid "Print current date and verify that NTP can synchronize time."
-msgstr ""
+msgstr "Вывести текущую дату и убедиться, что NTP может синхронизировать время."
 
 msgid "print uci firewall settings and the currnet content of iptables"
-msgstr ""
+msgstr "вывести настройки брандмауэра uci и содержимое iptables"
 
 msgid "read /var/log/messages"
-msgstr ""
+msgstr "считать /var/log/messages"
 
 msgid ""
 "prints uci network and wireless settings, current ip addresses and routes"
-msgstr ""
+msgstr "вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты"
 
 msgid "shows mounted devices and examines files in /tmp/"
-msgstr ""
+msgstr "показывает подключенные устройства и проверяет файлы в /tmp/"
 
 msgid ""
 "examines running services and shows whether the services are started after "
 "boot"
 msgstr ""
+"проверяет запущенные службы и показывает, запущены ли службы после загрузки"
 
 msgid "display output of dmesg"
-msgstr ""
+msgstr "отображать вывод dmesg"
