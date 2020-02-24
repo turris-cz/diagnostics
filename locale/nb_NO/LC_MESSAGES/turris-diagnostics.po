@@ -7,86 +7,102 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 15:12+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-10-17 11:30+0200\n"
+"PO-Revision-Date: 2019-11-10 14:04+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 msgid "run in background"
-msgstr ""
+msgstr "kjør i bakgrunnen"
 
 msgid "print output to a file"
-msgstr ""
+msgstr "skriv utdata til en fil"
 
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "skriv utdata til en katalogmodul per fil"
 
+#, fuzzy
 msgid "modules:"
-msgstr ""
+msgstr "moduler:"
 
-msgid "List installed packages."
-msgstr ""
+msgid "list installed packages"
+msgstr "list opp installerte pakker"
 
-msgid "Show how long is the router running."
-msgstr ""
+#, fuzzy
+msgid "how long is the router running"
+msgstr "hvor lenge ruteren kjører"
 
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr ""
+msgid "get serial number from mox-otp or atsha204"
+msgstr "hent serienummer fra mox-otp eller atsha204"
 
-msgid "Info about the cron."
-msgstr ""
+#, fuzzy
+msgid "info about about the cron"
+msgstr "info om cron-jobber"
 
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
+"list opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter"
 
-msgid "Show info about Linux kernel."
-msgstr ""
+msgid "show info about linux kernel"
+msgstr "vis info om Linux-kjerne"
 
-msgid "Print UCI firewall settings and the current content of iptables."
-msgstr ""
+msgid "gather dns related informations"
+msgstr "hent DNS-relatert info"
 
-msgid "Gather DNS related information."
-msgstr ""
+msgid "lists u-boot environment"
+msgstr "Lister opp U-Boot-miljø"
 
-msgid "Lists U-Boot environment."
-msgstr ""
+#, fuzzy
+msgid "test whether the turris webs are available"
+msgstr "Tester hvorvidt Turris-nettsiden er tilgjengelig"
 
-msgid "Test whether the Turris webs are available."
-msgstr ""
+msgid "list running processes"
+msgstr "list opp kjørende prosesser"
 
-msgid "Dump configuration and try to run the updater."
-msgstr ""
+msgid "dump configuration and try to run updater"
+msgstr "dump oppsett og prøv å kjøre oppdatereren"
 
-msgid "List running processes."
-msgstr ""
+msgid "list detected hardware on usb and pci"
+msgstr "list opp oppdaget maskinvare på USB og PCI"
 
-msgid "Try to send firewall logs to the server."
-msgstr ""
+msgid "try to send firewall logs to the server"
+msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
 
+#, fuzzy
 msgid "Print current date and verify that NTP can synchronize time."
-msgstr ""
+msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
 
-msgid "List detected hardware on USB and PCI."
-msgstr ""
+msgid "print uci firewall settings and the currnet content of iptables"
+msgstr "Skriv ut UCI-brannmursinnstillinger og nåværende iptables-innhold."
 
-msgid "Read /var/log/messages."
-msgstr ""
+msgid "read /var/log/messages"
+msgstr "les /var/log/messages"
 
+#, fuzzy
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
+"Skriver ut UCI-nettverk- og trådløs-innstillinger, nåværende IP-adresser og "
+"ruter"
 
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr ""
+#, fuzzy
+msgid "shows mounted devices and examines files in /tmp/"
+msgstr "Viser monterte enheter og undersøker filer i /tmp/"
 
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
+"Undersøker kjørende tjenester, og viser hvorvidt tjenestene er startet etter "
+"oppstart"
 
-msgid "Display output of dmesg."
-msgstr ""
+#, fuzzy
+msgid "display output of dmesg"
+msgstr "vis utdata fra dmesg"
