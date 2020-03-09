@@ -23,9 +23,8 @@ run () {
 	echo_sec "Cronfiles from /etc/crontabs"
 	grep '' /etc/crontabs/*
 
-	echo_sec "Is cron service enables?"
-	find /etc/init.d/*cron* -exec md5sum {} \;
-	find /etc/rc.d/*cron* -exec md5sum {} \;
+	echo_sec "Is cron service enabled?"
+	find /etc/init.d /etc/rc.d -name '*cron*' -exec md5sum {} \;
 }
 
 # vim: ft=sh
