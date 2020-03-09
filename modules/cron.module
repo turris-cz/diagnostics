@@ -9,9 +9,9 @@ run () {
 	busybox ps w | grep cron | grep -v 'grep\|cron\.module\|diagnostics'
 
 	echo_sec "Package providing crond or cron"
-	if [ -n "$(which crond >/dev/null)" ]; then
+	if which crond > /dev/null; then
 		opkg info $(opkg search $(which crond) | awk '{print $1}')
-	elif [ -n "$(which cron >/dev/null)" ]; then
+	elif which cron > /dev/null; then
 		echo_sec "Package providing cron"
 		opkg info $(opkg search $(which cron) | awk '{print $1}')
 	else
