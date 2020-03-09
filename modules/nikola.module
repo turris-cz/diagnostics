@@ -5,7 +5,11 @@ $(gettext "Try to send firewall logs to the server.")
 "
 
 run () {
-	/usr/share/nikola/bin/nikola.sh -n
+	if [ -x /usr/share/nikola/bin/nikola.sh ]; then
+		/usr/share/nikola/bin/nikola.sh -n
+	else
+		echo "Nikola script not found"
+	fi
 }
 
 # vim: ft=sh
