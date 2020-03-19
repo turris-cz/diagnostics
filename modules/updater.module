@@ -7,10 +7,10 @@ $(gettext "Dump configuration and try to run the updater.")
 run () {
 	section "Updater configuration"
 	if [ -d /etc/updater/conf.d ]; then
-		for F in $(find /etc/updater/conf.d -type f -name *.lua); do
-			echo "## $F ##"
-			cat "$F"
-		done
+		find /etc/updater/conf.d -type f -name '*.lua' \
+			| while read -r F; do
+				dump_file "$F"
+			done
 	else
 		echo "No /etc/updater/conf.d directory"
 	fi
