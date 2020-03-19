@@ -17,7 +17,12 @@ version_btrfs() {
 version_1x() {
 	local mnt="$(mktemp -d)"
 	mount -t squashfs /dev/mtdblock3 "$mnt"
-	tar -xJf "$mnt/medkit.tar.xz" ./etc/turris-version ./etc/os-release -O
+
+	subsection "turris-version content:"
+	tar -xJf "$mnt/medkit.tar.xz" -O ./etc/turris-version
+	subsection "os-release content:"
+	tar -xJf "$mnt/medkit.tar.xz" -O ./etc/os-release
+
 	umount "$mnt"
 	rmdir "$mnt"
 }
