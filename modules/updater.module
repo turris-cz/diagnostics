@@ -5,6 +5,9 @@ $(gettext "Dump configuration and try to run the updater.")
 "
 
 run () {
+	section "Updater UCI config"
+	dump_file '/etc/config/updater'
+
 	section "Updater configuration"
 	local updater_confdir='/etc/updater/conf.d'
 	local updater_conffile
