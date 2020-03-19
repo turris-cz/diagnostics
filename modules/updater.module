@@ -6,13 +6,15 @@ $(gettext "Dump configuration and try to run the updater.")
 
 run () {
 	section "Updater configuration"
-	if [ -d /etc/updater/conf.d ]; then
-		find /etc/updater/conf.d -type f -name '*.lua' \
-			| while read -r F; do
-				dump_file "$F"
+	local updater_confdir='/etc/updater/conf.d'
+	local updater_conffile
+	if [ -d "$updater_confdir" ]; then
+		find "$updater_confdir" -type f -name '*.lua' \
+			| while read -r updater_conffile; do
+				dump_file "$updater_conffile"
 			done
 	else
-		echo "No /etc/updater/conf.d directory"
+		error "There is no '$updater_confdir' directory"
 	fi
 
 	section "Updater execution"
