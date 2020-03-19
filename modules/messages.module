@@ -7,7 +7,7 @@ $(gettext "Read /var/log/messages.")
 run () {
 	ls /var/log/messages* | sort -r | while read path; do
 		section "$path"
-		if [ "${path:$((${#path} - 2))}" = "gz" ] ; then
+		if [ "${path: -3}" = '.gz' ] ; then
 			zcat "$path"
 		else
 			cat "$path"
