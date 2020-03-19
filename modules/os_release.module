@@ -29,7 +29,7 @@ run () {
 	section "Factory"
 	(
 	. /etc/os-release
-	case "$LEDE_DEVICE_PRODUCT" in
+	case "$OPENWRT_DEVICE_PRODUCT" in
 		"Turris 1.x")
 			version_1x
 			;;
