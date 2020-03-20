@@ -11,7 +11,7 @@ contain:
 #!modules/module.sh
 
 help="
-some brief description of the module
+$(gettext "Some brief description of the module.")
 "
 
 run () {
