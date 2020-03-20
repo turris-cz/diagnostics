@@ -8,8 +8,16 @@ version_btrfs() {
 	local device="$1"
 	local mnt="$(mktemp -d)"
 	mount -t btrfs -o ro,subvol=@factory "$device" "$mnt"
-	cat "$mnt/etc/turris-version"
-	cat "$mnt/etc/os-release"
+
+	[ -f "$mnt/etc/turris-version" ] && {
+		subsection "turris-version content:"
+		cat "$mnt/etc/turris-version"
+	}
+	[ -f "$mnt/etc/os-release" ] && {
+		subsection "os-release content:"
+		cat "$mnt/etc/os-release"
+	}
+
 	umount "$mnt"
 	rmdir "$mnt"
 }
