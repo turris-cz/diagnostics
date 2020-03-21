@@ -10,6 +10,20 @@ subsection() {
 }
 
 
+error() {
+	echo "!! $@ !!"
+}
+
+
+check_installed() {
+	local program="$1"
+	which "$program" > /dev/null || {
+		error "Program '$program' not found"
+		return 1
+	}
+}
+
+
 . "$1"
 
 case "$2" in
