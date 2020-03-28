@@ -15,13 +15,14 @@ run () {
 		section "Package providing cron:"
 		opkg info "$(opkg search "$(which cron)" | awk '{print $1}')"
 	else
-		echo "There is no crond nor cron executable!"
+		error "There is no crond nor cron executable!"
 	fi
 
-	section "Cronfiles from /etc/cron.d"
-	grep '' /etc/cron.d/*
-	section "Cronfiles from /etc/crontabs"
-	grep '' /etc/crontabs/*
+	local file
+	section "Cronfiles"
+	for file in /etc/cron.d/* /etc/crontabs/*; do
+		dump_file "$file"
+	done
 
 	section "Is cron service enabled?"
 	find /etc/init.d /etc/rc.d -name '*cron*' -exec md5sum {} \;
