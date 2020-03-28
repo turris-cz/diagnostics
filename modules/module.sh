@@ -10,8 +10,27 @@ subsection() {
 }
 
 
+file_header() {
+	local file="$1"
+	echo "~~ File: $1 ~~"
+}
+
+
 error() {
 	echo "!! $@ !!"
+}
+
+
+dump_file() {
+	local file="$1"
+	file_header "$file"
+
+	[ -f "$file" ] || {
+		error "File not found"
+		return 1
+	}
+
+	cat "$file"
 }
 
 
