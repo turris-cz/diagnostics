@@ -5,9 +5,9 @@ $(gettext "List all mount points and mount options and all block devices.")
 "
 
 run () {
-	echo_sec mount
+	section mount
 	mount
-	echo_sec lsblk
+	section lsblk
 	lsblk -O
 }
 

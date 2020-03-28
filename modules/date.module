@@ -5,20 +5,20 @@ $(gettext "Print current date and verify that NTP can synchronize time.")
 "
 
 run () {
-	echo_sec "Current time"
+	section "Current time"
 	date
 
-	echo_sec "NTP configuration"
+	section "NTP configuration"
 	uci show system.ntp
 
-	echo_sec "Is /etc/init.d/sysntpd enabled?"
+	section "Is /etc/init.d/sysntpd enabled?"
 	find /etc/init.d/*sysntpd* -exec md5sum {} \;
 	find /etc/rc.d/*sysntpd* -exec md5sum {} \;
 
-	echo_sec "/etc/init.d/sysntpd restart to force sync"
+	section "/etc/init.d/sysntpd restart to force sync"
 	/etc/init.d/sysntpd restart
 
-	echo_sec "Current time after sync"
+	section "Current time after sync"
 	date
 }
 

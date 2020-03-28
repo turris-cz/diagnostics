@@ -5,10 +5,10 @@ $(gettext "Examine running services and show whether the services are started af
 "
 
 run () {
-	echo_sec "Service list trough ubus"
+	section "Service list trough ubus"
 	ubus call service list '{"verbose": true}'
 
-	echo_sec "List enabled services (/etc/rc.d)"
+	section "List enabled services (/etc/rc.d)"
 	ls -al /etc/rc.d/
 }
 

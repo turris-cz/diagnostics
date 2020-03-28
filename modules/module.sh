@@ -1,8 +1,14 @@
 #!/bin/sh
 
-echo_sec() {
+section() {
 	echo "== $@ =="
 }
+
+
+subsection() {
+	echo "-- $@ --"
+}
+
 
 . "$1"
 

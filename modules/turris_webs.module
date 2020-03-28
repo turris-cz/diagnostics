@@ -7,7 +7,7 @@ $(gettext "Test whether the Turris webs are available.")
 test_web() {
 	local url="$1"
 	shift
-	echo_sec "$url"
+	section "$url"
 	curl --location --verbose "$url" https://api.turris.cz/ > /dev/null
 }
 

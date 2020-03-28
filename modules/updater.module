@@ -5,7 +5,7 @@ $(gettext "Dump configuration and try to run the updater.")
 "
 
 run () {
-	echo_sec "Updater configuration"
+	section "Updater configuration"
 	if [ -d /etc/updater/conf.d ]; then
 		for F in $(find /etc/updater/conf.d -type f -name *.lua); do
 			echo "## $F ##"
@@ -15,7 +15,7 @@ run () {
 		echo "No /etc/updater/conf.d directory"
 	fi
 
-	echo_sec "Updater execution"
+	section "Updater execution"
 	pkgupdate -e TRACE
 }
 

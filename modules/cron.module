@@ -5,25 +5,25 @@ $(gettext "Info about the cron.")
 "
 
 run () {
-	echo_sec "Is cron running?"
+	section "Is cron running?"
 	busybox ps w | grep cron | grep -v 'grep\|cron\.module\|diagnostics'
 
 	if which crond > /dev/null; then
-		echo_sec "Package providing crond:"
+		section "Package providing crond:"
 		opkg info "$(opkg search "$(which crond)" | awk '{print $1}')"
 	elif which cron > /dev/null; then
-		echo_sec "Package providing cron:"
+		section "Package providing cron:"
 		opkg info "$(opkg search "$(which cron)" | awk '{print $1}')"
 	else
 		echo "There is no crond nor cron executable!"
 	fi
 
-	echo_sec "Cronfiles from /etc/cron.d"
+	section "Cronfiles from /etc/cron.d"
 	grep '' /etc/cron.d/*
-	echo_sec "Cronfiles from /etc/crontabs"
+	section "Cronfiles from /etc/crontabs"
 	grep '' /etc/crontabs/*
 
-	echo_sec "Is cron service enabled?"
+	section "Is cron service enabled?"
 	find /etc/init.d /etc/rc.d -name '*cron*' -exec md5sum {} \;
 }
 

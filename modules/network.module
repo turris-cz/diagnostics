@@ -5,21 +5,21 @@ $(gettext "Prints UCI network and wireless settings, current IP addresses, and r
 "
 
 run () {
-	echo_sec "Uci wireless"
+	section "Uci wireless"
 	uci show wireless | grep -v ".key="
 
-	echo_sec "Uci network"
+	section "Uci network"
 	uci show network
 
-	echo_sec "Links"
+	section "Links"
 	ip -d link
 
 
-	echo_sec "IPv4"
+	section "IPv4"
 	ip -d -4 address
 	ip -d -4 route
 
-	echo_sec "IPv6"
+	section "IPv6"
 	ip -d -6 address
 	ip -d -6 route
 }

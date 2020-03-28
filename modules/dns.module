@@ -10,30 +10,30 @@ resolve() {
 }
 
 run () {
-	echo_sec "Resolver config"
+	section "Resolver config"
 	uci -q show resolver
 
-	echo_sec "resolv.conf*"
+	section "resolv.conf*"
 	grep -H '' /etc/resolv.conf* /tmp/resolv.conf*
 
-	echo_sec "DNSSEC root key file"
+	section "DNSSEC root key file"
 	ROOTKEYFILE=$(uci get resolver.common.keyfile)
 	ls -al "${ROOTKEYFILE}"
 	md5sum "${ROOTKEYFILE}"
 	grep -H '' "${ROOTKEYFILE}"
 	echo
 
-	echo_sec "resolver process"
+	section "Resolver process"
 	RESOLVER="$(uci get resolver.common.prefered_resolver)"
 	ps w | grep ${RESOLVER}
 
 	if [ "${RESOLVER}" == "kresd" ]; then
-		echo_sec "configured trust anchors"
+		section "Configured trust anchors"
 		KRESD_TTY="$(uci get resolver.kresd.rundir)/tty/$(pidof kresd)"
 		echo "trust_anchors" | socat - "unix-connect:${KRESD_TTY}"
 	fi
 
-	echo_sec "resolution attempts"
+	section "Resolution attempts"
 	resolve api.turris.cz  # should pass
 	resolve www.google.com  # should pass
 	resolve www.facebook.com  # should pass

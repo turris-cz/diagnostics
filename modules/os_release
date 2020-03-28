@@ -23,10 +23,10 @@ version_1x() {
 }
 
 run () {
-	echo_sec "Current"
+	section "Current"
 	cat /etc/os-release
 
-	echo_sec "Factory"
+	section "Factory"
 	(
 	. /etc/os-release
 	case "$LEDE_DEVICE_PRODUCT" in

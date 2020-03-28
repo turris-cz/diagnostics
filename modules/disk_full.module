@@ -5,9 +5,9 @@ $(gettext "Show mounted devices and examine files in /tmp/.")
 "
 
 run () {
-	echo_sec "df -h"
+	section "df -h"
 	df -h
-	echo_sec "du -ahcx /tmp"
+	section "du -ahcx /tmp"
 	du -ahcx /tmp/
 }
 

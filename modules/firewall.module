@@ -5,18 +5,18 @@ $(gettext "Print UCI firewall settings and the current content of iptables.")
 "
 
 run () {
-	echo_sec "Uci firewall configuration"
+	section "Uci firewall configuration"
 	uci show firewall
 	uci show firewall-turris
 
-	echo_sec "md5sum of firewall scripts"
+	section "md5sum of firewall scripts"
 	md5sum /usr/share/firewall/*
 
-	echo_sec "List of user defined scripts"
+	section "List of user defined scripts"
 	ls -al /etc/firewall.user
 	ls -al /etc/firewall.d/*
 
-	echo_sec "Current iptables configuration"
+	section "Current iptables configuration"
 	iptables-save
 }
 
