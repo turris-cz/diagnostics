@@ -10,6 +10,8 @@ resolve() {
 }
 
 run () {
+	local rootkeyfile resolver kresd_tty
+
 	section "Resolver config"
 	uci -q show resolver
 
@@ -17,20 +19,20 @@ run () {
 	grep -H '' /etc/resolv.conf* /tmp/resolv.conf*
 
 	section "DNSSEC root key file"
-	ROOTKEYFILE=$(uci get resolver.common.keyfile)
-	ls -al "${ROOTKEYFILE}"
-	md5sum "${ROOTKEYFILE}"
-	grep -H '' "${ROOTKEYFILE}"
+	rootkeyfile=$(uci get resolver.common.keyfile)
+	ls -al "$rootkeyfile"
+	md5sum "$rootkeyfile"
+	grep -H '' "$rootkeyfile"
 	echo
 
 	section "Resolver process"
-	RESOLVER="$(uci get resolver.common.prefered_resolver)"
-	ps w | grep ${RESOLVER}
+	resolver="$(uci get resolver.common.prefered_resolver)"
+	ps w | grep "$resolver"
 
-	if [ "${RESOLVER}" == "kresd" ]; then
+	if [ "$resolver" == "kresd" ]; then
 		section "Configured trust anchors"
-		KRESD_TTY="$(uci get resolver.kresd.rundir)/tty/$(pidof kresd)"
-		echo "trust_anchors" | socat - "unix-connect:${KRESD_TTY}"
+		kresd_tty="$(uci get resolver.kresd.rundir)/tty/$(pidof kresd)"
+		echo "trust_anchors" | socat - "unix-connect:${kresd_tty}"
 	fi
 
 	section "Resolution attempts"
