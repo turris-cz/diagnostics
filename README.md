@@ -13,7 +13,6 @@ This command should be localized. To test it you can run
 ```bash
 make install  # installs localization
 LANGUAGE=cs ./diagnostics.sh help
-
 ```
 
 To update messages you can simply call
@@ -21,5 +20,9 @@ To update messages you can simply call
 make messages
 ```
 
-Note that the translations are supposed to be edited using weblate and merged backwards afterwards.
-See `turris-translations` repository for details.
+Do not forget to call this command when you add new or modify existing
+"gettext" strings.
+
+
+Note that the translations are supposed to be edited using weblate and merged
+backwards afterwards.  See `turris-translations` repository for details.
