@@ -5,25 +5,27 @@ $(gettext "Gather DNS related information.")
 "
 
 resolve() {
-	echo "Attempting to resolve $1"
+	subsection "Attempting to resolve $1"
 	dig @127.0.0.1 +dnssec "$1"
 }
 
 run () {
-	local rootkeyfile resolver kresd_tty
+	local file rootkeyfile resolver kresd_tty
 
 	section "Resolver config"
 	uci -q show resolver
 
 	section "resolv.conf*"
-	grep -H '' /etc/resolv.conf* /tmp/resolv.conf*
+	for file in /etc/resolv.conf* /tmp/resolv.conf*; do
+		dump_file "$file"
+	done
 
 	section "DNSSEC root key file"
 	rootkeyfile=$(uci get resolver.common.keyfile)
+	dump_file "$rootkeyfile"
+	section "And its attributes"
 	ls -al "$rootkeyfile"
 	md5sum "$rootkeyfile"
-	grep -H '' "$rootkeyfile"
-	echo
 
 	section "Resolver process"
 	resolver="$(uci get resolver.common.prefered_resolver)"
