@@ -38,7 +38,8 @@ run () {
 	fi
 
 	section "Resolution attempts"
-	resolve api.turris.cz  # should pass
+	resolve repo.turris.cz  # should pass
+	resolve nic.cz  # should pass
 	resolve www.google.com  # should pass
 	resolve www.facebook.com  # should pass
 	resolve www.youtube.com  # should pass
