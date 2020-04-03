@@ -35,6 +35,7 @@ run () {
 		section "Configured trust anchors"
 		kresd_tty="$(uci get resolver.kresd.rundir)/tty/$(pidof kresd)"
 		echo "trust_anchors" | socat - "unix-connect:${kresd_tty}"
+		echo
 	fi
 
 	section "Resolution attempts"
