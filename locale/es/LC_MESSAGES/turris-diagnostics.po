@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-17 11:30+0200\n"
+"POT-Creation-Date: 2019-11-19 15:12+0100\n"
 "PO-Revision-Date: 2019-10-29 04:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
-"turris-diagnostics/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,13 +31,16 @@ msgstr "guardar salida en un módulo de directorio por archivo"
 msgid "modules:"
 msgstr "módulos:"
 
-msgid "list installed packages"
+#, fuzzy
+msgid "List installed packages."
 msgstr "enumerar paquetes instalados"
 
-msgid "how long is the router running"
+#, fuzzy
+msgid "Show how long is the router running."
 msgstr "tiempo de ejecución del enrutador"
 
-msgid "get serial number from mox-otp or atsha204"
+#, fuzzy
+msgid "Get the serial number from MOX OTP or atsha204."
 msgstr "obtener número de serie de mox-otp o atsha204"
 
 msgid "Info about the cron."
@@ -46,7 +49,8 @@ msgstr ""
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
 
-msgid "show info about linux kernel"
+#, fuzzy
+msgid "Show info about Linux kernel."
 msgstr "mostrar información sobre el núcleo Linux"
 
 msgid "Print UCI firewall settings and the current content of iptables."
