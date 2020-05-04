@@ -8,15 +8,16 @@ run () {
 	section "Current time"
 	date
 
-	section "NTP configuration"
-	uci show system.ntp
+	section "UCI configuration"
+	subsection "NTP configuration"
+	uci -q show 'system.ntp' || error 'Can not get ntp configuration'
 
-	section "Is /etc/init.d/sysntpd enabled?"
-	find /etc/init.d/*sysntpd* -exec md5sum {} \;
-	find /etc/rc.d/*sysntpd* -exec md5sum {} \;
+	section "NTPd"
+	subsection "Is /etc/init.d/sysntpd enabled?"
+	md5sum /etc/init.d/*sysntpd* /etc/rc.d/*sysntpd*
 
-	section "/etc/init.d/sysntpd restart to force sync"
-	/etc/init.d/sysntpd restart
+	subsection "Restart /etc/init.d/sysntpd to force sync"
+	/etc/init.d/sysntpd restart && echo "OK"
 
 	section "Current time after sync"
 	date
