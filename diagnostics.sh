@@ -84,7 +84,7 @@ module_footer() {
 
 module_wrapper() {
 	local module="./modules/${1}.module"
-	"$module" run 2>&1
+	"$module" run 2>&1 < /dev/null
 }
 
 
