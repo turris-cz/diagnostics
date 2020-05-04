@@ -49,21 +49,32 @@ print_help() {
 	module_help
 }
 
+
 module_run() {
 	local module="$1"
 	if [ -n "$OUTPUT_DIRECTORY" ] ; then
-		./modules/"$module".module run 2>&1 | tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_DIRECTORY.preparing/$module".out.preparing
+		module_wrapper "$module" \
+			| tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_DIRECTORY.preparing/$module".out.preparing
 		mv "$OUTPUT_DIRECTORY.preparing/$module".out.preparing "$OUTPUT_DIRECTORY.preparing/$module".out
 	elif [ -n "$OUTPUT_FILE" ] ; then
 		printf "############## %s\n" $module >> "$OUTPUT_FILE".preparing
-		./modules/"$module".module run 2>&1 | tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_FILE".preparing
+		module_wrapper "$module" \
+			| tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_FILE".preparing
 		printf "************** %s\n" $module >> "$OUTPUT_FILE".preparing
 	else
 		printf "############## %s\n" $module
-		./modules/"$module".module run 2>&1 | tail -n "$MAX_LINES_PER_MODULE"
+		module_wrapper "$module" \
+			| tail -n "$MAX_LINES_PER_MODULE"
 		printf "************** %s\n" $module
 	fi
 }
+
+
+module_wrapper() {
+	local module="./modules/${1}.module"
+	"$module" run 2>&1
+}
+
 
 if [ "$1" = "-b" ] ; then
 	shift
