@@ -57,16 +57,28 @@ module_run() {
 			| tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_DIRECTORY.preparing/$module".out.preparing
 		mv "$OUTPUT_DIRECTORY.preparing/$module".out.preparing "$OUTPUT_DIRECTORY.preparing/$module".out
 	elif [ -n "$OUTPUT_FILE" ] ; then
-		printf "############## %s\n" $module >> "$OUTPUT_FILE".preparing
+		module_header "$module" >> "$OUTPUT_FILE".preparing
 		module_wrapper "$module" \
 			| tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_FILE".preparing
-		printf "************** %s\n" $module >> "$OUTPUT_FILE".preparing
+		module_footer "$module" >> "$OUTPUT_FILE".preparing
 	else
-		printf "############## %s\n" $module
+		module_header "$module"
 		module_wrapper "$module" \
 			| tail -n "$MAX_LINES_PER_MODULE"
-		printf "************** %s\n" $module
+		module_footer "$module"
 	fi
+}
+
+
+module_header() {
+	local module_name="$1"
+	printf "############## %s\n" "$module_name"
+}
+
+
+module_footer() {
+	local module_name="$1"
+	printf "************** %s\n" "$module"
 }
 
 
