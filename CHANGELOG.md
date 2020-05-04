@@ -11,6 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [12.2] - 2020-05-04
+
+### Changed
+
+- Close *stdin* when running modules
+- Improve `os_release` module error handling
+- Update translations
+
+
 ## [12.1] - 2020-05-04
 
 ### Changed
