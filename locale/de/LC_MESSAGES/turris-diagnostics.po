@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 15:12+0100\n"
+"POT-Creation-Date: 2020-05-04 19:49+0200\n"
 "PO-Revision-Date: 2020-03-01 21:32+0000\n"
 "Last-Translator: nautilusx <mail.ka@mailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/turris-"
@@ -32,31 +32,75 @@ msgstr ""
 msgid "modules:"
 msgstr "Module:"
 
+msgid "Run Sentinel Certgen."
+msgstr ""
+
+#, fuzzy
+msgid "List running processes."
+msgstr "Liste laufende Prozesse auf"
+
+msgid ""
+"Current and factory /etc/os-release file (/etc/turris-version for factory as "
+"well)."
+msgstr ""
+
+#, fuzzy
+msgid "Display output of dmesg."
+msgstr "Zeige die Ausgabe von dmesg"
+
+msgid "List detected hardware on USB and PCI."
+msgstr "Liste der erkannten Hardware auf USB und PCI."
+
+#, fuzzy
+msgid "Test whether the Turris webs are available."
+msgstr "Prüfe ob die Turris Webseite verfügbar ist"
+
 msgid "List installed packages."
 msgstr "Installierte Pakete auflisten."
 
 #, fuzzy
-msgid "Show how long is the router running."
-msgstr "Wie lange ist der Router eingeschaltet"
-
-#, fuzzy
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Hole die Seriennummer von mox-otp oder atsha204"
-
-#, fuzzy
-msgid "Info about the cron."
-msgstr "Informationen über Cron"
+msgid "Show info about Linux kernel."
+msgstr "Zeige Informationen über den Linux Kernel"
 
 #, fuzzy
 msgid "List all mount points and mount options and all block devices."
 msgstr "Liste alle Einhängepunkte und Einhängeoptionen und alle Blockgeräte"
 
 #, fuzzy
-msgid "Show info about Linux kernel."
-msgstr "Zeige Informationen über den Linux Kernel"
+msgid "Get the serial number from MOX OTP or atsha204."
+msgstr "Hole die Seriennummer von mox-otp oder atsha204"
 
-msgid "Print UCI firewall settings and the current content of iptables."
+#, fuzzy
+msgid "Dump configuration and try to run the updater."
+msgstr "Liste die Einstellungen auf und versuche das Update auszuführen"
+
+msgid ""
+"Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
+"Druckt UCI-Netzwerk- und WLAN-Einstellungen, aktuelle IP-Adressen und Routen."
+
+#, fuzzy
+msgid "Show how long is the router running."
+msgstr "Wie lange ist der Router eingeschaltet"
+
+msgid ""
+"Examine running services and show whether the services are started after "
+"boot."
+msgstr ""
+"Untersuche laufende Dienste und zeige, ob die Dienste nach dem Hochfahren "
+"gestartet wurden."
+
+#, fuzzy
+msgid "Read /var/log/messages."
+msgstr "Lese /var/log/messages"
+
+#, fuzzy
+msgid "Info about the cron."
+msgstr "Informationen über Cron"
+
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr ""
+"Zeige das jetzige Datum und überprüfe ob NTP die Zeit synchronisieren kann."
 
 #, fuzzy
 msgid "Gather DNS related information."
@@ -67,51 +111,18 @@ msgid "Lists U-Boot environment."
 msgstr "Listet die U-Boot Umgebung auf"
 
 #, fuzzy
-msgid "Test whether the Turris webs are available."
-msgstr "Prüfe ob die Turris Webseite verfügbar ist"
-
-#, fuzzy
-msgid "Dump configuration and try to run the updater."
-msgstr "Liste die Einstellungen auf und versuche das Update auszuführen"
-
-#, fuzzy
-msgid "List running processes."
-msgstr "Liste laufende Prozesse auf"
-
-#, fuzzy
 msgid "Try to send firewall logs to the server."
 msgstr "Versuche Firewall Protokolldaten an den Server zu senden"
 
-msgid "Print current date and verify that NTP can synchronize time."
+msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
-"Zeige das jetzige Datum und überprüfe ob NTP die Zeit synchronisieren kann."
-
-msgid "List detected hardware on USB and PCI."
-msgstr "Liste der erkannten Hardware auf USB und PCI."
-
-#, fuzzy
-msgid "Read /var/log/messages."
-msgstr "Lese /var/log/messages"
-
-msgid ""
-"Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr ""
-"Druckt UCI-Netzwerk- und WLAN-Einstellungen, aktuelle IP-Adressen und Routen."
 
 #, fuzzy
 msgid "Show mounted devices and examine files in /tmp/."
 msgstr "Zeige eingehängte Geräte und untersuche Dateien /tmp/"
 
-msgid ""
-"Examine running services and show whether the services are started after "
-"boot."
+msgid "Generate and send Turris notification."
 msgstr ""
-"Untersuche laufende Dienste und zeige, ob die Dienste nach dem Hochfahren "
-"gestartet wurden."
-
-#, fuzzy
-msgid "Display output of dmesg."
-msgstr "Zeige die Ausgabe von dmesg"
 
 #~ msgid "list detected hardware on usb and pci"
 #~ msgstr "Liste erkannte Geräte an USB und PCI auf"

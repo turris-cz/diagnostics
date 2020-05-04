@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-17 11:30+0200\n"
+"POT-Creation-Date: 2020-05-04 19:49+0200\n"
 "PO-Revision-Date: 2020-02-25 15:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
@@ -32,59 +32,50 @@ msgstr "skriv utdata til en katalogmodul per fil"
 msgid "modules:"
 msgstr "moduler:"
 
-msgid "list installed packages"
+msgid "Run Sentinel Certgen."
+msgstr ""
+
+#, fuzzy
+msgid "List running processes."
+msgstr "list opp kjørende prosesser"
+
+msgid ""
+"Current and factory /etc/os-release file (/etc/turris-version for factory as "
+"well)."
+msgstr ""
+
+#, fuzzy
+msgid "Display output of dmesg."
+msgstr "vis utdata fra dmesg"
+
+#, fuzzy
+msgid "List detected hardware on USB and PCI."
+msgstr "list opp oppdaget maskinvare på USB og PCI"
+
+#, fuzzy
+msgid "Test whether the Turris webs are available."
+msgstr "Tester hvorvidt Turris-nettsiden er tilgjengelig"
+
+#, fuzzy
+msgid "List installed packages."
 msgstr "list opp installerte pakker"
 
 #, fuzzy
-msgid "how long is the router running"
-msgstr "hvor lenge ruteren kjører"
-
-msgid "get serial number from mox-otp or atsha204"
-msgstr "hent serienummer fra mox-otp eller atsha204"
-
-#, fuzzy
-msgid "info about about the cron"
-msgstr "info om cron-jobber"
+msgid "Show info about Linux kernel."
+msgstr "vis info om Linux-kjerne"
 
 #, fuzzy
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
 "list opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter."
 
-msgid "show info about linux kernel"
-msgstr "vis info om Linux-kjerne"
-
-msgid "gather dns related informations"
-msgstr "hent DNS-relatert info"
-
-msgid "lists u-boot environment"
-msgstr "Lister opp U-Boot-miljø"
+#, fuzzy
+msgid "Get the serial number from MOX OTP or atsha204."
+msgstr "hent serienummer fra mox-otp eller atsha204"
 
 #, fuzzy
-msgid "test whether the turris webs are available"
-msgstr "Tester hvorvidt Turris-nettsiden er tilgjengelig"
-
-msgid "list running processes"
-msgstr "list opp kjørende prosesser"
-
-msgid "dump configuration and try to run updater"
+msgid "Dump configuration and try to run the updater."
 msgstr "dump oppsett og prøv å kjøre oppdatereren"
-
-msgid "list detected hardware on usb and pci"
-msgstr "list opp oppdaget maskinvare på USB og PCI"
-
-msgid "try to send firewall logs to the server"
-msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
-
-#, fuzzy
-msgid "Print current date and verify that NTP can synchronize time."
-msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
-
-msgid "print uci firewall settings and the currnet content of iptables"
-msgstr "Skriv ut UCI-brannmursinnstillinger og nåværende iptables-innhold."
-
-msgid "read /var/log/messages"
-msgstr "les /var/log/messages"
 
 #, fuzzy
 msgid ""
@@ -94,8 +85,8 @@ msgstr ""
 "ruter."
 
 #, fuzzy
-msgid "shows mounted devices and examines files in /tmp/"
-msgstr "Viser monterte enheter og undersøker filer i /tmp/"
+msgid "Show how long is the router running."
+msgstr "hvor lenge ruteren kjører"
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -105,5 +96,36 @@ msgstr ""
 "oppstart"
 
 #, fuzzy
-msgid "display output of dmesg"
-msgstr "vis utdata fra dmesg"
+msgid "Read /var/log/messages."
+msgstr "les /var/log/messages"
+
+#, fuzzy
+msgid "Info about the cron."
+msgstr "info om cron-jobber"
+
+#, fuzzy
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
+
+#, fuzzy
+msgid "Gather DNS related information."
+msgstr "hent DNS-relatert info"
+
+#, fuzzy
+msgid "Lists U-Boot environment."
+msgstr "Lister opp U-Boot-miljø"
+
+#, fuzzy
+msgid "Try to send firewall logs to the server."
+msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
+
+#, fuzzy
+msgid "Print UCI firewall settings and the current content of iptables."
+msgstr "Skriv ut UCI-brannmursinnstillinger og nåværende iptables-innhold."
+
+#, fuzzy
+msgid "Show mounted devices and examine files in /tmp/."
+msgstr "Viser monterte enheter og undersøker filer i /tmp/"
+
+msgid "Generate and send Turris notification."
+msgstr ""

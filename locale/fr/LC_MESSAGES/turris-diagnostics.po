@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 15:12+0100\n"
+"POT-Creation-Date: 2020-05-04 19:49+0200\n"
 "PO-Revision-Date: 2020-03-28 19:09+0000\n"
 "Last-Translator: Éfrit <Efrit@posteo.net>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris/"
-"turris-diagnostics/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,57 +31,43 @@ msgstr "afficher la sortie vers un module de répertoire par fichier"
 msgid "modules:"
 msgstr "modules :"
 
+msgid "Run Sentinel Certgen."
+msgstr ""
+
+msgid "List running processes."
+msgstr "lister les processus en cours."
+
+msgid ""
+"Current and factory /etc/os-release file (/etc/turris-version for factory as "
+"well)."
+msgstr ""
+
+msgid "Display output of dmesg."
+msgstr "Affiche la sortie de dmesg."
+
+msgid "List detected hardware on USB and PCI."
+msgstr "Lister le matériel détecté sur USB et PCI."
+
+msgid "Test whether the Turris webs are available."
+msgstr "Vérifiez si les sites web Turris sont disponibles."
+
 msgid "List installed packages."
 msgstr "Liste des paquets installés."
 
-msgid "Show how long is the router running."
-msgstr "Montrez depuis combien de temps le routeur fonctionne."
-
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Obtenez le numéro de série du MOX OTP ou atsha204."
-
-msgid "Info about the cron."
-msgstr "Informations sur le cron."
+msgid "Show info about Linux kernel."
+msgstr "Afficher des informations sur le noyau Linux."
 
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
 "Lister tous les points de montage et les options de montage ainsi que tous "
 "les périphériques de bloc."
 
-msgid "Show info about Linux kernel."
-msgstr "Afficher des informations sur le noyau Linux."
-
-msgid "Print UCI firewall settings and the current content of iptables."
-msgstr ""
-"Imprimez les paramètres du pare-feu UCI et le contenu actuel d'iptables."
-
-msgid "Gather DNS related information."
-msgstr "Rassembler les informations relatives au DNS."
-
-msgid "Lists U-Boot environment."
-msgstr "Liste l'environnement d'U-Boot."
-
-msgid "Test whether the Turris webs are available."
-msgstr "Vérifiez si les sites web Turris sont disponibles."
+msgid "Get the serial number from MOX OTP or atsha204."
+msgstr "Obtenez le numéro de série du MOX OTP ou atsha204."
 
 msgid "Dump configuration and try to run the updater."
 msgstr ""
 "Dumper la configuration et essayez d'exécuter le programme de mise à jour."
-
-msgid "List running processes."
-msgstr "lister les processus en cours."
-
-msgid "Try to send firewall logs to the server."
-msgstr "Essayez d'envoyer les journaux du pare-feu au serveur."
-
-msgid "Print current date and verify that NTP can synchronize time."
-msgstr "Imprimez la date du jour et vérifiez que NTP peut synchroniser l'heure."
-
-msgid "List detected hardware on USB and PCI."
-msgstr "Lister le matériel détecté sur USB et PCI."
-
-msgid "Read /var/log/messages."
-msgstr "Lire /var/log/messages."
 
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
@@ -89,8 +75,8 @@ msgstr ""
 "Imprime les paramètres réseau UCI et sans fil, les adresses IP actuelles et "
 "les routes."
 
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Montrez les appareils montés et examinez les fichiers dans /tmp/."
+msgid "Show how long is the router running."
+msgstr "Montrez depuis combien de temps le routeur fonctionne."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -99,5 +85,31 @@ msgstr ""
 "Examinez les services en cours de fonctionnement et montrez les services "
 "lancés après le démarrage."
 
-msgid "Display output of dmesg."
-msgstr "Affiche la sortie de dmesg."
+msgid "Read /var/log/messages."
+msgstr "Lire /var/log/messages."
+
+msgid "Info about the cron."
+msgstr "Informations sur le cron."
+
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr ""
+"Imprimez la date du jour et vérifiez que NTP peut synchroniser l'heure."
+
+msgid "Gather DNS related information."
+msgstr "Rassembler les informations relatives au DNS."
+
+msgid "Lists U-Boot environment."
+msgstr "Liste l'environnement d'U-Boot."
+
+msgid "Try to send firewall logs to the server."
+msgstr "Essayez d'envoyer les journaux du pare-feu au serveur."
+
+msgid "Print UCI firewall settings and the current content of iptables."
+msgstr ""
+"Imprimez les paramètres du pare-feu UCI et le contenu actuel d'iptables."
+
+msgid "Show mounted devices and examine files in /tmp/."
+msgstr "Montrez les appareils montés et examinez les fichiers dans /tmp/."
+
+msgid "Generate and send Turris notification."
+msgstr ""
