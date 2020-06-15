@@ -33,7 +33,7 @@ run () {
 
 	if [ "$resolver" == "kresd" ]; then
 		section "Configured trust anchors"
-		kresd_tty="$(uci get resolver.kresd.rundir)/tty/$(pidof kresd)"
+		kresd_tty="$(uci get resolver.kresd.rundir)/control/$(pidof kresd)"
 		echo "trust_anchors" | socat - "unix-connect:${kresd_tty}"
 		echo
 	fi
