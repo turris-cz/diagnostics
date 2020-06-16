@@ -11,12 +11,19 @@ cd "$(dirname $0)"
 
 ALL_MODULES=./modules/*.module
 
-module_name_exists() {
-	[ -x "./modules/$1.module" ]
+module_exists() {
+	[ -x "$1" ]
 }
 
 module_name() {
-	basename "${1%.module}"
+	local t="$(basename "${1%.module}")"
+	echo "${t#*_}" # remove initial index from XX_name
+}
+
+module_from_name() {
+	# There should be only one module of the same name but to be sure we
+	# potentially select the one with lower number.
+	find -name "??_$1.module" | head -1
 }
 
 
@@ -139,10 +146,11 @@ if [ $# = 0 ] ; then
 	done
 else
 	for module_name in "$@"; do
-		if ! module_name_exists "$module_name"; then
+		module="$(module_from_name "$module_name")"
+		if ! module_exists "$module"; then
 			printf "!!!!!!!!!!!!!! %s not found\n" "$module_name"
 		else
-			module_run "./modules/$module_name.module"
+			module_run "$module"
 		fi
 	done
 fi
