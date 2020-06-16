@@ -163,10 +163,12 @@ elif [ -n "$OUTPUT_DIRECTORY" ]; then
 fi
 
 
+module_executed="n"
 if [ $# = 0 ] ; then
 	# no parameters run all modules
 	for module in $ALL_MODULES; do
 		module_run "$module"
+		module_executed="y"
 	done
 else
 	for module_name in "$@"; do
@@ -175,6 +177,7 @@ else
 			printf "!!!!!!!!!!!!!! %s not found\n" "$module_name"
 		else
 			module_run "$module"
+			module_executed="y"
 		fi
 	done
 fi
@@ -189,3 +192,5 @@ else
 		mv "$OUTPUT_FILE".preparing "$OUTPUT_FILE"
 	fi
 fi
+
+[ "$module_executed" = "y" ]
