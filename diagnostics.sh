@@ -43,18 +43,17 @@ print_help() {
 module_run() {
 	local module="$1"
 	if [ -n "$OUTPUT_DIRECTORY" ] ; then
-		module_wrapper "$module" \
-			| tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_DIRECTORY.preparing/$module".out.preparing
+		module_wrapper "$module" >> "$OUTPUT_DIRECTORY.preparing/$module.out.preparing"
 		mv "$OUTPUT_DIRECTORY.preparing/$module".out.preparing "$OUTPUT_DIRECTORY.preparing/$module".out
 	elif [ -n "$OUTPUT_FILE" ] ; then
-		module_header "$module" >> "$OUTPUT_FILE".preparing
-		module_wrapper "$module" \
-			| tail -n "$MAX_LINES_PER_MODULE" >> "$OUTPUT_FILE".preparing
-		module_footer "$module" >> "$OUTPUT_FILE".preparing
+		{
+			module_header "$module"
+			module_wrapper "$module"
+			module_footer "$module"
+		} >> "$OUTPUT_FILE".preparing
 	else
 		module_header "$module"
-		module_wrapper "$module" \
-			| tail -n "$MAX_LINES_PER_MODULE"
+		module_wrapper "$module"
 		module_footer "$module"
 	fi
 }
@@ -73,7 +72,7 @@ module_footer() {
 
 
 module_wrapper() {
-	"$1" run 2>&1 < /dev/null
+	"$1" run 2>&1 < /dev/null | tail -n "$MAX_LINES_PER_MODULE"
 }
 
 
