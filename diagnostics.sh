@@ -112,6 +112,15 @@ while getopts "bBo:O:" opt; do
 done
 shift "$((OPTIND - 1))"
 
+# Print help if requested (this should ignore any module execution)
+for arg in "$@"; do
+	if [ "$arg" = "help" ]; then
+		print_help
+		exit 0
+	fi
+done
+
+
 if [ "$background" = "y" -a "$TURRIS_DIAGNOSTICS_IN_BACKGROUND" != "1" ]; then
 	export TURRIS_DIAGNOSTICS_IN_BACKGROUND=1
 	"$0" "$@" >/dev/null 2>&1 </dev/null &
@@ -129,14 +138,6 @@ elif [ -n "$OUTPUT_DIRECTORY" ]; then
 		exit 1
 	}
 fi
-
-# Print help if requested (this should ignore any module execution)
-for arg in "$@"; do
-	if [ "$arg" = "help" ]; then
-		print_help
-		exit 0
-	fi
-done
 
 
 if [ $# = 0 ] ; then
