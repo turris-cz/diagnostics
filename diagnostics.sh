@@ -9,28 +9,21 @@ MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-100000}
 # enter the script directory
 cd "$(dirname $0)"
 
-# Get list of modules
-modules=""
-for mod_file in modules/*.module ; do
-	module=$(basename "$mod_file" .module)
-	modules="$modules $module"
-done
+ALL_MODULES=./modules/*.module
 
-is_in_list() {
-	local list="$1"
-	local item="$2"
-	for element in $list ; do
-		if [ "$item" = "$element" ] ; then
-			return 0
-		fi
-	done
-	return 1
+module_name_exists() {
+	[ -x "./modules/$1.module" ]
 }
 
+module_name() {
+	basename "${1%.module}"
+}
+
+
 module_help() {
-	for module in $modules ; do
-		echo '  '${module}
-		./modules/"$module".module help | sed 's/^/    /'
+	for module in $ALL_MODULES; do
+		printf "  %s\n" "$(module_name "$module")"
+		"$module" help | sed 's/^/    /'
 		echo
 	done
 }
@@ -80,8 +73,7 @@ module_footer() {
 
 
 module_wrapper() {
-	local module="./modules/${1}.module"
-	"$module" run 2>&1 < /dev/null
+	"$1" run 2>&1 < /dev/null
 }
 
 
@@ -113,20 +105,21 @@ if [ "$1" = help ] ; then
 	exit 0
 fi
 
-# no parameters run all modules
 if [ $# = 0 ] ; then
-	modules_to_run=$modules
+	# no parameters run all modules
+	for module in $ALL_MODULES; do
+		module_run "$module"
+	done
 else
-	modules_to_run=$@
+	for module_name in "$@"; do
+		if ! module_name_exists "$module_name"; then
+			printf "!!!!!!!!!!!!!! %s not found\n" "$module_name"
+		else
+			module_run "./modules/$module_name.module"
+		fi
+	done
 fi
 
-for module in $modules_to_run ; do
-	if ! is_in_list "${modules}" "${module}" ; then
-		printf "!!!!!!!!!!!!!! %s not found\n" $module
-	else
-		module_run "$module"
-	fi
-done
 
 # rename the output directory when finished
 if [ -n "$OUTPUT_DIRECTORY" ] ; then
