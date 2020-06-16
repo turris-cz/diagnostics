@@ -57,4 +57,11 @@ case "$2" in
 	run)
 		run
 		;;
+	*)
+		{
+			echo "Invalid usage of diagnostics module!"
+			echo "Usage: ${0##*/} (help|run)"
+		} >&2
+		exit 1
+		;;
 esac
