@@ -73,14 +73,14 @@ module_run() {
 
 
 module_header() {
-	local module_name="$1"
-	printf "############## %s\n" "$module_name"
+	local module="$1"
+	printf "############## %s\n" "$(module_name "$module_name")"
 }
 
 
 module_footer() {
-	local module_name="$1"
-	printf "************** %s\n" "$module"
+	local module="$1"
+	printf "************** %s\n" "$(module_name "$module")"
 }
 
 
