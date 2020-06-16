@@ -9,14 +9,11 @@ MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-100000}
 # enter the script directory
 cd "$(dirname $0)"
 
-# read modules and load help
+# Get list of modules
 modules=""
 for mod_file in modules/*.module ; do
-	# load help
-	. "$mod_file"
 	module=$(basename "$mod_file" .module)
 	modules="$modules $module"
-
 done
 
 is_in_list() {
