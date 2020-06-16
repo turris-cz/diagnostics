@@ -27,6 +27,14 @@ module_from_name() {
 }
 
 
+list_modules() {
+	for module in $ALL_MODULES; do
+		echo "$(module_name "$module")"
+		"$module" help | sed 's/^/ /'
+	done
+}
+
+
 module_help() {
 	for module in $ALL_MODULES; do
 		printf "  %s\n" "$(module_name "$module")"
@@ -36,13 +44,15 @@ module_help() {
 }
 
 print_usage() {
-	echo "Usage: $(basename $0) [-b] [-o <file> | -O <file>] [module1[ module2[...]]]"
+	echo "Usage: $(basename $0) [-h | -l | -b] [-o <file> | -O <directory>] [module]..."
 }
 
 print_help() {
 	print_usage
 	echo
 	echo "Arguments:"
+	echo "	-h		$(gettext "print this help text")"
+	echo "	-l		$(gettext "list all available modules in machine readable format")"
 	echo "	-b		$(gettext "run in background")"
 	echo "	-o <file>	$(gettext "print output to a file")"
 	echo "	-O <file>	$(gettext "print output to a directory module per file")"
@@ -91,10 +101,18 @@ module_wrapper() {
 
 OUTPUT_FILE=
 OUTPUT_DIRECTORY=
+list_modules="n"
 background="n"
 
-while getopts "bBo:O:" opt; do
+while getopts "hlbBo:O:" opt; do
 	case "$opt" in
+		h)
+			print_help
+			exit 0
+			;;
+		l)
+			list_modules="y"
+			;;
 		b)
 			background="y"
 			;;
@@ -119,6 +137,11 @@ for arg in "$@"; do
 		exit 0
 	fi
 done
+
+if [ "$list_modules" = "y" ]; then
+	list_modules
+	exit 0
+fi
 
 
 if [ "$background" = "y" -a "$TURRIS_DIAGNOSTICS_IN_BACKGROUND" != "1" ]; then
