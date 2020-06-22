@@ -11,7 +11,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Help text can be now invoked not only by `help` but also using `-h`
+- Porcelain output for listing modules introduced with `-l` argument switch
 - Read syslog messages from permanent storage (/srv/log/messages)
+- DHCP diagnostics
+- Additional DNS diagnostics for forwarders and Knot-resolver config
+
+### Changed
+
+- Order numbers are now not part of module name but rather required and stripped
+  part of module naming scheme
+- Diagnostics script now exits with non-zero exit code when no output was
+  generated when module execution is performed
+- Help text now prints and script exits before fork to background when `-b`
+  argument is used.
+- `getopts` based argument parsing is not utilized allowing user to provide
+  argument switches in any order and in more standard way
+- Usage is now printed when invalid usage of script is detected
+- Overall code cleanup
 
 
 ## [12.3.1] - 2020-09-25
