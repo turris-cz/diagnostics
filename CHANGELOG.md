@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [12.3] - 2020-09-25
+
+### Changed
+
+- Fix compatibility with a newer version of kresd in `dns` module
+
+
 ## [12.2] - 2020-05-04
 
 ### Changed
