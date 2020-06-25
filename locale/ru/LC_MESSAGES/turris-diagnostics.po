@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-04 19:49+0200\n"
-"PO-Revision-Date: 2019-12-14 05:06+0000\n"
+"PO-Revision-Date: 2020-05-14 11:41+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/turris-"
-"diagnostics/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 msgid "run in background"
 msgstr "запустить в фоновом режиме"
@@ -33,96 +33,81 @@ msgid "modules:"
 msgstr "модули:"
 
 msgid "Run Sentinel Certgen."
-msgstr ""
+msgstr "Запустить генератор сертификатов Sentinel."
 
-#, fuzzy
 msgid "List running processes."
-msgstr "список запущенных процессов"
+msgstr "Список запущенных процессов."
 
 msgid ""
 "Current and factory /etc/os-release file (/etc/turris-version for factory as "
 "well)."
 msgstr ""
+"Текущий и заводской файл /etc/os-release (/etc/turris-version также "
+"заводской)."
 
-#, fuzzy
 msgid "Display output of dmesg."
-msgstr "отображать вывод dmesg"
+msgstr "Показать вывод dmesg."
 
-#, fuzzy
 msgid "List detected hardware on USB and PCI."
-msgstr "список обнаруженного оборудования USB и PCI"
+msgstr "Список обнаруженного оборудования USB и PCI."
 
-#, fuzzy
 msgid "Test whether the Turris webs are available."
-msgstr "проверка доступности сетей Turris"
+msgstr "Проверьте, доступны ли сети Turris."
 
-#, fuzzy
 msgid "List installed packages."
-msgstr "список установленных пакетов"
+msgstr "Список установленных пакетов."
 
-#, fuzzy
 msgid "Show info about Linux kernel."
-msgstr "показать информацию о ядре Linux"
+msgstr "Показать информацию о ядре Linux."
 
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
-"перечислите все точки монтирования и опции монтирования и все блочные "
-"устройства"
+"Перечислите все точки монтирования и опции монтирования и все блочные "
+"устройства."
 
-#, fuzzy
 msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "получить серийный номер от mox-otp или atsha204"
+msgstr "Получить серийный номер от MOX OTP или atsha204."
 
-#, fuzzy
 msgid "Dump configuration and try to run the updater."
-msgstr "сбросить конфигурацию и попытаться запустить сервис обновлений"
+msgstr "Сбросить конфигурацию и попытаться запустить сервис обновлений."
 
-#, fuzzy
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr "вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты"
+msgstr "Вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты."
 
-#, fuzzy
 msgid "Show how long is the router running."
-msgstr "время работы маршрутизатора"
+msgstr "Время работы маршрутизатора."
 
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
-"проверяет запущенные службы и показывает, запущены ли службы после загрузки"
+"Проверить запущенные службы и показать запущенные службы после загрузки."
 
-#, fuzzy
 msgid "Read /var/log/messages."
-msgstr "считать /var/log/messages"
+msgstr "Считать /var/log/messages."
 
-#, fuzzy
 msgid "Info about the cron."
-msgstr "информация о cron"
+msgstr "Информация о cron."
 
 msgid "Print current date and verify that NTP can synchronize time."
 msgstr ""
 "Вывести текущую дату и убедиться, что NTP может синхронизировать время."
 
-#, fuzzy
 msgid "Gather DNS related information."
-msgstr "собрать DNS-связанную информацию"
+msgstr "Собрать информацию, связанную с DNS."
 
-#, fuzzy
 msgid "Lists U-Boot environment."
-msgstr "списки среды загрузки"
+msgstr "Списки среды загрузки."
 
-#, fuzzy
 msgid "Try to send firewall logs to the server."
-msgstr "попытка отправить журналы брандмауэра на сервер"
+msgstr "Попытка отправить журналы брандмауэра на сервер."
 
-#, fuzzy
 msgid "Print UCI firewall settings and the current content of iptables."
-msgstr "вывести настройки брандмауэра uci и содержимое iptables"
+msgstr "Вывести настройки брандмауэра uci и текущее содержимое iptables."
 
-#, fuzzy
 msgid "Show mounted devices and examine files in /tmp/."
-msgstr "показывает подключенные устройства и проверяет файлы в /tmp/"
+msgstr "Показать подключенные устройства и проверить файлы в /tmp/."
 
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Создать и отправить уведомление Turris."
