@@ -21,7 +21,7 @@ run () {
 	done
 
 	section "DNSSEC root key file"
-	rootkeyfile=$(uci get resolver.common.keyfile)
+	rootkeyfile="$(uci get resolver.common.keyfile)"
 	dump_file "$rootkeyfile"
 	section "And its attributes"
 	ls -al "$rootkeyfile"
