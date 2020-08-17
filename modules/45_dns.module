@@ -36,7 +36,13 @@ run () {
 		kresd_tty="$(uci get resolver.kresd.rundir)/control/$(pidof kresd)"
 		echo "trust_anchors" | socat - "unix-connect:${kresd_tty}"
 		echo
+
+		section "Generated kresd.config"
+		dump_file "/tmp/kresd.config"
 	fi
+
+	section "DHCP config"
+	uci -q show dhcp
 
 	section "Resolution attempts"
 	# should pass
