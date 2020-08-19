@@ -41,6 +41,15 @@ run () {
 		dump_file "/tmp/kresd.config"
 	fi
 
+	forward_custom="$(uci -q get resolver.common.forward_custom)"
+
+	if [ ! -z "$forward_custom" ]; then
+		section "Custom forwarders configs"
+		for file in /etc/resolver/dns_servers/*.conf; do
+			dump_file "$file"
+		done
+	fi
+
 	section "DHCP config"
 	uci -q show dhcp
 
