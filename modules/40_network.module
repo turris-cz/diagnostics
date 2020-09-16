@@ -11,6 +11,9 @@ run () {
 	section "Uci network"
 	uci show network
 
+	section "Uci dhcp"
+	uci show dhcp
+
 	section "Links"
 	ip -d link
 

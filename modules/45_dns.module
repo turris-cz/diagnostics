@@ -50,9 +50,6 @@ run () {
 		done
 	fi
 
-	section "DHCP config"
-	uci -q show dhcp
-
 	section "Resolution attempts"
 	# should pass
 	resolve repo.turris.cz
