@@ -5,11 +5,10 @@ export TEXTDOMAIN=turris-diagnostics
 export TEXTDOMAINDIR=/usr/share/locale
 
 MAX_LINES_PER_MODULE=${MAX_LINES_PER_MODULE:-100000}
+MODULES_PATH=./modules
 
 # enter the script directory
 cd "$(dirname $0)"
-
-ALL_MODULES=./modules/*.module
 
 module_exists() {
 	[ -x "$1" ]
@@ -28,7 +27,7 @@ module_from_name() {
 
 
 list_modules() {
-	for module in $ALL_MODULES; do
+	for module in "$MODULES_PATH"/*.module; do
 		echo "$(module_name "$module")"
 		"$module" help | sed 's/^/ /'
 	done
@@ -36,7 +35,7 @@ list_modules() {
 
 
 module_help() {
-	for module in $ALL_MODULES; do
+	for module in "$MODULES_PATH"/*.module; do
 		printf "  %s\n" "$(module_name "$module")"
 		"$module" help | sed 's/^/    /'
 		echo
@@ -166,7 +165,7 @@ fi
 module_executed="n"
 if [ $# = 0 ] ; then
 	# no parameters run all modules
-	for module in $ALL_MODULES; do
+	for module in "$MODULES_PATH"/*.module; do
 		module_run "$module"
 		module_executed="y"
 	done
