@@ -129,14 +129,6 @@ while getopts "hlbBo:O:" opt; do
 done
 shift "$((OPTIND - 1))"
 
-# Print help if requested (this should ignore any module execution)
-for arg in "$@"; do
-	if [ "$arg" = "help" ]; then
-		print_help
-		exit 0
-	fi
-done
-
 if [ "$list_modules" = "y" ]; then
 	list_modules
 	exit 0

@@ -30,6 +30,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Usage is now printed when invalid usage of script is detected
 - Overall code cleanup
 
+### Removed
+
+- Virtual module `help` as now help can be obtained with `-h` switch
+
 
 ## [12.3.1] - 2020-09-25
 
