@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 19:49+0200\n"
+"POT-Creation-Date: 2020-10-05 17:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,6 +15,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "print this help text"
+msgstr ""
+
+msgid "list all available modules in machine readable format"
+msgstr ""
 
 msgid "run in background"
 msgstr ""
@@ -28,10 +34,7 @@ msgstr ""
 msgid "modules:"
 msgstr ""
 
-msgid "Run Sentinel Certgen."
-msgstr ""
-
-msgid "List running processes."
+msgid "Get the serial number from MOX OTP or atsha204."
 msgstr ""
 
 msgid ""
@@ -39,35 +42,25 @@ msgid ""
 "well)."
 msgstr ""
 
-msgid "Display output of dmesg."
+msgid "Show info about Linux kernel."
+msgstr ""
+
+msgid "Show how long is the router running."
+msgstr ""
+
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr ""
+
+msgid "Lists U-Boot environment."
 msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr ""
 
-msgid "Test whether the Turris webs are available."
-msgstr ""
-
-msgid "List installed packages."
-msgstr ""
-
-msgid "Show info about Linux kernel."
-msgstr ""
-
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
 
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr ""
-
-msgid "Dump configuration and try to run the updater."
-msgstr ""
-
-msgid ""
-"Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr ""
-
-msgid "Show how long is the router running."
+msgid "Show mounted devices and examine files in /tmp/."
 msgstr ""
 
 msgid ""
@@ -75,29 +68,45 @@ msgid ""
 "boot."
 msgstr ""
 
-msgid "Read /var/log/messages."
+msgid "List running processes."
 msgstr ""
 
-msgid "Info about the cron."
-msgstr ""
-
-msgid "Print current date and verify that NTP can synchronize time."
+msgid ""
+"Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
 
 msgid "Gather DNS related information."
 msgstr ""
 
-msgid "Lists U-Boot environment."
-msgstr ""
-
-msgid "Try to send firewall logs to the server."
+msgid "Prints all listening sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
 
-msgid "Show mounted devices and examine files in /tmp/."
+msgid "Info about the cron."
+msgstr ""
+
+msgid "List installed packages."
+msgstr ""
+
+msgid "Dump configuration and try to run the updater."
+msgstr ""
+
+msgid "Test whether the Turris webs are available."
 msgstr ""
 
 msgid "Generate and send Turris notification."
+msgstr ""
+
+msgid "Run Sentinel Certgen."
+msgstr ""
+
+msgid "Try to send firewall logs to the server."
+msgstr ""
+
+msgid "Read system logs."
+msgstr ""
+
+msgid "Display output of dmesg."
 msgstr ""

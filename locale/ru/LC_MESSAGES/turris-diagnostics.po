@@ -7,18 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 19:49+0200\n"
+"POT-Creation-Date: 2020-10-05 17:40+0200\n"
 "PO-Revision-Date: 2020-05-14 11:41+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
-"turris-diagnostics/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.1-dev\n"
+
+msgid "print this help text"
+msgstr ""
+
+msgid "list all available modules in machine readable format"
+msgstr ""
 
 msgid "run in background"
 msgstr "запустить в фоновом режиме"
@@ -32,11 +38,8 @@ msgstr "вывод на печать в каталог с файлом для к
 msgid "modules:"
 msgstr "модули:"
 
-msgid "Run Sentinel Certgen."
-msgstr "Запустить генератор сертификатов Sentinel."
-
-msgid "List running processes."
-msgstr "Список запущенных процессов."
+msgid "Get the serial number from MOX OTP or atsha204."
+msgstr "Получить серийный номер от MOX OTP или atsha204."
 
 msgid ""
 "Current and factory /etc/os-release file (/etc/turris-version for factory as "
@@ -45,38 +48,29 @@ msgstr ""
 "Текущий и заводской файл /etc/os-release (/etc/turris-version также "
 "заводской)."
 
-msgid "Display output of dmesg."
-msgstr "Показать вывод dmesg."
+msgid "Show info about Linux kernel."
+msgstr "Показать информацию о ядре Linux."
+
+msgid "Show how long is the router running."
+msgstr "Время работы маршрутизатора."
+
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr ""
+"Вывести текущую дату и убедиться, что NTP может синхронизировать время."
+
+msgid "Lists U-Boot environment."
+msgstr "Списки среды загрузки."
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Список обнаруженного оборудования USB и PCI."
-
-msgid "Test whether the Turris webs are available."
-msgstr "Проверьте, доступны ли сети Turris."
-
-msgid "List installed packages."
-msgstr "Список установленных пакетов."
-
-msgid "Show info about Linux kernel."
-msgstr "Показать информацию о ядре Linux."
 
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
 "Перечислите все точки монтирования и опции монтирования и все блочные "
 "устройства."
 
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Получить серийный номер от MOX OTP или atsha204."
-
-msgid "Dump configuration and try to run the updater."
-msgstr "Сбросить конфигурацию и попытаться запустить сервис обновлений."
-
-msgid ""
-"Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr "Вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты."
-
-msgid "Show how long is the router running."
-msgstr "Время работы маршрутизатора."
+msgid "Show mounted devices and examine files in /tmp/."
+msgstr "Показать подключенные устройства и проверить файлы в /tmp/."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -84,30 +78,49 @@ msgid ""
 msgstr ""
 "Проверить запущенные службы и показать запущенные службы после загрузки."
 
-msgid "Read /var/log/messages."
-msgstr "Считать /var/log/messages."
+msgid "List running processes."
+msgstr "Список запущенных процессов."
 
-msgid "Info about the cron."
-msgstr "Информация о cron."
-
-msgid "Print current date and verify that NTP can synchronize time."
+msgid ""
+"Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
-"Вывести текущую дату и убедиться, что NTP может синхронизировать время."
+"Вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты."
 
 msgid "Gather DNS related information."
 msgstr "Собрать информацию, связанную с DNS."
 
-msgid "Lists U-Boot environment."
-msgstr "Списки среды загрузки."
-
-msgid "Try to send firewall logs to the server."
-msgstr "Попытка отправить журналы брандмауэра на сервер."
+msgid "Prints all listening sockets."
+msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr "Вывести настройки брандмауэра uci и текущее содержимое iptables."
 
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Показать подключенные устройства и проверить файлы в /tmp/."
+msgid "Info about the cron."
+msgstr "Информация о cron."
+
+msgid "List installed packages."
+msgstr "Список установленных пакетов."
+
+msgid "Dump configuration and try to run the updater."
+msgstr "Сбросить конфигурацию и попытаться запустить сервис обновлений."
+
+msgid "Test whether the Turris webs are available."
+msgstr "Проверьте, доступны ли сети Turris."
 
 msgid "Generate and send Turris notification."
 msgstr "Создать и отправить уведомление Turris."
+
+msgid "Run Sentinel Certgen."
+msgstr "Запустить генератор сертификатов Sentinel."
+
+msgid "Try to send firewall logs to the server."
+msgstr "Попытка отправить журналы брандмауэра на сервер."
+
+msgid "Read system logs."
+msgstr ""
+
+msgid "Display output of dmesg."
+msgstr "Показать вывод dmesg."
+
+#~ msgid "Read /var/log/messages."
+#~ msgstr "Считать /var/log/messages."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 19:49+0200\n"
+"POT-Creation-Date: 2020-10-05 17:40+0200\n"
 "PO-Revision-Date: 2019-10-29 04:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/turris/turris-"
@@ -18,6 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
+
+msgid "print this help text"
+msgstr ""
+
+msgid "list all available modules in machine readable format"
+msgstr ""
 
 msgid "run in background"
 msgstr "ejecutar en segundo plano"
@@ -31,80 +37,83 @@ msgstr "guardar salida en un módulo de directorio por archivo"
 msgid "modules:"
 msgstr "módulos:"
 
-msgid "Run Sentinel Certgen."
-msgstr ""
-
-msgid "List running processes."
-msgstr ""
+#, fuzzy
+msgid "Get the serial number from MOX OTP or atsha204."
+msgstr "obtener número de serie de mox-otp o atsha204"
 
 msgid ""
 "Current and factory /etc/os-release file (/etc/turris-version for factory as "
 "well)."
 msgstr ""
 
-msgid "Display output of dmesg."
+#, fuzzy
+msgid "Show info about Linux kernel."
+msgstr "mostrar información sobre el núcleo Linux"
+
+#, fuzzy
+msgid "Show how long is the router running."
+msgstr "tiempo de ejecución del enrutador"
+
+msgid "Print current date and verify that NTP can synchronize time."
+msgstr ""
+
+msgid "Lists U-Boot environment."
 msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr ""
 
-msgid "Test whether the Turris webs are available."
-msgstr ""
-
-#, fuzzy
-msgid "List installed packages."
-msgstr "enumerar paquetes instalados"
-
-#, fuzzy
-msgid "Show info about Linux kernel."
-msgstr "mostrar información sobre el núcleo Linux"
-
 msgid "List all mount points and mount options and all block devices."
 msgstr ""
 
-#, fuzzy
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "obtener número de serie de mox-otp o atsha204"
-
-msgid "Dump configuration and try to run the updater."
+msgid "Show mounted devices and examine files in /tmp/."
 msgstr ""
-
-msgid ""
-"Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr ""
-
-#, fuzzy
-msgid "Show how long is the router running."
-msgstr "tiempo de ejecución del enrutador"
 
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
 
-msgid "Read /var/log/messages."
+msgid "List running processes."
 msgstr ""
 
-msgid "Info about the cron."
-msgstr ""
-
-msgid "Print current date and verify that NTP can synchronize time."
+msgid ""
+"Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
 
 msgid "Gather DNS related information."
 msgstr ""
 
-msgid "Lists U-Boot environment."
-msgstr ""
-
-msgid "Try to send firewall logs to the server."
+msgid "Prints all listening sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
 
-msgid "Show mounted devices and examine files in /tmp/."
+msgid "Info about the cron."
+msgstr ""
+
+#, fuzzy
+msgid "List installed packages."
+msgstr "enumerar paquetes instalados"
+
+msgid "Dump configuration and try to run the updater."
+msgstr ""
+
+msgid "Test whether the Turris webs are available."
 msgstr ""
 
 msgid "Generate and send Turris notification."
+msgstr ""
+
+msgid "Run Sentinel Certgen."
+msgstr ""
+
+msgid "Try to send firewall logs to the server."
+msgstr ""
+
+msgid "Read system logs."
+msgstr ""
+
+msgid "Display output of dmesg."
 msgstr ""
