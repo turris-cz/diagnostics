@@ -28,6 +28,7 @@ module_from_name() {
 
 list_modules() {
 	for module in "$MODULES_PATH"/*.module; do
+		[ -f "$module" ] || continue
 		echo "$(module_name "$module")"
 		"$module" help | sed 's/^/ /'
 	done
@@ -36,6 +37,7 @@ list_modules() {
 
 module_help() {
 	for module in "$MODULES_PATH"/*.module; do
+		[ -f "$module" ] || continue
 		printf "  %s\n" "$(module_name "$module")"
 		"$module" help | sed 's/^/    /'
 		echo
@@ -158,6 +160,7 @@ module_executed="n"
 if [ $# = 0 ] ; then
 	# no parameters run all modules
 	for module in "$MODULES_PATH"/*.module; do
+		[ -f "$module" ] || continue
 		module_run "$module"
 		module_executed="y"
 	done
