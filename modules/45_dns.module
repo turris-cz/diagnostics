@@ -54,9 +54,13 @@ run () {
 	# should pass
 	resolve repo.turris.cz
 	resolve nic.cz
-	resolve www.google.com
-	resolve www.facebook.com
-	resolve www.youtube.com
+	resolve www.turris.com
+
+	resolve duckduckgo.com
+	resolve en.wikipedia.org
+
+	resolve www.debian.org
+	resolve www.fsf.org
 
 	resolve '*.wilda.nsec.0skar.cz'
 	resolve '*.wild.nsec.0skar.cz'

@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [UNRELEASED]
+
+### Changed
+
+- `dns` module: Update list of domain names for resolution attempts
+
+
 ## [13.0.0] - 2020-10-05
 
 ### Added
