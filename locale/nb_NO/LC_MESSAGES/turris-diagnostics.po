@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-05 17:40+0200\n"
-"PO-Revision-Date: 2020-06-24 13:41+0000\n"
+"PO-Revision-Date: 2020-10-28 21:48+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/nb_NO/>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 msgid "print this help text"
-msgstr ""
+msgstr "skriv ut denne hjelpeteksten"
 
 msgid "list all available modules in machine readable format"
-msgstr ""
+msgstr "list opp alle tilgjengelige moduler i maskinlesbart format"
 
 msgid "run in background"
 msgstr "kjør i bakgrunnen"
@@ -102,7 +102,7 @@ msgid "Gather DNS related information."
 msgstr "hent DNS-relatert info"
 
 msgid "Prints all listening sockets."
-msgstr ""
+msgstr "Skriver ut alle lytte-sockets."
 
 #, fuzzy
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -135,7 +135,7 @@ msgid "Try to send firewall logs to the server."
 msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
 
 msgid "Read system logs."
-msgstr ""
+msgstr "Les systemlogger."
 
 #, fuzzy
 msgid "Display output of dmesg."
