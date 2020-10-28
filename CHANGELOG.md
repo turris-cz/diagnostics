@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-## [UNRELEASED]
+## [13.1] - 2020-10-28
 
 ### Added
 
@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - `dns` module: Update list of domain names for resolution attempts
+- Update Norwegian translations
 
 
 ## [13.0.0] - 2020-10-05
