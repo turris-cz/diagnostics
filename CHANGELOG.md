@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UNRELEASED]
 
+### Added
+
+- `dns` module: Mark resolution attempts with their meaning and desired results
+
 ### Changed
 
 - `dns` module: Update list of domain names for resolution attempts

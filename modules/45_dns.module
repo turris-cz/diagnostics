@@ -50,18 +50,23 @@ run () {
 		done
 	fi
 
+
 	section "Resolution attempts"
-	# should pass
+	subsection "Valid domain names"
+	echo "Our domains with DNSSEC"
 	resolve repo.turris.cz
 	resolve nic.cz
 	resolve www.turris.com
 
+	echo "Third party domains without DNSSEC"
 	resolve duckduckgo.com
 	resolve en.wikipedia.org
 
+	echo "Third party domains with DNSSEC"
 	resolve www.debian.org
 	resolve www.fsf.org
 
+	echo "NSEC and wildcard domains with DNSSEC"
 	resolve '*.wilda.nsec.0skar.cz'
 	resolve '*.wild.nsec.0skar.cz'
 	resolve '*.wilda.0skar.cz'
@@ -69,8 +74,11 @@ run () {
 	resolve www.wilda.nsec.0skar.cz
 	resolve www.wilda.0skar.cz
 
-	# should fail
+	subsection "Invalid domain names"
+	echo "Our domains with broken DNSSEC"
 	resolve www.rhybar.cz
+
+	echo "Third party domains with broken DNSSEC"
 	resolve '*.wilda.rhybar.0skar.cz'
 	resolve '*.wilda.rhybar.ecdsa.0skar.cz'
 }
