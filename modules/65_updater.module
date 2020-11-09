@@ -8,6 +8,9 @@ run () {
 	section "Updater UCI config"
 	dump_file '/etc/config/updater'
 
+	section "Package lists UCI config"
+	dump_file '/etc/config/pkglists'
+
 	section "Updater configuration"
 	local updater_confdir='/etc/updater/conf.d'
 	local updater_conffile
