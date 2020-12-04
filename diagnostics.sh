@@ -129,6 +129,12 @@ while getopts "hlbBo:O:" opt; do
 	;;
 	esac
 done
+
+if [ "$background" = "y" -a "$TURRIS_DIAGNOSTICS_IN_BACKGROUND" != "1" ]; then
+	TURRIS_DIAGNOSTICS_IN_BACKGROUND=1 "$0" "$@" >/dev/null 2>&1 </dev/null &
+	exit 0
+fi
+
 shift "$((OPTIND - 1))"
 
 if [ "$list_modules" = "y" ]; then
@@ -136,12 +142,6 @@ if [ "$list_modules" = "y" ]; then
 	exit 0
 fi
 
-
-if [ "$background" = "y" -a "$TURRIS_DIAGNOSTICS_IN_BACKGROUND" != "1" ]; then
-	export TURRIS_DIAGNOSTICS_IN_BACKGROUND=1
-	"$0" "$@" >/dev/null 2>&1 </dev/null &
-	exit 0
-fi
 
 # Clean the last output files
 if [ -n "$OUTPUT_FILE" ]; then
