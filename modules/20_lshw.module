@@ -12,7 +12,7 @@ run () {
 	section lsusb
 	lsusb -vvv
 	section lspci
-	lspci -vvv
+	lspci -nn -vvv
 	section sensors
 	sensors
 }
