@@ -5,8 +5,8 @@ $(gettext "Try to send firewall logs to the server.")
 "
 
 run () {
-	check_installed nikola || return 0
-	nikola
+	check_installed sentinel-nikola || return 0
+	sentinel-nikola
 }
 
 # vim: ft=sh
