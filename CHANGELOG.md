@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [13.1.2] - 2021-01-25
+
+### Changed
+
+- `lspci` expanded to show also vendor and device numbers and names
+
+### Fixed
+
+- `nikola` fixed to call `sentinel-nikola` instead of `nikola`
+
+
 ## [13.1.1] - 2020-12-07
 
 ### Added
