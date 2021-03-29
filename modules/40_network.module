@@ -9,7 +9,7 @@ run () {
 	uci show wireless | grep -v ".key="
 
 	section "Uci network"
-	uci show network
+	uci show network | grep -v ".private_key=" | grep -v ".preshared_key="
 
 	section "Uci dhcp"
 	uci show dhcp
