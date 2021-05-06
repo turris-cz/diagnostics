@@ -1,0 +1,32 @@
+#!modules/module.sh
+
+help="
+$(gettext "Prints configuration and state of Foris web interface.")
+"
+
+run () {
+	section "Uci foris"
+	uci show foris | uci_anonymize '\.password$'
+	section "Uci foris-controller"
+	uci show foris-controller
+	section "Uci fosquitto"
+	uci show fosquitto
+
+	section "Processes"
+	busybox ps w | grep foris
+	busybox ps w | grep fosquitto
+
+	section "Lighttpd configuration"
+	lighttpd -f /etc/lighttpd/lighttpd.conf -p
+	section "reForis Lighttpd configuration"
+	/usr/libexec/reforis/lighttpd-dynamic
+	check_installed foris && {
+		section "Foris Lighttpd configuration segment"
+		/usr/share/foris/lighttpd-dynamic-conf config
+	}
+
+	section "Fosquitto configuration"
+	dump_file /var/etc/fosquitto.generated.conf
+}
+
+# vim: ft=sh
