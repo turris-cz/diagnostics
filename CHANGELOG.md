@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   include option in report without getting the real value.
 - Notification module's UCI configuration
 - (re)Foris module
+- Sentinel module
 
 ### Changed
 

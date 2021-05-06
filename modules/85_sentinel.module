@@ -1,0 +1,20 @@
+#!modules/module.sh
+
+help="
+$(gettext "State of Sentinel probes")
+"
+
+run () {
+	check_installed sentinel-proxy || return 0
+
+	section "UCI"
+	uci show sentinel | uci_anonymize '\.device_token$'
+
+	section "Status"
+	sentinel-status
+
+	section "Reload"
+	sentinel-reload
+}
+
+# vim: ft=sh
