@@ -20,6 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Wireguard's private key and preshared keys are now anynimized
 - PPPoE password is now anonymized
 
+### Fixed
+
+- `ps` command in dns module is now explicitly busybox implementation
+
 
 ## [13.1.2] - 2021-01-25
 

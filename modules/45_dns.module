@@ -29,7 +29,7 @@ run () {
 
 	section "Resolver process"
 	resolver="$(uci get resolver.common.prefered_resolver)"
-	ps w | grep "$resolver"
+	busybox ps w | grep "$resolver"
 
 	if [ "$resolver" == "kresd" ]; then
 		section "Configured trust anchors"
