@@ -6,10 +6,10 @@ $(gettext "Prints UCI network and wireless settings, current IP addresses, and r
 
 run () {
 	section "Uci wireless"
-	uci show wireless | grep -v ".key="
+	uci show wireless | uci_anonymize '\.key$'
 
 	section "Uci network"
-	uci show network | grep -v ".private_key=" | grep -v ".preshared_key=" | grep -v ".password="
+	uci show network | uci_anonymize '\.(private_key|preshared_key|password)$'
 
 	section "Uci dhcp"
 	uci show dhcp

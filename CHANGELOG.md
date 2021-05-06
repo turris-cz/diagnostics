@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- `uci_anonymize` function that replaces UCI value with asterisks. It is a way to
+  include option in report without getting the real value.
+
+### Changed
+
+- Key in wireless configuration is now anonymized instead of being filtered out
+- Wireguard's private key and preshared keys are now anynimized
+- PPPoE password is now anonymized
+
 
 ## [13.1.2] - 2021-01-25
 

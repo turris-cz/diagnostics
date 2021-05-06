@@ -42,6 +42,22 @@ check_installed() {
 	}
 }
 
+# find uci parameters described by a given regexp and replace their values with asterisk symbols
+uci_anonymize() {
+	awk -v regex="$1" '
+		BEGIN {
+			FS = "="
+			OFS = "="
+		}
+		$1 ~ regex {
+			gsub(".", "*", $2)
+		}
+		{
+			print
+		}
+	'
+}
+
 
 . "$1"
 
