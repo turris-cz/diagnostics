@@ -1,0 +1,14 @@
+#!modules/module.sh
+
+help="
+$(gettext "Honeypot as a Service configuration dump")
+"
+
+run () {
+	check_installed haas-proxy || return 0
+
+	section "UCI"
+	uci show haas | uci_anonymize '\.token$'
+}
+
+# vim: ft=sh
