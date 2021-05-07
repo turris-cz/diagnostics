@@ -9,8 +9,12 @@ run () {
 
 You can ignore this message'
 
+	section "Send testing notification"
 	# Create and send error notification immediately
 	create_notification -t -s error "$message"
+
+	section "User-notify configuration"
+	uci show user_notify | uci_anonymize '\.(username|password|to)$'
 }
 
 # vim: ft=sh
