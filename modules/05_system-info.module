@@ -54,9 +54,7 @@ run () {
 	dump_file '/etc/os-release'
 
 	section "Factory OS release"
-	(
-	. /etc/os-release
-	case "$OPENWRT_DEVICE_PRODUCT" in
+	case "$(device)" in
 		"Turris 1.x")
 			version_1x
 			;;
@@ -70,7 +68,6 @@ run () {
 			error "Can't identify Turris model"
 			;;
 	esac
-	)
 }
 
 # vim: ft=sh

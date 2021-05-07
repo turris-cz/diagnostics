@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Sentinel module
 - HaaS module
 - opkg configuration to package module
+- firmare (uboot) module now queries also for versions of U-Boot, rescue image and
+  secure firmware
 
 ### Changed
 
@@ -28,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   info and was renamed to `sockets`
 - utility function `dump_file` now support multiple files (intended to be used
   with globs)
+- module uboot renamed to firmware
 
 ### Fixed
 

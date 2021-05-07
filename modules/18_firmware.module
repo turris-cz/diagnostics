@@ -1,0 +1,60 @@
+#!modules/module.sh
+
+help="
+$(gettext "Gets versions of firmwares including the U-Boot environment configuration.")
+"
+
+firmware_devices() {
+	case "$(device)" in
+		"Turris 1.x")
+			UBOOT="/dev/mtd5"
+			# Note we have really old rescue without updates so just ignore
+			;;
+		"Turris Omnia")
+			UBOOT="/dev/mtd0"
+			RESCUE="/dev/mtd1"
+			;;
+		"Turris Mox")
+			SECURE_FIRMWARE="/dev/mtd0"
+			UBOOT="/dev/mtd1"
+			RESCUE="/dev/mtd3"
+			;;
+		*)
+			error "Can't identify Turris model"
+			return 1
+			;;
+	esac
+}
+
+
+run() {
+	local SECURE_FIRMWARE
+	local UBOOT
+	local RESCUE
+	firmare_devices || return
+
+	if [ -n "${SECURE_FIRMWARE:-}" ]; then
+		# Note: the first versions of secure firmware had no version info compiled
+		# in and that includes the first official version thus we found no string.
+		section "Secure Firmare version (missing means the initial versions)"
+		strings "$SECURE_FIRMWARE" | grep -E 'CZ\.NIC.*[0=9]{4}'
+	fi
+
+	section "U-Boot version"
+	strings "$UBOOT" | grep -E 'U-Boot.*[0-9]{4}'
+
+	section "U-Boot environment"
+	fw_printenv
+
+	if [ -n "${RESCUE:-}" ]; then
+		# Note: there are multiple versions of rescues in the wild the problem is
+		# that they do not contain version in nay form. The solution here is to
+		# support only the latest version that is compresses using lzma and should
+		# contain version file. It is expected that for anything else this
+		# produces error message that it is not LZMA compressed.
+		section "Rescue image version (this can be missing for even pretty new rescue versions)"
+		lzcat "$RESCUE" | strings | grep 'Turris Rescue'
+	fi
+}
+
+# vim: ft=sh
