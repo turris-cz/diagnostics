@@ -5,15 +5,19 @@ $(gettext "List detected hardware on USB and PCI.")
 "
 
 run () {
-	section cpuinfo
+	section "cpuinfo"
 	cat /proc/cpuinfo
-	section meminfo
+
+	section "meminfo"
 	cat /proc/meminfo
-	section lsusb
+
+	section "lsusb"
 	lsusb -vvv
-	section lspci
+
+	section "lspci"
 	lspci -nn -vvv
-	section sensors
+
+	section "sensors"
 	sensors
 }
 

@@ -15,12 +15,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - (re)Foris module
 - Sentinel module
 - HaaS module
+- opkg configuration to package module
 
 ### Changed
 
 - Key in wireless configuration is now anonymized instead of being filtered out
 - Wireguard's private key and preshared keys are now anynimized
 - PPPoE password is now anonymized
+- serial-number, os-release, uname and uptime modules were merged to single
+  system-info module
+- netstat module now uses `ss` instead of `netstat` and thus provides even more
+  info and was renamed to `sockets`
+- utility function `dump_file` now support multiple files (intended to be used
+  with globs)
 
 ### Fixed
 

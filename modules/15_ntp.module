@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "Print current date and verify that NTP can synchronize time.")
+$(gettext "Verify that NTP can synchronize time.")
 "
 
 get_system_config() {
@@ -12,9 +12,6 @@ get_system_config() {
 
 
 run () {
-	section "Current time"
-	date
-
 	section "UCI configuration"
 	subsection "zonename"
 	get_system_config "zonename"

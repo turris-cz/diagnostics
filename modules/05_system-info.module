@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "Current and factory /etc/os-release file (/etc/turris-version for factory as well).")
+$(gettext "Basic info identifying router and system it is running.")
 "
 
 version_btrfs() {
@@ -38,10 +38,22 @@ version_1x() {
 }
 
 run () {
-	section "Current"
+	section "Serial number"
+	crypto-wrapper serial-number
+
+	section "Kernel system info"
+	uname -a
+
+	section "Uptime"
+	uptime
+
+	section "Current time"
+	date
+
+	section "Current OS release"
 	dump_file '/etc/os-release'
 
-	section "Factory"
+	section "Factory OS release"
 	(
 	. /etc/os-release
 	case "$OPENWRT_DEVICE_PRODUCT" in

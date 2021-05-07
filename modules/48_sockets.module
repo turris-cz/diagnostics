@@ -1,0 +1,11 @@
+#!modules/module.sh
+
+help="
+$(gettext "Prints sockets info about all sockets.")
+"
+
+run() {
+	ss --all --extended --processes --cgroup
+}
+
+# vim: ft=sh

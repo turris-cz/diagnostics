@@ -1,10 +1,28 @@
 #!modules/module.sh
 
 help="
-$(gettext "Dump configuration and try to run the updater.")
+$(gettext "List installed packages and OPKG configuration.")
 "
 
-run () {
+run() {
+	section "Installed packages"
+	opkg list-installed
+
+	section "OPKG feeds update"
+	opkg update
+
+	section "OPKG configuration"
+	dump_file "/etc/opkg/distfeeds.conf"
+	dump_file "/etc/opkg/customfeeds.conf"
+
+	# Note: these are public keys so they are public and there is no issue in
+	# including them as they are.
+	section "OPKG public keys"
+	dump_file /etc/opkg/keys/*
+
+	section "Updater's public keys"
+	dump_file /etc/updater/keys/*
+
 	section "Updater UCI config"
 	dump_file '/etc/config/updater'
 

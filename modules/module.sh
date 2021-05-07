@@ -22,15 +22,16 @@ error() {
 
 
 dump_file() {
-	local file="$1"
-	file_header "$file"
+	for file in "$@"; do
+		file_header "$file"
 
-	[ -f "$file" ] || {
-		error "File not found"
-		return 1
-	}
+		[ -f "$file" ] || {
+			error "File not found"
+			return 1
+		}
 
-	cat "$file"
+		cat "$file"
+	done
 }
 
 

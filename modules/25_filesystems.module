@@ -1,14 +1,21 @@
 #!modules/module.sh
 
 help="
-$(gettext "List all mount points and mount options and all block devices.")
+$(gettext "List all mount points and mount options and all block devices including amount of free space.")
 "
 
 run () {
-	section mount
+	section "Mountpoints"
 	mount
-	section lsblk
+
+	section "Block devices"
 	lsblk -O
+
+	section "Filesystem disk space usage"
+	df -h
+
+	section "File space usage of /tmp"
+	du -ahcx /tmp/
 }
 
 # vim: ft=sh
