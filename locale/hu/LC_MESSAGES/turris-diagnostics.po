@@ -7,89 +7,106 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-01 19:35+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2021-06-01 19:45+0200\n"
+"PO-Revision-Date: 2021-01-08 21:32+0000\n"
+"Last-Translator: Zoli <boritek@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 msgid "print this help text"
-msgstr ""
+msgstr "a súgószöveg nyomtatása"
 
 msgid "list all available modules in machine readable format"
 msgstr ""
+"az összes rendelkezésre álló modul felsorolása géppel olvasható formátumban"
 
 msgid "run in background"
-msgstr ""
+msgstr "futtatás a háttérben"
 
 msgid "print output to a file"
-msgstr ""
+msgstr "kimenet nyomtatása fájlba"
 
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "kimenet nyomtatása mappába, modulonként külön fájlba"
 
 msgid "modules:"
-msgstr ""
+msgstr "modulok:"
 
 msgid "Basic info identifying router and system it is running."
 msgstr ""
 
+#, fuzzy
 msgid "Verify that NTP can synchronize time."
 msgstr ""
+"Nyomtassa ki az aktuális dátumot, és ellenőrizze, hogy az NTP képes-e "
+"szinkronizálni az időt."
 
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
 msgid "List detected hardware on USB and PCI."
-msgstr ""
+msgstr "USB-n és PCI-n észlelt hardverek listázása."
 
+#, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
+"Sorolja fel az összes csatlakoztatási pontot és csatlakoztatási lehetőséget, "
+"valamint az összes blokkeszközt."
 
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
+"Vizsgálja meg a futó szolgáltatásokat, és mutassa meg, hogy a szolgáltatások "
+"indítás után elindultak-e."
 
 msgid "List running processes."
-msgstr ""
+msgstr "Futó folyamatok listája."
 
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
+"Kinyomtatja az UCI hálózati és vezeték nélküli beállításait, az aktuális IP-"
+"címeket és útvonalakat."
 
 msgid "Gather DNS related information."
-msgstr ""
+msgstr "DNS-sel kapcsolatos információk gyűjtése."
 
 msgid "Prints sockets info about all sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
+"Nyomtassa ki az UCI tűzfal beállításait és az iptables aktuális tartalmát."
 
 msgid "Info about the cron."
-msgstr ""
+msgstr "Információ a cronról."
 
+#, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr ""
+msgstr "A telepített csomagok listázása."
 
 msgid "Test whether the Turris webs are available."
-msgstr ""
+msgstr "Ellenőrizze, hogy a Turris hálózatai rendelkezésre állnak-e."
 
+#, fuzzy
 msgid "Prints configuration and state of Foris web interface."
-msgstr ""
+msgstr "Dobja ki a konfigurációt, és próbálja meg futtatni a frissítőt."
 
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Turris-értesítés létrehozása és küldése."
 
 msgid "Run Sentinel Certgen."
-msgstr ""
+msgstr "A Sentinel Certgen futtatása."
 
 msgid "State of Sentinel probes"
 msgstr ""
@@ -98,7 +115,36 @@ msgid "Honeypot as a Service configuration dump"
 msgstr ""
 
 msgid "Read system logs."
-msgstr ""
+msgstr "Rendszernaplók elolvasása."
 
 msgid "Display output of dmesg."
-msgstr ""
+msgstr "A dmesg kimenetének megjelenítése."
+
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "Szerezze be a sorozatszámot a MOX OTP-től vagy az atsha204-től."
+
+#~ msgid ""
+#~ "Current and factory /etc/os-release file (/etc/turris-version for factory "
+#~ "as well)."
+#~ msgstr ""
+#~ "Jelenlegi és gyári /etc/os-release fájl (/etc/turris-version gyárilag is)."
+
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "Információk megjelenítése a Linux kernelről."
+
+#~ msgid "Show how long is the router running."
+#~ msgstr "Mutassa meg, hogy mennyi ideje fut az útválasztó."
+
+#~ msgid "Lists U-Boot environment."
+#~ msgstr "Az U-Boot környezet listázása."
+
+#~ msgid "Show mounted devices and examine files in /tmp/."
+#~ msgstr ""
+#~ "Csatlakoztatott eszközök megjelenítése és fájlok vizsgálata a /tmp/ "
+#~ "kapcsolóban."
+
+#~ msgid "Prints all listening sockets."
+#~ msgstr "Kinyomtatja az összes hallgató aljzatot."
+
+#~ msgid "Try to send firewall logs to the server."
+#~ msgstr "Próbálja meg tűzfalnaplókat elküldeni a kiszolgálóra."

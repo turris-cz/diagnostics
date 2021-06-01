@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-01 19:35+0200\n"
-"PO-Revision-Date: 2020-10-28 21:48+0000\n"
+"POT-Creation-Date: 2021-06-01 19:45+0200\n"
+"PO-Revision-Date: 2021-04-28 09:31+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 msgid "print this help text"
 msgstr "skriv ut denne hjelpeteksten"
@@ -49,16 +49,15 @@ msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
-#, fuzzy
 msgid "List detected hardware on USB and PCI."
-msgstr "list opp oppdaget maskinvare på USB og PCI"
+msgstr "List opp oppdaget maskinvare på USB og PCI."
 
 #, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
-"list opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter."
+"List opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -67,9 +66,8 @@ msgstr ""
 "Undersøker kjørende tjenester, og viser hvorvidt tjenestene er startet etter "
 "oppstart"
 
-#, fuzzy
 msgid "List running processes."
-msgstr "list opp kjørende prosesser"
+msgstr "List opp kjørende prosesser."
 
 #, fuzzy
 msgid ""
@@ -80,7 +78,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Gather DNS related information."
-msgstr "hent DNS-relatert info"
+msgstr "Hent DNS-relatert info."
 
 msgid "Prints sockets info about all sockets."
 msgstr ""
@@ -91,19 +89,18 @@ msgstr "Skriv ut UCI-brannmursinnstillinger og nåværende iptables-innhold."
 
 #, fuzzy
 msgid "Info about the cron."
-msgstr "info om cron-jobber"
+msgstr "Info om cron-jobb."
 
 #, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr "list opp installerte pakker"
+msgstr "List opp installerte pakker."
 
-#, fuzzy
 msgid "Test whether the Turris webs are available."
-msgstr "Tester hvorvidt Turris-nettsiden er tilgjengelig"
+msgstr "Test hvorvidt Turris-nettsiden er tilgjengelig."
 
 #, fuzzy
 msgid "Prints configuration and state of Foris web interface."
-msgstr "dump oppsett og prøv å kjøre oppdatereren"
+msgstr "Dump oppsett og prøv å kjøre oppdatereren."
 
 msgid "Generate and send Turris notification."
 msgstr "Generer og sendt Turris-merknad."
@@ -120,13 +117,12 @@ msgstr ""
 msgid "Read system logs."
 msgstr "Les systemlogger."
 
-#, fuzzy
 msgid "Display output of dmesg."
-msgstr "vis utdata fra dmesg"
+msgstr "Vis utdata fra dmesg."
 
 #, fuzzy
 #~ msgid "Get the serial number from MOX OTP or atsha204."
-#~ msgstr "hent serienummer fra mox-otp eller atsha204"
+#~ msgstr "Hent serienummer fra mox-otp eller ATSHA204."
 
 #, fuzzy
 #~ msgid ""
@@ -136,13 +132,12 @@ msgstr "vis utdata fra dmesg"
 #~ "Siste- og fabrikkgjennoppretting- /etc/os-release-fil (/etc/turris-"
 #~ "version gjenoppretting også)."
 
-#, fuzzy
 #~ msgid "Show info about Linux kernel."
-#~ msgstr "vis info om Linux-kjerne"
+#~ msgstr "Vis info om Linux-kjerne."
 
 #, fuzzy
 #~ msgid "Show how long is the router running."
-#~ msgstr "hvor lenge ruteren kjører"
+#~ msgstr "Vis hvor lenge ruteren kjører."
 
 #, fuzzy
 #~ msgid "Lists U-Boot environment."
@@ -155,9 +150,8 @@ msgstr "vis utdata fra dmesg"
 #~ msgid "Prints all listening sockets."
 #~ msgstr "Skriver ut alle lytte-sockets."
 
-#, fuzzy
 #~ msgid "Try to send firewall logs to the server."
-#~ msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
+#~ msgstr "Forsøk forsendelse av brannmurslogger til tjeneren."
 
 #, fuzzy
 #~ msgid "Read /var/log/messages."
