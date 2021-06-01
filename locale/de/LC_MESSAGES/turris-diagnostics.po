@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 17:40+0200\n"
+"POT-Creation-Date: 2021-06-01 19:35+0200\n"
 "PO-Revision-Date: 2020-03-01 21:32+0000\n"
 "Last-Translator: nautilusx <mail.ka@mailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/turris-"
@@ -38,41 +38,26 @@ msgstr ""
 msgid "modules:"
 msgstr "Module:"
 
-#, fuzzy
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Hole die Seriennummer von mox-otp oder atsha204"
-
-msgid ""
-"Current and factory /etc/os-release file (/etc/turris-version for factory as "
-"well)."
+msgid "Basic info identifying router and system it is running."
 msgstr ""
 
 #, fuzzy
-msgid "Show info about Linux kernel."
-msgstr "Zeige Informationen über den Linux Kernel"
-
-#, fuzzy
-msgid "Show how long is the router running."
-msgstr "Wie lange ist der Router eingeschaltet"
-
-msgid "Print current date and verify that NTP can synchronize time."
+msgid "Verify that NTP can synchronize time."
 msgstr ""
 "Zeige das jetzige Datum und überprüfe ob NTP die Zeit synchronisieren kann."
 
-#, fuzzy
-msgid "Lists U-Boot environment."
-msgstr "Listet die U-Boot Umgebung auf"
+msgid ""
+"Gets versions of firmwares including the U-Boot environment configuration."
+msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Liste der erkannten Hardware auf USB und PCI."
 
 #, fuzzy
-msgid "List all mount points and mount options and all block devices."
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
 msgstr "Liste alle Einhängepunkte und Einhängeoptionen und alle Blockgeräte"
-
-#, fuzzy
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Zeige eingehängte Geräte und untersuche Dateien /tmp/"
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -94,7 +79,7 @@ msgstr ""
 msgid "Gather DNS related information."
 msgstr "Sammle zu DNS gehörende Informationen"
 
-msgid "Prints all listening sockets."
+msgid "Prints sockets info about all sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -104,16 +89,17 @@ msgstr ""
 msgid "Info about the cron."
 msgstr "Informationen über Cron"
 
-msgid "List installed packages."
-msgstr "Installierte Pakete auflisten."
-
 #, fuzzy
-msgid "Dump configuration and try to run the updater."
-msgstr "Liste die Einstellungen auf und versuche das Update auszuführen"
+msgid "List installed packages and OPKG configuration."
+msgstr "Installierte Pakete auflisten."
 
 #, fuzzy
 msgid "Test whether the Turris webs are available."
 msgstr "Prüfe ob die Turris Webseite verfügbar ist"
+
+#, fuzzy
+msgid "Prints configuration and state of Foris web interface."
+msgstr "Liste die Einstellungen auf und versuche das Update auszuführen"
 
 msgid "Generate and send Turris notification."
 msgstr ""
@@ -121,9 +107,11 @@ msgstr ""
 msgid "Run Sentinel Certgen."
 msgstr ""
 
-#, fuzzy
-msgid "Try to send firewall logs to the server."
-msgstr "Versuche Firewall Protokolldaten an den Server zu senden"
+msgid "State of Sentinel probes"
+msgstr ""
+
+msgid "Honeypot as a Service configuration dump"
+msgstr ""
 
 msgid "Read system logs."
 msgstr ""
@@ -131,6 +119,30 @@ msgstr ""
 #, fuzzy
 msgid "Display output of dmesg."
 msgstr "Zeige die Ausgabe von dmesg"
+
+#, fuzzy
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "Hole die Seriennummer von mox-otp oder atsha204"
+
+#, fuzzy
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "Zeige Informationen über den Linux Kernel"
+
+#, fuzzy
+#~ msgid "Show how long is the router running."
+#~ msgstr "Wie lange ist der Router eingeschaltet"
+
+#, fuzzy
+#~ msgid "Lists U-Boot environment."
+#~ msgstr "Listet die U-Boot Umgebung auf"
+
+#, fuzzy
+#~ msgid "Show mounted devices and examine files in /tmp/."
+#~ msgstr "Zeige eingehängte Geräte und untersuche Dateien /tmp/"
+
+#, fuzzy
+#~ msgid "Try to send firewall logs to the server."
+#~ msgstr "Versuche Firewall Protokolldaten an den Server zu senden"
 
 #, fuzzy
 #~ msgid "Read /var/log/messages."

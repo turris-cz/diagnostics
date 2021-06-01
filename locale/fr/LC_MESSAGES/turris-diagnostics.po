@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 17:40+0200\n"
+"POT-Creation-Date: 2021-06-01 19:35+0200\n"
 "PO-Revision-Date: 2020-07-07 19:41+0000\n"
 "Last-Translator: Éfrit <efrit@posteo.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/turris-"
@@ -37,39 +37,28 @@ msgstr "afficher la sortie vers un module de répertoire par fichier"
 msgid "modules:"
 msgstr "modules :"
 
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Obtenez le numéro de série du MOX OTP ou atsha204."
-
-msgid ""
-"Current and factory /etc/os-release file (/etc/turris-version for factory as "
-"well)."
+msgid "Basic info identifying router and system it is running."
 msgstr ""
-"Fichier /etc/os-release actuel et par défaut (/etc/turris-version également "
-"par défaut)."
 
-msgid "Show info about Linux kernel."
-msgstr "Afficher des informations sur le noyau Linux."
-
-msgid "Show how long is the router running."
-msgstr "Montrez depuis combien de temps le routeur fonctionne."
-
-msgid "Print current date and verify that NTP can synchronize time."
+#, fuzzy
+msgid "Verify that NTP can synchronize time."
 msgstr ""
 "Imprimez la date du jour et vérifiez que NTP peut synchroniser l'heure."
 
-msgid "Lists U-Boot environment."
-msgstr "Liste l'environnement d'U-Boot."
+msgid ""
+"Gets versions of firmwares including the U-Boot environment configuration."
+msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Lister le matériel détecté sur USB et PCI."
 
-msgid "List all mount points and mount options and all block devices."
+#, fuzzy
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
 msgstr ""
 "Lister tous les points de montage et les options de montage ainsi que tous "
 "les périphériques de bloc."
-
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Montrez les appareils montés et examinez les fichiers dans /tmp/."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -90,7 +79,7 @@ msgstr ""
 msgid "Gather DNS related information."
 msgstr "Rassembler les informations relatives au DNS."
 
-msgid "Prints all listening sockets."
+msgid "Prints sockets info about all sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -100,15 +89,17 @@ msgstr ""
 msgid "Info about the cron."
 msgstr "Informations sur le cron."
 
-msgid "List installed packages."
+#, fuzzy
+msgid "List installed packages and OPKG configuration."
 msgstr "Liste des paquets installés."
-
-msgid "Dump configuration and try to run the updater."
-msgstr ""
-"Dumper la configuration et essayez d'exécuter le programme de mise à jour."
 
 msgid "Test whether the Turris webs are available."
 msgstr "Vérifiez si les sites web Turris sont disponibles."
+
+#, fuzzy
+msgid "Prints configuration and state of Foris web interface."
+msgstr ""
+"Dumper la configuration et essayez d'exécuter le programme de mise à jour."
 
 msgid "Generate and send Turris notification."
 msgstr "Générer et envoyer le rapport à Turris."
@@ -116,14 +107,42 @@ msgstr "Générer et envoyer le rapport à Turris."
 msgid "Run Sentinel Certgen."
 msgstr "Exécuter la Sentinel Certgen."
 
-msgid "Try to send firewall logs to the server."
-msgstr "Essayez d'envoyer les journaux du pare-feu au serveur."
+msgid "State of Sentinel probes"
+msgstr ""
+
+msgid "Honeypot as a Service configuration dump"
+msgstr ""
 
 msgid "Read system logs."
 msgstr ""
 
 msgid "Display output of dmesg."
 msgstr "Affiche la sortie de dmesg."
+
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "Obtenez le numéro de série du MOX OTP ou atsha204."
+
+#~ msgid ""
+#~ "Current and factory /etc/os-release file (/etc/turris-version for factory "
+#~ "as well)."
+#~ msgstr ""
+#~ "Fichier /etc/os-release actuel et par défaut (/etc/turris-version "
+#~ "également par défaut)."
+
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "Afficher des informations sur le noyau Linux."
+
+#~ msgid "Show how long is the router running."
+#~ msgstr "Montrez depuis combien de temps le routeur fonctionne."
+
+#~ msgid "Lists U-Boot environment."
+#~ msgstr "Liste l'environnement d'U-Boot."
+
+#~ msgid "Show mounted devices and examine files in /tmp/."
+#~ msgstr "Montrez les appareils montés et examinez les fichiers dans /tmp/."
+
+#~ msgid "Try to send firewall logs to the server."
+#~ msgstr "Essayez d'envoyer les journaux du pare-feu au serveur."
 
 #~ msgid "Read /var/log/messages."
 #~ msgstr "Lire /var/log/messages."

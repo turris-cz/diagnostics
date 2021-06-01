@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 17:40+0200\n"
+"POT-Creation-Date: 2021-06-01 19:35+0200\n"
 "PO-Revision-Date: 2020-06-25 14:04+0000\n"
 "Last-Translator: Vojtěch Myslivec <vojtech@xmyslivec.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/turris-"
@@ -37,38 +37,27 @@ msgstr "vypsat výstup do složky do zvlášť souborů pro jednotlivé moduly"
 msgid "modules:"
 msgstr "moduly:"
 
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Získat sériové číslo z MOX OTP nebo atsha204."
-
-msgid ""
-"Current and factory /etc/os-release file (/etc/turris-version for factory as "
-"well)."
+msgid "Basic info identifying router and system it is running."
 msgstr ""
-"Soubor /etc/os-release ze stávajícího a továrního nastavení (a též /etc/"
-"turris-version z továrního)."
 
-msgid "Show info about Linux kernel."
-msgstr "Zobrazit informace o linuxovém jádře."
-
-msgid "Show how long is the router running."
-msgstr "Jak dlouho je router zapnutý."
-
-msgid "Print current date and verify that NTP can synchronize time."
+#, fuzzy
+msgid "Verify that NTP can synchronize time."
 msgstr "Vypsat stávající datum a ověřit, že NTP může synchronizovat čas."
 
-msgid "Lists U-Boot environment."
-msgstr "Vypíše U-Boot prostředí."
+msgid ""
+"Gets versions of firmwares including the U-Boot environment configuration."
+msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Vypsat hardware zjištěné na USB a PCI sběrnicích."
 
-msgid "List all mount points and mount options and all block devices."
+#, fuzzy
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
 msgstr ""
 "Vypsat veškeré přípojné body a předvolby připojení pro všechna bloková "
 "zařízení."
-
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Zobrazí připojená zařízení a prozkoumá soubory v /tmp/."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -87,7 +76,7 @@ msgstr "Vypíše nastavení sítě a Wi-Fi, stávající IP adresy a trasy."
 msgid "Gather DNS related information."
 msgstr "Shromáždit informace související s DNS."
 
-msgid "Prints all listening sockets."
+msgid "Prints sockets info about all sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -97,14 +86,16 @@ msgstr ""
 msgid "Info about the cron."
 msgstr "Informace o naplánovaných úlohách."
 
-msgid "List installed packages."
+#, fuzzy
+msgid "List installed packages and OPKG configuration."
 msgstr "Vypsat nainstalované balíčky."
-
-msgid "Dump configuration and try to run the updater."
-msgstr "Vypsat nastavení a zkusit spustit aktualizaci."
 
 msgid "Test whether the Turris webs are available."
 msgstr "Vyzkoušet, zda jsou dostupné weby Turris."
+
+#, fuzzy
+msgid "Prints configuration and state of Foris web interface."
+msgstr "Vypsat nastavení a zkusit spustit aktualizaci."
 
 msgid "Generate and send Turris notification."
 msgstr "Vytvořit a poslat Turris upozornění."
@@ -112,14 +103,42 @@ msgstr "Vytvořit a poslat Turris upozornění."
 msgid "Run Sentinel Certgen."
 msgstr "Spustit Sentinel Certgen."
 
-msgid "Try to send firewall logs to the server."
-msgstr "Zkusit odeslat záznamy událostí na bráně firewall na server."
+msgid "State of Sentinel probes"
+msgstr ""
+
+msgid "Honeypot as a Service configuration dump"
+msgstr ""
 
 msgid "Read system logs."
 msgstr ""
 
 msgid "Display output of dmesg."
 msgstr "Zobrazí výstup z dmesg."
+
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "Získat sériové číslo z MOX OTP nebo atsha204."
+
+#~ msgid ""
+#~ "Current and factory /etc/os-release file (/etc/turris-version for factory "
+#~ "as well)."
+#~ msgstr ""
+#~ "Soubor /etc/os-release ze stávajícího a továrního nastavení (a též /etc/"
+#~ "turris-version z továrního)."
+
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "Zobrazit informace o linuxovém jádře."
+
+#~ msgid "Show how long is the router running."
+#~ msgstr "Jak dlouho je router zapnutý."
+
+#~ msgid "Lists U-Boot environment."
+#~ msgstr "Vypíše U-Boot prostředí."
+
+#~ msgid "Show mounted devices and examine files in /tmp/."
+#~ msgstr "Zobrazí připojená zařízení a prozkoumá soubory v /tmp/."
+
+#~ msgid "Try to send firewall logs to the server."
+#~ msgstr "Zkusit odeslat záznamy událostí na bráně firewall na server."
 
 #~ msgid "Read /var/log/messages."
 #~ msgstr "Přečíst /var/log/messages."

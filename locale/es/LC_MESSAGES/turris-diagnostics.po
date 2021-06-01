@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 17:40+0200\n"
+"POT-Creation-Date: 2021-06-01 19:35+0200\n"
 "PO-Revision-Date: 2019-10-29 04:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/turris/turris-"
@@ -37,36 +37,22 @@ msgstr "guardar salida en un módulo de directorio por archivo"
 msgid "modules:"
 msgstr "módulos:"
 
-#, fuzzy
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "obtener número de serie de mox-otp o atsha204"
+msgid "Basic info identifying router and system it is running."
+msgstr ""
+
+msgid "Verify that NTP can synchronize time."
+msgstr ""
 
 msgid ""
-"Current and factory /etc/os-release file (/etc/turris-version for factory as "
-"well)."
-msgstr ""
-
-#, fuzzy
-msgid "Show info about Linux kernel."
-msgstr "mostrar información sobre el núcleo Linux"
-
-#, fuzzy
-msgid "Show how long is the router running."
-msgstr "tiempo de ejecución del enrutador"
-
-msgid "Print current date and verify that NTP can synchronize time."
-msgstr ""
-
-msgid "Lists U-Boot environment."
+"Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr ""
 
-msgid "List all mount points and mount options and all block devices."
-msgstr ""
-
-msgid "Show mounted devices and examine files in /tmp/."
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
 msgstr ""
 
 msgid ""
@@ -84,7 +70,7 @@ msgstr ""
 msgid "Gather DNS related information."
 msgstr ""
 
-msgid "Prints all listening sockets."
+msgid "Prints sockets info about all sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -94,13 +80,13 @@ msgid "Info about the cron."
 msgstr ""
 
 #, fuzzy
-msgid "List installed packages."
+msgid "List installed packages and OPKG configuration."
 msgstr "enumerar paquetes instalados"
 
-msgid "Dump configuration and try to run the updater."
+msgid "Test whether the Turris webs are available."
 msgstr ""
 
-msgid "Test whether the Turris webs are available."
+msgid "Prints configuration and state of Foris web interface."
 msgstr ""
 
 msgid "Generate and send Turris notification."
@@ -109,7 +95,10 @@ msgstr ""
 msgid "Run Sentinel Certgen."
 msgstr ""
 
-msgid "Try to send firewall logs to the server."
+msgid "State of Sentinel probes"
+msgstr ""
+
+msgid "Honeypot as a Service configuration dump"
 msgstr ""
 
 msgid "Read system logs."
@@ -117,3 +106,15 @@ msgstr ""
 
 msgid "Display output of dmesg."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "obtener número de serie de mox-otp o atsha204"
+
+#, fuzzy
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "mostrar información sobre el núcleo Linux"
+
+#, fuzzy
+#~ msgid "Show how long is the router running."
+#~ msgstr "tiempo de ejecución del enrutador"

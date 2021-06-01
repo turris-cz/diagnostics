@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 17:40+0200\n"
+"POT-Creation-Date: 2021-06-01 19:35+0200\n"
 "PO-Revision-Date: 2020-05-14 11:41+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/turris-"
@@ -38,39 +38,28 @@ msgstr "вывод на печать в каталог с файлом для к
 msgid "modules:"
 msgstr "модули:"
 
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "Получить серийный номер от MOX OTP или atsha204."
-
-msgid ""
-"Current and factory /etc/os-release file (/etc/turris-version for factory as "
-"well)."
+msgid "Basic info identifying router and system it is running."
 msgstr ""
-"Текущий и заводской файл /etc/os-release (/etc/turris-version также "
-"заводской)."
 
-msgid "Show info about Linux kernel."
-msgstr "Показать информацию о ядре Linux."
-
-msgid "Show how long is the router running."
-msgstr "Время работы маршрутизатора."
-
-msgid "Print current date and verify that NTP can synchronize time."
+#, fuzzy
+msgid "Verify that NTP can synchronize time."
 msgstr ""
 "Вывести текущую дату и убедиться, что NTP может синхронизировать время."
 
-msgid "Lists U-Boot environment."
-msgstr "Списки среды загрузки."
+msgid ""
+"Gets versions of firmwares including the U-Boot environment configuration."
+msgstr ""
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Список обнаруженного оборудования USB и PCI."
 
-msgid "List all mount points and mount options and all block devices."
+#, fuzzy
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
 msgstr ""
 "Перечислите все точки монтирования и опции монтирования и все блочные "
 "устройства."
-
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Показать подключенные устройства и проверить файлы в /tmp/."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -89,7 +78,7 @@ msgstr ""
 msgid "Gather DNS related information."
 msgstr "Собрать информацию, связанную с DNS."
 
-msgid "Prints all listening sockets."
+msgid "Prints sockets info about all sockets."
 msgstr ""
 
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -98,14 +87,16 @@ msgstr "Вывести настройки брандмауэра uci и теку
 msgid "Info about the cron."
 msgstr "Информация о cron."
 
-msgid "List installed packages."
+#, fuzzy
+msgid "List installed packages and OPKG configuration."
 msgstr "Список установленных пакетов."
-
-msgid "Dump configuration and try to run the updater."
-msgstr "Сбросить конфигурацию и попытаться запустить сервис обновлений."
 
 msgid "Test whether the Turris webs are available."
 msgstr "Проверьте, доступны ли сети Turris."
+
+#, fuzzy
+msgid "Prints configuration and state of Foris web interface."
+msgstr "Сбросить конфигурацию и попытаться запустить сервис обновлений."
 
 msgid "Generate and send Turris notification."
 msgstr "Создать и отправить уведомление Turris."
@@ -113,14 +104,42 @@ msgstr "Создать и отправить уведомление Turris."
 msgid "Run Sentinel Certgen."
 msgstr "Запустить генератор сертификатов Sentinel."
 
-msgid "Try to send firewall logs to the server."
-msgstr "Попытка отправить журналы брандмауэра на сервер."
+msgid "State of Sentinel probes"
+msgstr ""
+
+msgid "Honeypot as a Service configuration dump"
+msgstr ""
 
 msgid "Read system logs."
 msgstr ""
 
 msgid "Display output of dmesg."
 msgstr "Показать вывод dmesg."
+
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "Получить серийный номер от MOX OTP или atsha204."
+
+#~ msgid ""
+#~ "Current and factory /etc/os-release file (/etc/turris-version for factory "
+#~ "as well)."
+#~ msgstr ""
+#~ "Текущий и заводской файл /etc/os-release (/etc/turris-version также "
+#~ "заводской)."
+
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "Показать информацию о ядре Linux."
+
+#~ msgid "Show how long is the router running."
+#~ msgstr "Время работы маршрутизатора."
+
+#~ msgid "Lists U-Boot environment."
+#~ msgstr "Списки среды загрузки."
+
+#~ msgid "Show mounted devices and examine files in /tmp/."
+#~ msgstr "Показать подключенные устройства и проверить файлы в /tmp/."
+
+#~ msgid "Try to send firewall logs to the server."
+#~ msgstr "Попытка отправить журналы брандмауэра на сервер."
 
 #~ msgid "Read /var/log/messages."
 #~ msgstr "Считать /var/log/messages."

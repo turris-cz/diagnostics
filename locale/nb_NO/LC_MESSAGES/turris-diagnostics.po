@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 17:40+0200\n"
+"POT-Creation-Date: 2021-06-01 19:35+0200\n"
 "PO-Revision-Date: 2020-10-28 21:48+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
@@ -38,46 +38,27 @@ msgstr "skriv utdata til en katalogmodul per fil"
 msgid "modules:"
 msgstr "moduler:"
 
-#, fuzzy
-msgid "Get the serial number from MOX OTP or atsha204."
-msgstr "hent serienummer fra mox-otp eller atsha204"
-
-#, fuzzy
-msgid ""
-"Current and factory /etc/os-release file (/etc/turris-version for factory as "
-"well)."
+msgid "Basic info identifying router and system it is running."
 msgstr ""
-"Siste- og fabrikkgjennoppretting- /etc/os-release-fil (/etc/turris-version "
-"gjenoppretting også)."
 
 #, fuzzy
-msgid "Show info about Linux kernel."
-msgstr "vis info om Linux-kjerne"
-
-#, fuzzy
-msgid "Show how long is the router running."
-msgstr "hvor lenge ruteren kjører"
-
-#, fuzzy
-msgid "Print current date and verify that NTP can synchronize time."
+msgid "Verify that NTP can synchronize time."
 msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
 
-#, fuzzy
-msgid "Lists U-Boot environment."
-msgstr "Lister opp U-Boot-miljø"
+msgid ""
+"Gets versions of firmwares including the U-Boot environment configuration."
+msgstr ""
 
 #, fuzzy
 msgid "List detected hardware on USB and PCI."
 msgstr "list opp oppdaget maskinvare på USB og PCI"
 
 #, fuzzy
-msgid "List all mount points and mount options and all block devices."
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
 msgstr ""
 "list opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter."
-
-#, fuzzy
-msgid "Show mounted devices and examine files in /tmp/."
-msgstr "Viser monterte enheter og undersøker filer i /tmp/"
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -101,8 +82,8 @@ msgstr ""
 msgid "Gather DNS related information."
 msgstr "hent DNS-relatert info"
 
-msgid "Prints all listening sockets."
-msgstr "Skriver ut alle lytte-sockets."
+msgid "Prints sockets info about all sockets."
+msgstr ""
 
 #, fuzzy
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -113,16 +94,16 @@ msgid "Info about the cron."
 msgstr "info om cron-jobber"
 
 #, fuzzy
-msgid "List installed packages."
+msgid "List installed packages and OPKG configuration."
 msgstr "list opp installerte pakker"
-
-#, fuzzy
-msgid "Dump configuration and try to run the updater."
-msgstr "dump oppsett og prøv å kjøre oppdatereren"
 
 #, fuzzy
 msgid "Test whether the Turris webs are available."
 msgstr "Tester hvorvidt Turris-nettsiden er tilgjengelig"
+
+#, fuzzy
+msgid "Prints configuration and state of Foris web interface."
+msgstr "dump oppsett og prøv å kjøre oppdatereren"
 
 msgid "Generate and send Turris notification."
 msgstr "Generer og sendt Turris-merknad."
@@ -130,9 +111,11 @@ msgstr "Generer og sendt Turris-merknad."
 msgid "Run Sentinel Certgen."
 msgstr "Kjør Sentinel sertifikatsgenerering."
 
-#, fuzzy
-msgid "Try to send firewall logs to the server."
-msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
+msgid "State of Sentinel probes"
+msgstr ""
+
+msgid "Honeypot as a Service configuration dump"
+msgstr ""
 
 msgid "Read system logs."
 msgstr "Les systemlogger."
@@ -140,6 +123,41 @@ msgstr "Les systemlogger."
 #, fuzzy
 msgid "Display output of dmesg."
 msgstr "vis utdata fra dmesg"
+
+#, fuzzy
+#~ msgid "Get the serial number from MOX OTP or atsha204."
+#~ msgstr "hent serienummer fra mox-otp eller atsha204"
+
+#, fuzzy
+#~ msgid ""
+#~ "Current and factory /etc/os-release file (/etc/turris-version for factory "
+#~ "as well)."
+#~ msgstr ""
+#~ "Siste- og fabrikkgjennoppretting- /etc/os-release-fil (/etc/turris-"
+#~ "version gjenoppretting også)."
+
+#, fuzzy
+#~ msgid "Show info about Linux kernel."
+#~ msgstr "vis info om Linux-kjerne"
+
+#, fuzzy
+#~ msgid "Show how long is the router running."
+#~ msgstr "hvor lenge ruteren kjører"
+
+#, fuzzy
+#~ msgid "Lists U-Boot environment."
+#~ msgstr "Lister opp U-Boot-miljø"
+
+#, fuzzy
+#~ msgid "Show mounted devices and examine files in /tmp/."
+#~ msgstr "Viser monterte enheter og undersøker filer i /tmp/"
+
+#~ msgid "Prints all listening sockets."
+#~ msgstr "Skriver ut alle lytte-sockets."
+
+#, fuzzy
+#~ msgid "Try to send firewall logs to the server."
+#~ msgstr "forsøk forsendelse av brannmurslogger til tjeneren"
 
 #, fuzzy
 #~ msgid "Read /var/log/messages."
