@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 19:45+0200\n"
-"PO-Revision-Date: 2020-12-09 06:29+0000\n"
+"PO-Revision-Date: 2021-06-03 07:33+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/turris-"
-"diagnostics/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 msgid "print this help text"
 msgstr "распечатать этот текст справки"
@@ -39,27 +39,24 @@ msgid "modules:"
 msgstr "модули:"
 
 msgid "Basic info identifying router and system it is running."
-msgstr ""
+msgstr "Основная информация о маршрутизаторе и его системе."
 
-#, fuzzy
 msgid "Verify that NTP can synchronize time."
-msgstr ""
-"Вывести текущую дату и убедиться, что NTP может синхронизировать время."
+msgstr "Проверить, что NTP может синхронизировать время."
 
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr ""
+msgstr "Получить версии прошивок, включая конфигурацию среды U-Boot."
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Список обнаруженного оборудования USB и PCI."
 
-#, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
-"Перечислите все точки монтирования и опции монтирования и все блочные "
-"устройства."
+"Список всех точек монтирования и параметров монтирования, а также все "
+"блочные устройства, включая количество свободного места."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -79,7 +76,7 @@ msgid "Gather DNS related information."
 msgstr "Собрать информацию, связанную с DNS."
 
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Вывести информацию обо всех сокетах."
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr "Вывести настройки брандмауэра uci и текущее содержимое iptables."
@@ -87,16 +84,14 @@ msgstr "Вывести настройки брандмауэра uci и теку
 msgid "Info about the cron."
 msgstr "Информация о cron."
 
-#, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr "Список установленных пакетов."
+msgstr "Список установленных пакетов и конфигурации OPKG."
 
 msgid "Test whether the Turris webs are available."
 msgstr "Проверьте, доступны ли сети Turris."
 
-#, fuzzy
 msgid "Prints configuration and state of Foris web interface."
-msgstr "Сбросить конфигурацию и попытаться запустить сервис обновлений."
+msgstr "Вывести конфигурацию и состояние веб-интерфейса Foris."
 
 msgid "Generate and send Turris notification."
 msgstr "Создать и отправить уведомление Turris."
@@ -105,10 +100,10 @@ msgid "Run Sentinel Certgen."
 msgstr "Запустить генератор сертификатов Sentinel."
 
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Состояние зондов Sentinel"
 
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Конфигурация Honeypot как службы"
 
 msgid "Read system logs."
 msgstr "Прочтать системные журналы."
