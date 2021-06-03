@@ -31,7 +31,7 @@ run() {
 	local SECURE_FIRMWARE
 	local UBOOT
 	local RESCUE
-	firmare_devices || return
+	firmware_devices || return
 
 	if [ -n "${SECURE_FIRMWARE:-}" ]; then
 		# Note: the first versions of secure firmware had no version info compiled
