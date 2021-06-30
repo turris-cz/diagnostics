@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 19:45+0200\n"
-"PO-Revision-Date: 2020-12-16 10:29+0000\n"
+"PO-Revision-Date: 2021-07-01 11:33+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/turris-"
-"diagnostics/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 msgid "print this help text"
 msgstr "vypsat tuto nápovědu"
@@ -38,26 +38,24 @@ msgid "modules:"
 msgstr "moduly:"
 
 msgid "Basic info identifying router and system it is running."
-msgstr ""
+msgstr "Základní informace identifikující router a systém, který na něm běží."
 
-#, fuzzy
 msgid "Verify that NTP can synchronize time."
-msgstr "Vypsat stávající datum a ověřit, že NTP může synchronizovat čas."
+msgstr "Ověřit, že NTP může synchronizovat čas."
 
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr ""
+msgstr "Získává verze firmwaru včetně konfigurace prostředí U-Boot."
 
 msgid "List detected hardware on USB and PCI."
 msgstr "Vypsat hardware zjištěné na USB a PCI sběrnicích."
 
-#, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
-"Vypsat veškeré přípojné body a předvolby připojení pro všechna bloková "
-"zařízení."
+"Vypsat veškeré přípojné body, předvolby připojení a všechna bloková zařízení "
+"včetně volného prostoru."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -77,7 +75,7 @@ msgid "Gather DNS related information."
 msgstr "Shromáždit informace související s DNS."
 
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Vypisuje informace o všech socketech."
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
@@ -86,16 +84,14 @@ msgstr ""
 msgid "Info about the cron."
 msgstr "Informace o naplánovaných úlohách."
 
-#, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr "Vypsat nainstalované balíčky."
+msgstr "Vypsat nainstalované balíčky a konfiguraci OPKG."
 
 msgid "Test whether the Turris webs are available."
 msgstr "Vyzkoušet, zda jsou dostupné weby Turris."
 
-#, fuzzy
 msgid "Prints configuration and state of Foris web interface."
-msgstr "Vypsat nastavení a zkusit spustit aktualizaci."
+msgstr "Vypisuje konfiguraci a stav webového rozhraní Foris."
 
 msgid "Generate and send Turris notification."
 msgstr "Vytvořit a poslat Turris upozornění."
@@ -104,10 +100,10 @@ msgid "Run Sentinel Certgen."
 msgstr "Spustit Sentinel Certgen."
 
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Stav sond systému Sentinel"
 
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Výpis konfigurace systému HaaS (Honeypot as a Service)"
 
 msgid "Read system logs."
 msgstr "Číst záznamy systému."
