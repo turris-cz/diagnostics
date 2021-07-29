@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 19:45+0200\n"
-"PO-Revision-Date: 2021-04-28 09:31+0000\n"
+"PO-Revision-Date: 2021-07-29 22:50+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 msgid "print this help text"
 msgstr "skriv ut denne hjelpeteksten"
@@ -39,7 +39,7 @@ msgid "modules:"
 msgstr "moduler:"
 
 msgid "Basic info identifying router and system it is running."
-msgstr ""
+msgstr "Grunnleggende info om ruteren å systemet den kjører."
 
 #, fuzzy
 msgid "Verify that NTP can synchronize time."
@@ -48,6 +48,7 @@ msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
+"Henter versjonsinfo for fastvare, inkludert oppsettet for U-Boot-miljøet."
 
 msgid "List detected hardware on USB and PCI."
 msgstr "List opp oppdaget maskinvare på USB og PCI."
@@ -80,8 +81,9 @@ msgstr ""
 msgid "Gather DNS related information."
 msgstr "Hent DNS-relatert info."
 
+#, fuzzy
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Skriver ut info om alle socket-er."
 
 #, fuzzy
 msgid "Print UCI firewall settings and the current content of iptables."
@@ -108,11 +110,13 @@ msgstr "Generer og sendt Turris-merknad."
 msgid "Run Sentinel Certgen."
 msgstr "Kjør Sentinel sertifikatsgenerering."
 
+#, fuzzy
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Tilstand for Sentinel-prober"
 
+#, fuzzy
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Honningkrukker som tjenesteoppsettsdump"
 
 msgid "Read system logs."
 msgstr "Les systemlogger."
