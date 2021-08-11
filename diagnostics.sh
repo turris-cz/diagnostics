@@ -85,7 +85,7 @@ module_run() {
 
 module_header() {
 	local module="$1"
-	printf "############## %s\n" "$(module_name "$module_name")"
+	printf "############## %s\n" "$(module_name "$module")"
 }
 
 

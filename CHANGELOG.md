@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `firmare_devices: not found` error in `firmware` module
 - red herring SSL error in `turris-webs` module
+- missing a module name in headers
 
 ### Changed
 
