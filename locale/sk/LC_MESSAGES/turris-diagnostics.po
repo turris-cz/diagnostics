@@ -8,97 +8,103 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 19:45+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-06-17 15:34+0000\n"
+"Last-Translator: Atec <nil.maho@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.7\n"
 
 msgid "print this help text"
-msgstr ""
+msgstr "vypísať tento pomocný text"
 
 msgid "list all available modules in machine readable format"
-msgstr ""
+msgstr "zoznam všetkých dostupných modulov v strojovo čitateľnom formáte"
 
 msgid "run in background"
-msgstr ""
+msgstr "spustiť na pozadí"
 
 msgid "print output to a file"
-msgstr ""
+msgstr "vypísať výstup do súboru"
 
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "vypísať výstup do priečinku, pre každý modul samostatný súbor"
 
 msgid "modules:"
-msgstr ""
+msgstr "moduly:"
 
 msgid "Basic info identifying router and system it is running."
-msgstr ""
+msgstr "Základné informácie o routeri a jeho systéme."
 
 msgid "Verify that NTP can synchronize time."
-msgstr ""
+msgstr "Overiť, či je NTP schopný synchronizovať čas."
 
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr ""
+msgstr "Získanie verzie firmwaru vrátane konfigurácie prostredia U-Boot."
 
 msgid "List detected hardware on USB and PCI."
-msgstr ""
+msgstr "Zoznam zisteného hardware na USB a PCI."
 
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
+"Zoznam všetkých bodov pripojenia a možností pripojenia a všetkých blokových "
+"zariadení vrátane voľného miesta."
 
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
+"Preskúmať spustené služby a zobraziť, či sa spúšťajú pri štarte systému."
 
 msgid "List running processes."
-msgstr ""
+msgstr "Zobraziť spustené procesy."
 
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr ""
+msgstr "Vypísať sieť UCI a nastavenia Wi-Fi, aktuálne IP adresy a smerovania."
 
 msgid "Gather DNS related information."
-msgstr ""
+msgstr "Zhromaždiť informácie o DNS."
 
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Vypísať informácie o všetkých socketoch."
 
 msgid "Print UCI firewall settings and the current content of iptables."
-msgstr ""
+msgstr "Vypísať nastavenia UCI firewallu a aktuálny obsah iptables."
 
 msgid "Info about the cron."
-msgstr ""
+msgstr "Informácie o cron."
 
 msgid "List installed packages and OPKG configuration."
-msgstr ""
+msgstr "Vypísať nainštalované balíčky a konfiguráciu OPKG."
 
 msgid "Test whether the Turris webs are available."
-msgstr ""
+msgstr "Otestovať dostupnosť webstránok Turris."
 
 msgid "Prints configuration and state of Foris web interface."
-msgstr ""
+msgstr "Vypísať konfiguráciu a stav webového rozhrania Foris."
 
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Vygenerovať a odoslať Turris notifikáciu."
 
 msgid "Run Sentinel Certgen."
-msgstr ""
+msgstr "Spustiť Sentinel Certgen."
 
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Stav Sentinel Probes"
 
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Dump konfigurácie Honeypot as a Service"
 
 msgid "Read system logs."
-msgstr ""
+msgstr "Načítať systémové záznamy (logy)."
 
 msgid "Display output of dmesg."
-msgstr ""
+msgstr "Zobraziť výstup z dmesg."
