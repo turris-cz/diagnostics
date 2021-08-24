@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - `firmare_devices: not found` error in `firmware` module
 
+### Changed
+
+- packages: limit updater keys we query to `/etc/updater/keys/*.pub` thus
+  ignoring the `*.pub.sig` files that are also stored there.
+
 
 ## [14.0.0] - 2021-06-01
 

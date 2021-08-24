@@ -21,7 +21,7 @@ run() {
 	dump_file /etc/opkg/keys/*
 
 	section "Updater's public keys"
-	dump_file /etc/updater/keys/*
+	dump_file /etc/updater/keys/*.pub
 
 	section "Updater UCI config"
 	dump_file '/etc/config/updater'
