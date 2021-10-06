@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - detection of binary files in `dump_file` and their dump in base64 encoding
   instead of direct inclusion
+- call to `hwinfo` in lshw module
 
 ### Fixed
 

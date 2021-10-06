@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "List detected hardware on USB and PCI.")
+$(gettext "List detected hardware.")
 "
 
 run () {
@@ -19,6 +19,9 @@ run () {
 
 	section "sensors"
 	sensors
+
+	section "hwinfo"
+	hwinfo
 }
 
 # vim: ft=sh
