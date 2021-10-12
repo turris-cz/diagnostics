@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-01 19:45+0200\n"
+"POT-Creation-Date: 2021-10-12 09:52+0200\n"
 "PO-Revision-Date: 2021-01-08 21:32+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/turris-"
@@ -51,7 +51,8 @@ msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
-msgid "List detected hardware on USB and PCI."
+#, fuzzy
+msgid "List detected hardware."
 msgstr "USB-n és PCI-n észlelt hardverek listázása."
 
 #, fuzzy

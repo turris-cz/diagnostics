@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-01 19:45+0200\n"
+"POT-Creation-Date: 2021-10-12 09:52+0200\n"
 "PO-Revision-Date: 2021-07-29 22:50+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
@@ -50,7 +50,8 @@ msgid ""
 msgstr ""
 "Henter versjonsinfo for fastvare, inkludert oppsettet for U-Boot-miljøet."
 
-msgid "List detected hardware on USB and PCI."
+#, fuzzy
+msgid "List detected hardware."
 msgstr "List opp oppdaget maskinvare på USB og PCI."
 
 #, fuzzy
