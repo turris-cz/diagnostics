@@ -17,12 +17,12 @@ LANGUAGE=cs ./diagnostics.sh help
 
 To update messages you can simply call
 ```bash
-make messages
+make update
 ```
 
-Do not forget to call this command when you add new or modify existing
-"gettext" strings.
+Do not forget to call this command when you add new or modify existing "gettext"
+strings.
 
 
 Note that the translations are supposed to be edited using weblate and merged
-backwards afterwards.  See `turris-translations` repository for details.
+backwards afterwards. See `turris-translations` repository for details.

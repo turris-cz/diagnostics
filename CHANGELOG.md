@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - packages: limit updater keys we query to `/etc/updater/keys/*.pub` thus
   ignoring the `*.pub.sig` files that are also stored there.
+- `Makefile` used to manage translations was improved.
 
 
 ## [14.0.0] - 2021-06-01

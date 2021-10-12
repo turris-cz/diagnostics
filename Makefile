@@ -1,45 +1,54 @@
-.PHONY: all clean messages install
+MAKEFLAGS += --no-builtin-rules
 
-all:
-	@echo usage:
-	@echo "  make messages"
-	@echo "  make install"
-	@echo "  make clean"
+LANGS:=$(shell find locale -name turris-diagnostics.po | cut -d '/' -f 2)
+MO:=$(patsubst %.po,%.mo,$(shell find -name turris-diagnostics.po))
 
+.PHONY: all
+all: $(MO)
+	@
+
+.PHONY: clean
 clean:
-	rm -rf locale/*/LC_MESSAGES/turris-diagnostics.mo
-	rm -rf locale/*/LC_MESSAGES/turris-diagnostics.po~
+	rm -f $(MO)
 
-LANGS:=$(shell ls -1 locale | grep -v diagnostics.pot)
-INSTALL_TARGET:=/usr/share
+.PHONY: install
+install:
+	@
 
-# make messages
-#
+.PHONY: update
+update:
+	@
+
+.PHONY: help
+help:
+	@echo 'Top level targets:'
+	@echo '  all: generate *.mo files'
+	@echo '  clean: remove generated *.mo files'
+	@echo '  install: copy *.mo files to $$(DESTDIR)/usr/share/locale/'
+	@echo '  update: extract strings and merge changes from *.pot file to *.po files'
+
+
+$(MO): %.mo: %.po
+	msgfmt --output-file=$@ $<
+
 locale/turris-diagnostics.pot: diagnostics.sh modules/*.module
-	mkdir -p locale/
-	cat diagnostics.sh $^ | xgettext --package-name=turris-diagnostics -d turris-diagnostics --no-location --language=Shell --output=$@ -
+	@mkdir -p "$(@D)"
+	xgettext --package-name=turris-diagnostics -d turris-diagnostics --no-location --language=Shell --output=$@ $^
 
-define UPDATE_TRANSLATION
+define CASEDEF_LANG
 
-locale/$(1)/LC_MESSAGES/turris-diagnostics.po: locale/turris-diagnostics.pot
-	if [ -e "$$@" ] ; then msgmerge --update --lang=$(1) --no-location $$@ $$< ; else msginit -i $$< -l $(1) --no-translator -o $$@ ; fi
+locale/$(1)/turris-diagnostics.po: locale/turris-diagnostics.pot
+	msgmerge --backup off --update "$$@" "$$<"
 
-endef
+.PHONY: install-$(1)
+install: install-$(1)
+install-$(1): locale/$(1)/turris-diagnostics.mo
+	install -D $$< $$(DESTDIR)/usr/share/locale/$(1)/LC_MESSAGES/turris-diagnostics.mo
 
-$(foreach LANG, $(LANGS), $(eval $(call UPDATE_TRANSLATION,$(LANG))))
-
-messages: $(foreach LANG, $(LANGS), locale/$(LANG)/LC_MESSAGES/turris-diagnostics.po)
-
-# make install
-#
-define COMPILE_MESSAGES
-
-locale/$(1)/LC_MESSAGES/turris-diagnostics.mo: locale/$(1)/LC_MESSAGES/turris-diagnostics.po
-	msgfmt -o $$@ $$<
+.PHONY: update-$(1)
+update: update-$(1)
+update-$(1): locale/$(1)/turris-diagnostics.po
+	@
 
 endef
-
-$(foreach LANG, $(LANGS), $(eval $(call COMPILE_MESSAGES,$(LANG))))
-
-install: $(foreach LANG, $(LANGS), locale/$(LANG)/LC_MESSAGES/turris-diagnostics.mo)
-	$(foreach mo_file,$^,install -D $(mo_file) $(INSTALL_TARGET)/$(mo_file);)
+$(foreach LANG, $(LANGS), $(eval $(call CASEDEF_LANG,$(LANG))))
