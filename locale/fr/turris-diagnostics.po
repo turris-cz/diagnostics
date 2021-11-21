@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-12 09:52+0200\n"
-"PO-Revision-Date: 2021-01-15 01:32+0000\n"
-"Last-Translator: Éfrit <efrit@posteo.net>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris/turris-"
-"diagnostics/fr/>\n"
+"PO-Revision-Date: 2021-11-22 10:50+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 msgid "print this help text"
 msgstr "imprimer ce texte d’aide"
@@ -40,6 +40,7 @@ msgstr "modules :"
 
 msgid "Basic info identifying router and system it is running."
 msgstr ""
+"Informations de base identifiant le routeur et le système qu'il utilise."
 
 #, fuzzy
 msgid "Verify that NTP can synchronize time."
@@ -50,9 +51,8 @@ msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
-#, fuzzy
 msgid "List detected hardware."
-msgstr "Lister le matériel détecté sur USB et PCI."
+msgstr "Liste du matériel détecté."
 
 #, fuzzy
 msgid ""
