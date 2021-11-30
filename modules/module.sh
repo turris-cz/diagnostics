@@ -30,7 +30,7 @@ dump_file() {
 			return 1
 		}
 
-		if file -i "$file" | grep "text/plain"; then
+		if file -Li "$file" | grep "text/plain"; then
 			cat "$file"
 		else
 			error "File was detected as binary and is encoded by base64"
