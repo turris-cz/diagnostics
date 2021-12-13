@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-12 09:52+0200\n"
-"PO-Revision-Date: 2021-11-22 10:50+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2021-12-14 23:51+0000\n"
+"Last-Translator: Marc <marco@tru-and-co.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/fr/>\n"
 "Language: fr\n"
@@ -42,25 +42,23 @@ msgid "Basic info identifying router and system it is running."
 msgstr ""
 "Informations de base identifiant le routeur et le système qu'il utilise."
 
-#, fuzzy
 msgid "Verify that NTP can synchronize time."
-msgstr ""
-"Imprimez la date du jour et vérifiez que NTP peut synchroniser l'heure."
+msgstr "Vérifiez que NTP peut synchroniser l'heure."
 
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
+"Obtient les versions des micrologiciels, y compris la configuration U-Boot."
 
 msgid "List detected hardware."
 msgstr "Liste du matériel détecté."
 
-#, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
-"Lister tous les points de montage et les options de montage ainsi que tous "
-"les périphériques de bloc."
+"Lister tous les points et options de montage ainsi que tous les "
+"périphériques de bloc avec l'espace libre."
 
 msgid ""
 "Examine running services and show whether the services are started after "
@@ -82,7 +80,7 @@ msgid "Gather DNS related information."
 msgstr "Rassembler les informations relatives au DNS."
 
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Affiche les informations sur les sockets."
 
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
@@ -91,17 +89,14 @@ msgstr ""
 msgid "Info about the cron."
 msgstr "Informations sur le cron."
 
-#, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr "Liste des paquets installés."
+msgstr "Liste les paquets installés et la configuration du gestionnaire OPKG."
 
 msgid "Test whether the Turris webs are available."
 msgstr "Vérifiez si les sites web Turris sont disponibles."
 
-#, fuzzy
 msgid "Prints configuration and state of Foris web interface."
-msgstr ""
-"Dumper la configuration et essayez d'exécuter le programme de mise à jour."
+msgstr "Affiche l'état et la configuration de l'interface web Foris."
 
 msgid "Generate and send Turris notification."
 msgstr "Générer et envoyer le rapport à Turris."
@@ -110,10 +105,10 @@ msgid "Run Sentinel Certgen."
 msgstr "Exécuter la Sentinel Certgen."
 
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Etat des sondes Sentinel"
 
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Image de la configuration du service pot de miel (HaaS)"
 
 msgid "Read system logs."
 msgstr "Lit les journaux systèmes."
