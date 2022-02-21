@@ -40,6 +40,8 @@ scripting tools (such as `sed` or `awk`):
 * lighttpd
 * create_notification
 * dmesg
+* ethtool
+* hexdump
 
 There are other optional commands that are used when specific software is
 installed but they are tied to that specific software and are not general

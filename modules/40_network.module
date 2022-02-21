@@ -1,8 +1,35 @@
 #!modules/module.sh
+set -eui
 
 help="
 $(gettext "Prints UCI network and wireless settings, current IP addresses, and routes.")
 "
+
+sfp_eth() {
+	case "$(device)" in
+		"Turris 1.x")
+			;;
+		"Turris Omnia")
+			if [ "$(cat "/proc/device-tree/sfp/status")" != "disabled" ]; then
+				# SFP enabled in the device tree and thus should be used
+				echo eth2
+			fi
+			;;
+		"Turris Mox")
+			# The SFP port is named based on modules connected. It is either
+			# directly eth1 or sfp@eth1 if there is switch in between.
+			if [ -e "/sys/class/net/lan1" ]; then
+				echo sfp
+			else
+				echo eth1
+			fi
+			;;
+		*)
+			error "Can't identify Turris model"
+			return 1
+			;;
+	esac
+}
 
 run () {
 	section "Uci wireless"
@@ -25,6 +52,15 @@ run () {
 	section "IPv6"
 	ip -d -6 address
 	ip -d -6 route
+
+	local sfps
+	sfps="$(sfp_eth)" || return
+	for sfp in $sfps; do
+		[ -e "/sys/class/net/$sfp" ] || continue
+		section "SFP ($sfp)"
+		ethtool -m "$sfp"
+		ethtool -m "$sfp" raw on | hexdump -vC
+	done
 }
 
 # vim: ft=sh
