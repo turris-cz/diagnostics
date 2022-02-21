@@ -6,6 +6,46 @@ Diagnostics are divided to modules. New modules can be implemented in modules
 directory. Read README file in modules directory for more on how to create
 modules.
 
+
+Dependencies
+------------
+
+The following commands have to be installed for correct diagnostics
+functionality on top of at minimum ash as shell interpretor with common shell
+scripting tools (such as `sed` or `awk`):
+
+* mount and umount
+* tar
+* uci
+* md5sum
+* strings
+* fw_printenv
+* lzcat
+* lsusb
+* lspci
+* sensors
+* hwinfo
+* lsblk
+* df
+* du
+* ubus
+* busybox
+* pstree
+* dig
+* ss
+* iptables-save
+* opkg
+* pkgupdate
+* curl
+* lighttpd
+* create_notification
+* dmesg
+
+There are other optional commands that are used when specific software is
+installed but they are tied to that specific software and are not general
+diagnostics tools.
+
+
 Localization
 ------------
 
