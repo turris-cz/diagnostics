@@ -16,6 +16,15 @@ run () {
 
 	section "File space usage of /tmp"
 	du -ahcx /tmp/
+
+	if check_installed smartctl; then
+		section "S.M.A.R.T."
+		for drive in /dev/sd* /dev/nvme*; do
+			[ -e "$drive" ] || continue
+			subsection "$drive"
+			smartctl -a "$drive"
+		done
+	fi
 }
 
 # vim: ft=sh
