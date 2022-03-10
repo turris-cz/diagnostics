@@ -8,60 +8,65 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-21 14:41+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-10 07:46+0000\n"
+"Last-Translator: Karel Kočí <karel.koci@nic.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"diagnostics-snapshots-web/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 msgid "Turris Minimal Snapshots Manager"
-msgstr ""
+msgstr "Minimální správce snímků Turris"
 
 msgid "Minimal Snapshots Manager"
-msgstr ""
+msgstr "Minimální správce snímků"
 
 msgid "This page allows the minimal management of system snapshots."
-msgstr ""
+msgstr "Tato stránka Vám umožňuje minimální správu systémových snímků."
 
 msgid "Select snapshot"
-msgstr ""
+msgstr "Zvolte snímek"
 
 msgid "Select the existing snapshot to perform action on."
-msgstr ""
+msgstr "Zvolte existující snímek na kterém chcete provést akci."
 
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
 msgid "Medkit"
-msgstr ""
+msgstr "Medkit"
 
 msgid "Rollback"
-msgstr ""
+msgstr "Vrátit zpět"
 
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 msgid "Password to encrypt snapshot with"
-msgstr ""
+msgstr "Heslo pro zašifrování snímku"
 
 msgid ""
 "The password used to encrypt exported snapshot. It is prefilled with "
 "randomly generated password."
 msgstr ""
+"Heslo, které se použije pro zašifrování exportovaného snímku. Předvyplněná "
+"hodnota je náhodně generované heslo."
 
 msgid "Export selected snapshot"
-msgstr ""
+msgstr "Exportovat zvolený snímek"
 
 msgid "The following snipet shows how to decrypt exported snapshot:"
-msgstr ""
+msgstr "Následující úryvek ukazuje jak odšifrovat exportovaný snímek:"
 
 msgid "Export selected snapshot to be used as Medkit"
-msgstr ""
+msgstr "Exportovat zvolený snímek aby byl použitelný jako Medkit"
 
 msgid "Rollback to the selected snapshot and reboot the router"
-msgstr ""
+msgstr "Vrátit se na zvolený snímek a restartovat router"
 
 msgid "Remove the selected snapshot"
-msgstr ""
+msgstr "Odstranit zvolený snímek"
