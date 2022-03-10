@@ -25,10 +25,13 @@ help:
 	@echo '  update: extract strings and merge changes from *.pot file to *.po files'
 
 
+# $(1): translation name
+# $(2): files translations should be extracted from
 define TRANSLATION
 
 $(1)_PO := $$(shell find locale -name $(1).po)
 $(1)_MO := $$(patsubst %.po,%.mo,$$($(1)_PO))
+$(1)_LANGS := $$(shell find locale -name $(1).po | cut -d '/' -f 2)
 
 .PHONY: $(1) install-$(1) update-$(1)
 
@@ -57,8 +60,9 @@ $$($(1)_MO): %.mo: %.po
 
 .PHONY: install-$(1)
 install: install-$(1)
-install-$(1): $$($(1)_MO)
-	install -D $$^ $$(DESTDIR)/usr/share/locale/$(1)/LC_MESSAGES/$(2).mo
+install-$(1):
+	@
+$$(foreach LANG,$$($(1)_LANGS),$$(eval $$(call TRANSLATION_INSTALL,$(1),$$(LANG))))
 
 clean: clean-$(1)
 clean-$(1):
@@ -66,6 +70,17 @@ clean-$(1):
 
 endef
 
-$(eval $(call TRANSLATION,turris-diagnostics,diagnostics.sh modules/*.module))
+# $(1): translation name
+# $(2): translation language
+define TRANSLATION_INSTALL
+
+.PHONY: install-$(1)-$(2)
+install-$(1): install-$(1)-$(2)
+install-$(1)-$(2): locale/$(2)/$(1).mo
+	install -D $$< $$(DESTDIR)/usr/share/locale/$(2)/LC_MESSAGES/$(1).mo
+
+endef
+
+$(eval $(call TRANSLATION,turris-diagnostics,diagnostics.sh $(wildcard modules/%.module)))
 $(eval $(call TRANSLATION,turris-diagnostics-web,web/diagnostics.sh))
 $(eval $(call TRANSLATION,turris-snapshots-web,web/snapshots.sh))
