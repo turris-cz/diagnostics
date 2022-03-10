@@ -33,14 +33,14 @@ page() {
 			<img class="mb-3" name="img" src="/turris-theme/logo-black.svg" alt="Turris Logo" width="280">
 		</picture>
 		<h2>$(gettext "Diagnostics")</h2>
-		<p>$(gettext "This page allows you to generate diagnostics report for your router Turris.")</p>
+		<p>$(gettext "This page allows you to generate diagnostics report for your Turris router.")</p>
 
 		<a class="btn btn-primary mt-3 mb-3" href="./diagnostics.txt.gz" role="button">
 			$(gettext "Generate and download diagnostics")
 		</a>
 
 		<div class="alert alert-warning mt-3">
-			$(gettext "Make sure that download is finished before you send it to the support or disconnect from router's network. The report is being generated during download so it takes considerable amount of time.")
+			$(gettext "Make sure that download is finished before sending it to support or disconnecting from the router's network. The report is being generated during download, so it takes a considerable amount of time.")
 		</div>
 
 	</div>
