@@ -8,60 +8,70 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-21 14:41+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-10 23:09+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"diagnostics-snapshots-web/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 msgid "Turris Minimal Snapshots Manager"
-msgstr ""
+msgstr "Turris minimal øyeblikkavtrykkshåndterer"
 
 msgid "Minimal Snapshots Manager"
-msgstr ""
+msgstr "Minimal øyeblikkavtrykkshåndterer"
 
 msgid "This page allows the minimal management of system snapshots."
-msgstr ""
+msgstr "Denne siden tillater minimal håndtering av systemavtrykk."
 
 msgid "Select snapshot"
-msgstr ""
+msgstr "Velg avtrykk"
 
 msgid "Select the existing snapshot to perform action on."
-msgstr ""
+msgstr "Velg eksisterende avtrykk å utføre handlingen for."
 
 msgid "Export"
-msgstr ""
+msgstr "Eksporter"
 
+#, fuzzy
 msgid "Medkit"
-msgstr ""
+msgstr "Førstehjelpsskrin"
 
 msgid "Rollback"
-msgstr ""
+msgstr "Rull tilbake"
 
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 msgid "Password to encrypt snapshot with"
-msgstr ""
+msgstr "Passord å kryptere avtrykket med"
 
+#, fuzzy
 msgid ""
 "The password used to encrypt exported snapshot. It is prefilled with "
 "randomly generated password."
 msgstr ""
+"Passord brukt til kryptering av eksportert avtrykk. Det er forhåndsutfylt "
+"med et tilfeldig generert passord."
 
 msgid "Export selected snapshot"
-msgstr ""
+msgstr "Eksporter valgt avtrykk"
 
+#, fuzzy
 msgid "The following snipet shows how to decrypt exported snapshot:"
 msgstr ""
+"Følgende tekstsnutt viser deg hvordan du dekrypterer et eksportert avtrykk:"
 
+#, fuzzy
 msgid "Export selected snapshot to be used as Medkit"
-msgstr ""
+msgstr "Eksporter valgt avtrykk å bruke som førstehjelpsskrin"
 
 msgid "Rollback to the selected snapshot and reboot the router"
-msgstr ""
+msgstr "Rull tilbake til valgt avtrykk og start ruteren på ny"
 
 msgid "Remove the selected snapshot"
-msgstr ""
+msgstr "Fjern valgt avtrykk"
