@@ -24,7 +24,7 @@ page() {
 	</style>
 	<script src="/turris-theme/bootstrap.bundle.min.js"></script>
 	<script src="/turris-theme/darkmode_head.js"></script>
-	<title>$(gettext "Turris Minimal Snapshots Manager")</title>
+	<title>$(gettext "Turris Minimal Snapshot Manager")</title>
 </head>
 <body class="align-middle text-center">
 	<div class="container smaller d-grid mt-5">
@@ -33,9 +33,9 @@ page() {
 			<source name="light" srcset="/turris-theme/logo-black.svg" media="(prefers-color-scheme: light)">
 			<img class="mb-3" name="img" src="/turris-theme/logo-black.svg" alt="Turris Logo" width="280">
 		</picture>
-		<h2>$(gettext "Minimal Snapshots Manager")</h2>
+		<h2>$(gettext "Minimal Snapshot Manager")</h2>
 		<p>
-		$(gettext "This page allows the minimal management of system snapshots.")
+		$(gettext "This page allows minimal management of system snapshots.")
 		</p>
 
 		<form method="get" class="text-start mt-3">
@@ -53,7 +53,7 @@ EOF
 		done
 	cat <<EOF
 				</select>
-				<div id="snapshotHelp" class="form-text">$(gettext "Select the existing snapshot to perform action on.")</div>
+				<div id="snapshotHelp" class="form-text">$(gettext "Select an existing snapshot to perform the action on.")</div>
 			</div>
 
 			<nav>
@@ -68,25 +68,25 @@ EOF
 				<div class="tab-pane fade show active" id="nav-export" role="tabpanel" aria-labelledby="nav-export-tab">
 					<div class="d-grid">
 						<div class="mb-3">
-							<label for="password" class="form-label">$(gettext "Password to encrypt snapshot with")</label>
+							<label for="password" class="form-label">$(gettext "Password to encrypt the snapshot with")</label>
 							<input type="text" class="form-control" name="pass" id="password" aria-describedby="passwordHelp">
-							<div id="passwordHelp" class="form-text">$(gettext "The password used to encrypt exported snapshot. It is prefilled with randomly generated password.")</div>
+							<div id="passwordHelp" class="form-text">$(gettext "Password used to encrypt the exported snapshot. It is prefilled with a randomly generated one.")</div>
 						</div>
 						<button type="submit" formaction="./snapshot.tar.gz.enc" required="password" class="btn btn-primary">$(gettext "Export selected snapshot")</button>
 						<div class="alert alert-secondary mt-5 overflow-auto">
-							$(gettext "The following snipet shows how to decrypt exported snapshot:")
+							$(gettext "The following snippet shows how to decrypt an exported snapshot:")
 							<pre class="border rounded mt-2"><code class="m-2">openssl enc -aes-256-cbc -d -md sha512 -pbkdf2 -iter 10000 -salt -in snapshot.tar.gz.enc -out snapshot.tar.gz</code></pre>
 						</div>
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-medkit" role="tabpanel" aria-labelledby="nav-medkit-tab">
 					<div class="d-grid">
-						<button type="submit" formaction="./snapshot.tar.gz" class="btn btn-primary">$(gettext "Export selected snapshot to be used as Medkit")</button>
+						<button type="submit" formaction="./snapshot.tar.gz" class="btn btn-primary">$(gettext "Export selected snapshot for use as Medkit")</button>
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-rollback" role="tabpanel" aria-labelledby="nav-rollback-tab">
 					<div class="d-grid">
-					<button type="submit" formaction="./snapshot/rollback" class="btn btn-warning">$(gettext "Rollback to the selected snapshot and reboot the router")</button>
+					<button type="submit" formaction="./snapshot/rollback" class="btn btn-warning">$(gettext "Roll back to the selected snapshot and reboot the router")</button>
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-remove" role="tabpanel" aria-labelledby="nav-remove-tab">
