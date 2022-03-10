@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 09:52+0200\n"
+"POT-Creation-Date: 2022-03-10 09:08+0100\n"
 "PO-Revision-Date: 2021-01-08 21:32+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/turris-"
@@ -19,42 +19,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
+#: diagnostics.sh:55
 msgid "print this help text"
 msgstr "a súgószöveg nyomtatása"
 
+#: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
 msgstr ""
 "az összes rendelkezésre álló modul felsorolása géppel olvasható formátumban"
 
+#: diagnostics.sh:57
 msgid "run in background"
 msgstr "futtatás a háttérben"
 
+#: diagnostics.sh:58
 msgid "print output to a file"
 msgstr "kimenet nyomtatása fájlba"
 
+#: diagnostics.sh:59
 msgid "print output to a directory module per file"
 msgstr "kimenet nyomtatása mappába, modulonként külön fájlba"
 
+#: diagnostics.sh:61
 msgid "modules:"
 msgstr "modulok:"
 
+#: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
 msgstr ""
 
+#: modules/15_ntp.module:4
 #, fuzzy
 msgid "Verify that NTP can synchronize time."
 msgstr ""
 "Nyomtassa ki az aktuális dátumot, és ellenőrizze, hogy az NTP képes-e "
 "szinkronizálni az időt."
 
+#: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
+#: modules/20_lshw.module:4
 #, fuzzy
 msgid "List detected hardware."
 msgstr "USB-n és PCI-n észlelt hardverek listázása."
 
+#: modules/25_filesystems.module:4
 #, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
@@ -63,6 +74,7 @@ msgstr ""
 "Sorolja fel az összes csatlakoztatási pontot és csatlakoztatási lehetőséget, "
 "valamint az összes blokkeszközt."
 
+#: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
@@ -70,54 +82,69 @@ msgstr ""
 "Vizsgálja meg a futó szolgáltatásokat, és mutassa meg, hogy a szolgáltatások "
 "indítás után elindultak-e."
 
+#: modules/35_processes.module:4
 msgid "List running processes."
 msgstr "Futó folyamatok listája."
 
+#: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
 "Kinyomtatja az UCI hálózati és vezeték nélküli beállításait, az aktuális IP-"
 "címeket és útvonalakat."
 
+#: modules/45_dns.module:4
 msgid "Gather DNS related information."
 msgstr "DNS-sel kapcsolatos információk gyűjtése."
 
+#: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
 msgstr ""
 
+#: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
 "Nyomtassa ki az UCI tűzfal beállításait és az iptables aktuális tartalmát."
 
+#: modules/55_cron.module:4
 msgid "Info about the cron."
 msgstr "Információ a cronról."
 
+#: modules/60_packages.module:4
 #, fuzzy
 msgid "List installed packages and OPKG configuration."
 msgstr "A telepített csomagok listázása."
 
+#: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
 msgstr "Ellenőrizze, hogy a Turris hálózatai rendelkezésre állnak-e."
 
+#: modules/72_foris.module:4
 #, fuzzy
 msgid "Prints configuration and state of Foris web interface."
 msgstr "Dobja ki a konfigurációt, és próbálja meg futtatni a frissítőt."
 
+#: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
 msgstr "Turris-értesítés létrehozása és küldése."
 
+#: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
 msgstr "A Sentinel Certgen futtatása."
 
+#: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
 msgstr ""
 
+#: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
 msgstr ""
 
+#: modules/95_messages.module:4
 msgid "Read system logs."
 msgstr "Rendszernaplók elolvasása."
 
+#: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
 msgstr "A dmesg kimenetének megjelenítése."
 

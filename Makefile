@@ -1,14 +1,12 @@
 MAKEFLAGS += --no-builtin-rules
 
-MO:=$(patsubst %.po,%.mo,$(shell find -name turris-diagnostics.po -name turris-diagnostics-web.po -name turris-snapshots-web.po))
-
 .PHONY: all
-all: $(MO)
+all:
 	@
 
 .PHONY: clean
 clean:
-	rm -f $(MO)
+	@
 
 .PHONY: install
 install:
@@ -27,51 +25,47 @@ help:
 	@echo '  update: extract strings and merge changes from *.pot file to *.po files'
 
 
-$(MO): %.mo: %.po
-	msgfmt --output-file=$@ $<
+define TRANSLATION
 
-locale/turris-diagnostics.pot: diagnostics.sh modules/*.module
-	@mkdir -p "$(@D)"
-	xgettext --package-name=turris-diagnostics -d turris-diagnostics --no-location --language=Shell --output=$@ $^
+$(1)_PO := $$(shell find locale -name $(1).po)
+$(1)_MO := $$(patsubst %.po,%.mo,$$($(1)_PO))
 
-locale/turris-diagnostics-web.pot: web/diagnostics.sh
-	@mkdir -p "$(@D)"
-	xgettext --package-name=turris-diagnostics-web -d turris-diagnostics-web --no-location --language=Shell --output=$@ $^
+.PHONY: $(1) install-$(1) update-$(1)
 
-locale/turris-snapshots-web.pot: web/snapshots.sh
-	@mkdir -p "$(@D)"
-	xgettext --package-name=turris-snapshots-web -d turris-snapshots-web --no-location --language=Shell --output=$@ $^
+.PHONY: extract-$(1)
+extract: extract-$(1)
+extract-$(1): locale/$(1).pot
+locale/$(1).pot: $(2)
+	@mkdir -p "$$(@D)"
+	xgettext --package-name=$(1) -d $(1) --language=Shell --output=$$@ $$^
 
-
-define CASEDEF_LANG
-
+.PHONY: update-$(1)
+update: update-$(1)
+update-$(1): $$($(1)_PO)
 # The touch in this rule is because msgmerge won't update file if there are no
-# changes and thus won't settle build fully.
-locale/$(1)/$(2).po: locale/$(2).pot
+# changes and thus won't settle build fully. We need to update modification
+# time.
+$$($(1)_PO): %.po: locale/$(1).pot
 	msgmerge --backup off --update "$$@" "$$<"
 	touch "$$@"
 
-.PHONY: update-$(1) update-$(2) update-$(2)-$(1)
-update: update-$(1)
-update-$(1): update-$(2)-$(1)
-update-$(2): update-$(2)-$(1)
-update-$(2)-$(1): locale/$(1)/$(2).po
-	msgmerge --backup off --force-po --update "locale/$(1)/$(2).po" "$$<"
+.PHONY: $(1)
+all: $(1)
+$(1): $$($(1)_MO)
+$$($(1)_MO): %.mo: %.po
+	msgfmt --output-file=$$@ $$<
 
-.PHONY: install-$(1) install-$(2) install-$(2)-$(1)
+.PHONY: install-$(1)
 install: install-$(1)
-install-$(1): install-$(2)-$(1)
-install-$(2): install-$(2)-$(1)
-install-$(2)-$(1): locale/$(1)/$(2).mo
-	install -D $$< $$(DESTDIR)/usr/share/locale/$(1)/LC_MESSAGES/$(2).mo
+install-$(1): $$($(1)_MO)
+	install -D $$^ $$(DESTDIR)/usr/share/locale/$(1)/LC_MESSAGES/$(2).mo
+
+clean: clean-$(1)
+clean-$(1):
+	rm -f $$($(1)_MO)
 
 endef
 
-define CASEDEF_CATALOG
-$(1)_LANGS:=$$(shell find locale -name $(1).po | cut -d '/' -f 2)
-$$(foreach LANG, $$($(1)_LANGS), $$(eval $$(call CASEDEF_LANG,$$(LANG),$(1))))
-endef
-
-$(eval $(call CASEDEF_CATALOG,turris-diagnostics))
-$(eval $(call CASEDEF_CATALOG,turris-diagnostics-web))
-$(eval $(call CASEDEF_CATALOG,turris-snapshots-web))
+$(eval $(call TRANSLATION,turris-diagnostics,diagnostics.sh modules/*.module))
+$(eval $(call TRANSLATION,turris-diagnostics-web,web/diagnostics.sh))
+$(eval $(call TRANSLATION,turris-snapshots-web,web/snapshots.sh))

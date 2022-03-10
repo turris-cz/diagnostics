@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 09:52+0200\n"
+"POT-Creation-Date: 2022-03-10 09:08+0100\n"
 "PO-Revision-Date: 2021-11-25 20:50+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
-"turris-diagnostics/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,37 +19,48 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.10-dev\n"
 
+#: diagnostics.sh:55
 msgid "print this help text"
 msgstr "vytlačiť tento pomocný text"
 
+#: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
 msgstr "zoznam všetkých dostupných modulov v strojovo čitateľnom formáte"
 
+#: diagnostics.sh:57
 msgid "run in background"
 msgstr "spustiť na pozadí"
 
+#: diagnostics.sh:58
 msgid "print output to a file"
 msgstr "zapísať výstup do súboru"
 
+#: diagnostics.sh:59
 msgid "print output to a directory module per file"
 msgstr "zapísať výstup do priečinku, pre každý modul samostatný súbor"
 
+#: diagnostics.sh:61
 msgid "modules:"
 msgstr "moduly:"
 
+#: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
 msgstr "Základné informácie identifikujúce router a jeho systém."
 
+#: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
 msgstr "Overiť, či je NTP schopný synchronizovať čas."
 
+#: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr "Získanie verzie firmwaru vrátane konfigurácie prostredia U-Boot."
 
+#: modules/20_lshw.module:4
 msgid "List detected hardware."
 msgstr "Zobraziť zoznam zisteného hardware."
 
+#: modules/25_filesystems.module:4
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
@@ -57,55 +68,72 @@ msgstr ""
 "Zobraziť zoznam všetkých bodov pripojenia, predvolieb pripojenia a všetkých "
 "blokových zariadení vrátane voľného miesta."
 
+#: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
 "Preskúmať spustené služby a zobraziť, či sa spúšťajú pri štarte systému."
 
+#: modules/35_processes.module:4
 msgid "List running processes."
 msgstr "Zobraziť spustené procesy."
 
+#: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr "Zobraziť nastavenie siete UCI a Wi-Fi, aktuálne IP adresy a smerovania."
+msgstr ""
+"Zobraziť nastavenie siete UCI a Wi-Fi, aktuálne IP adresy a smerovania."
 
+#: modules/45_dns.module:4
 msgid "Gather DNS related information."
 msgstr "Zhromaždiť informácie o DNS."
 
+#: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
 msgstr "Zobraziť informácie o všetkých socketoch."
 
+#: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
 "Zobraziť nastavenia brány firewall v rozhraní UCI a aktuálny obsah iptables."
 
+#: modules/55_cron.module:4
 msgid "Info about the cron."
 msgstr "Informácie o cron."
 
+#: modules/60_packages.module:4
 msgid "List installed packages and OPKG configuration."
 msgstr "Zobraziť nainštalované balíčky a konfiguráciu OPKG."
 
+#: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
 msgstr "Vyskúšať dostupnosť webstránok Turris."
 
+#: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
 msgstr "Zobraziť konfiguráciu a stav webového rozhrania Foris."
 
+#: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
 msgstr "Vytvoriť a odoslať Turris notifikáciu."
 
+#: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
 msgstr "Spustiť Sentinel Certgen."
 
+#: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
 msgstr "Stav sond systému Sentinel"
 
+#: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
 msgstr "Výpis konfigurácie systému HaaS (Honeypot as a Service)"
 
+#: modules/95_messages.module:4
 msgid "Read system logs."
 msgstr "Načítať systémové záznamy (logy)."
 
+#: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
 msgstr "Zobraziť výstup z dmesg."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 09:52+0200\n"
+"POT-Creation-Date: 2022-03-10 09:08+0100\n"
 "PO-Revision-Date: 2020-12-23 12:29+0000\n"
 "Last-Translator: Adam Stańczyk <a.stanczyk@onet.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/turris/turris-"
@@ -20,39 +20,50 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
+#: diagnostics.sh:55
 msgid "print this help text"
 msgstr "wydrukuj ten tekst pomocy"
 
+#: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
 msgstr "lista wszystkich dostępnych modułów w formacie do odczytu maszynowego"
 
+#: diagnostics.sh:57
 msgid "run in background"
 msgstr "uruchom w tle"
 
+#: diagnostics.sh:58
 msgid "print output to a file"
 msgstr "wypisuje dane wyjściowe do pliku"
 
+#: diagnostics.sh:59
 msgid "print output to a directory module per file"
 msgstr "wypisuje dane wyjściowe do modułu katalogu na plik"
 
+#: diagnostics.sh:61
 msgid "modules:"
 msgstr "moduły:"
 
+#: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
 msgstr ""
 
+#: modules/15_ntp.module:4
 #, fuzzy
 msgid "Verify that NTP can synchronize time."
 msgstr "Pokaż aktualną datę i sprawdź, czy NTP może synchronizować czas."
 
+#: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
+#: modules/20_lshw.module:4
 #, fuzzy
 msgid "List detected hardware."
 msgstr "Lista wykrytych urządzeń na USB i PCI."
 
+#: modules/25_filesystems.module:4
 #, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
@@ -61,59 +72,75 @@ msgstr ""
 "Wypisz wszystkie punkty montowania i opcje montowania oraz wszystkie "
 "urządzenia blokowe."
 
+#: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
 "Sprawdź działające usługi i pokaż, czy są one uruchamiane po uruchomieniu."
 
+#: modules/35_processes.module:4
 msgid "List running processes."
 msgstr "Lista uruchomionych procesów."
 
+#: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
 "Drukuje ustawienia sieci i sieci bezprzewodowej UCI, aktualne adresy IP i "
 "trasy."
 
+#: modules/45_dns.module:4
 msgid "Gather DNS related information."
 msgstr "Zbierz informacje związane z DNS."
 
+#: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
 msgstr ""
 
+#: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr "Wyświetl ustawienia zapory UCI i aktualną zawartość iptables."
 
+#: modules/55_cron.module:4
 msgid "Info about the cron."
 msgstr "Informacje o pliku cron."
 
+#: modules/60_packages.module:4
 #, fuzzy
 msgid "List installed packages and OPKG configuration."
 msgstr "Wyświetl listę zainstalowanych pakietów."
 
+#: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
 msgstr "Sprawdź, czy sieci Turris są dostępne."
 
+#: modules/72_foris.module:4
 #, fuzzy
 msgid "Prints configuration and state of Foris web interface."
 msgstr "Zrzuć konfigurację i spróbuj uruchomić aktualizator."
 
+#: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
 msgstr "Wygeneruj i wyślij powiadomienie Turris."
 
+#: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
 msgstr "Uruchom Sentinel Certgen."
 
+#: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
 msgstr ""
 
+#: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
 msgstr ""
 
+#: modules/95_messages.module:4
 msgid "Read system logs."
 msgstr "Przeczytaj dzienniki systemowe."
 
+#: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
 msgstr "Wyświetl wyjście dmesg."
 

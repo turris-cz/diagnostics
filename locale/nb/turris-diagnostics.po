@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 09:52+0200\n"
+"POT-Creation-Date: 2022-03-10 09:08+0100\n"
 "PO-Revision-Date: 2021-07-29 22:50+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
@@ -19,41 +19,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7.2-dev\n"
 
+#: diagnostics.sh:55
 msgid "print this help text"
 msgstr "skriv ut denne hjelpeteksten"
 
+#: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
 msgstr "list opp alle tilgjengelige moduler i maskinlesbart format"
 
+#: diagnostics.sh:57
 msgid "run in background"
 msgstr "kjør i bakgrunnen"
 
+#: diagnostics.sh:58
 msgid "print output to a file"
 msgstr "skriv utdata til en fil"
 
+#: diagnostics.sh:59
 msgid "print output to a directory module per file"
 msgstr "skriv utdata til en katalogmodul per fil"
 
+#: diagnostics.sh:61
 #, fuzzy
 msgid "modules:"
 msgstr "moduler:"
 
+#: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
 msgstr "Grunnleggende info om ruteren å systemet den kjører."
 
+#: modules/15_ntp.module:4
 #, fuzzy
 msgid "Verify that NTP can synchronize time."
 msgstr "Skriv ut nåværende tid og bekreft at NTP kan synkronisere tid."
 
+#: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 "Henter versjonsinfo for fastvare, inkludert oppsettet for U-Boot-miljøet."
 
+#: modules/20_lshw.module:4
 #, fuzzy
 msgid "List detected hardware."
 msgstr "List opp oppdaget maskinvare på USB og PCI."
 
+#: modules/25_filesystems.module:4
 #, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
@@ -61,6 +72,7 @@ msgid ""
 msgstr ""
 "List opp alle monteringspunkter og monteringsvalg, samt alle blokkenheter."
 
+#: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
@@ -68,9 +80,11 @@ msgstr ""
 "Undersøker kjørende tjenester, og viser hvorvidt tjenestene er startet etter "
 "oppstart"
 
+#: modules/35_processes.module:4
 msgid "List running processes."
 msgstr "List opp kjørende prosesser."
 
+#: modules/40_network.module:4
 #, fuzzy
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
@@ -78,50 +92,63 @@ msgstr ""
 "Skriver ut UCI-nettverk- og trådløs-innstillinger, nåværende IP-adresser og "
 "ruter."
 
+#: modules/45_dns.module:4
 #, fuzzy
 msgid "Gather DNS related information."
 msgstr "Hent DNS-relatert info."
 
+#: modules/48_sockets.module:4
 #, fuzzy
 msgid "Prints sockets info about all sockets."
 msgstr "Skriver ut info om alle socket-er."
 
+#: modules/50_firewall.module:4
 #, fuzzy
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr "Skriv ut UCI-brannmursinnstillinger og nåværende iptables-innhold."
 
+#: modules/55_cron.module:4
 #, fuzzy
 msgid "Info about the cron."
 msgstr "Info om cron-jobb."
 
+#: modules/60_packages.module:4
 #, fuzzy
 msgid "List installed packages and OPKG configuration."
 msgstr "List opp installerte pakker."
 
+#: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
 msgstr "Test hvorvidt Turris-nettsiden er tilgjengelig."
 
+#: modules/72_foris.module:4
 #, fuzzy
 msgid "Prints configuration and state of Foris web interface."
 msgstr "Dump oppsett og prøv å kjøre oppdatereren."
 
+#: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
 msgstr "Generer og sendt Turris-merknad."
 
+#: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
 msgstr "Kjør Sentinel sertifikatsgenerering."
 
+#: modules/85_sentinel.module:4
 #, fuzzy
 msgid "State of Sentinel probes"
 msgstr "Tilstand for Sentinel-prober"
 
+#: modules/86_haas.module:4
 #, fuzzy
 msgid "Honeypot as a Service configuration dump"
 msgstr "Honningkrukker som tjenesteoppsettsdump"
 
+#: modules/95_messages.module:4
 msgid "Read system logs."
 msgstr "Les systemlogger."
 
+#: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
 msgstr "Vis utdata fra dmesg."
 

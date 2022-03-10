@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 09:52+0200\n"
+"POT-Creation-Date: 2022-03-10 09:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,89 +17,116 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: diagnostics.sh:55
 msgid "print this help text"
 msgstr ""
 
+#: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
 msgstr ""
 
+#: diagnostics.sh:57
 msgid "run in background"
 msgstr ""
 
+#: diagnostics.sh:58
 msgid "print output to a file"
 msgstr ""
 
+#: diagnostics.sh:59
 msgid "print output to a directory module per file"
 msgstr ""
 
+#: diagnostics.sh:61
 msgid "modules:"
 msgstr ""
 
+#: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
 msgstr ""
 
+#: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
 msgstr ""
 
+#: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
 
+#: modules/20_lshw.module:4
 msgid "List detected hardware."
 msgstr ""
 
+#: modules/25_filesystems.module:4
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
 
+#: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
 
+#: modules/35_processes.module:4
 msgid "List running processes."
 msgstr ""
 
+#: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
 
+#: modules/45_dns.module:4
 msgid "Gather DNS related information."
 msgstr ""
 
+#: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
 msgstr ""
 
+#: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
 
+#: modules/55_cron.module:4
 msgid "Info about the cron."
 msgstr ""
 
+#: modules/60_packages.module:4
 msgid "List installed packages and OPKG configuration."
 msgstr ""
 
+#: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
 msgstr ""
 
+#: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
 msgstr ""
 
+#: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
 msgstr ""
 
+#: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
 msgstr ""
 
+#: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
 msgstr ""
 
+#: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
 msgstr ""
 
+#: modules/95_messages.module:4
 msgid "Read system logs."
 msgstr ""
 
+#: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
 msgstr ""
