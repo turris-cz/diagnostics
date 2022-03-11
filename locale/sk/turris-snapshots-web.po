@@ -8,60 +8,66 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-21 14:41+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-12 19:54+0000\n"
+"Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"diagnostics-snapshots-web/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 msgid "Turris Minimal Snapshots Manager"
-msgstr ""
+msgstr "Minimálny správca bodov obnovenia (snapshots) Turris"
 
 msgid "Minimal Snapshots Manager"
-msgstr ""
+msgstr "Minimálny správca bodov obnovenia"
 
 msgid "This page allows the minimal management of system snapshots."
 msgstr ""
+"Táto stránka umožňuje minimálne spravovanie systémových bodov obnovenia."
 
 msgid "Select snapshot"
-msgstr ""
+msgstr "Vyberte bod obnovenia"
 
 msgid "Select the existing snapshot to perform action on."
-msgstr ""
+msgstr "Vyberte existujúci bod obnovenia, s ktorým sa má vykonať akcia."
 
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
 msgid "Medkit"
-msgstr ""
+msgstr "Medkit"
 
 msgid "Rollback"
-msgstr ""
+msgstr "Vrátiť späť"
 
 msgid "Remove"
-msgstr ""
+msgstr "Odstrániť"
 
 msgid "Password to encrypt snapshot with"
-msgstr ""
+msgstr "Heslo na zašifrovanie bodu obnovenia"
 
 msgid ""
 "The password used to encrypt exported snapshot. It is prefilled with "
 "randomly generated password."
 msgstr ""
+"Heslo na zašifrovanie exportovaného bodu obnovenia. Predvyplnená hodnota je "
+"náhodne generované heslo."
 
 msgid "Export selected snapshot"
-msgstr ""
+msgstr "Exportovať vybraný bod obnovenia"
 
 msgid "The following snipet shows how to decrypt exported snapshot:"
-msgstr ""
+msgstr "Nasledujúca ukážka ilustruje, ako dešifrovať exportovaný bod obnovenia:"
 
 msgid "Export selected snapshot to be used as Medkit"
-msgstr ""
+msgstr "Exportovať vybraný bod obnovenia na použitie ako Medkit"
 
 msgid "Rollback to the selected snapshot and reboot the router"
-msgstr ""
+msgstr "Vrátiť sa na vybraný bod obnovenia a reštartovať router"
 
 msgid "Remove the selected snapshot"
-msgstr ""
+msgstr "Odstrániť vybraný bod obnovenia"
