@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the turris-snapshots-web package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: turris-snapshots-web\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-21 14:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Turris Minimal Snapshots Manager"
+msgstr ""
+
+msgid "Minimal Snapshots Manager"
+msgstr ""
+
+msgid "This page allows the minimal management of system snapshots."
+msgstr ""
+
+msgid "Select snapshot"
+msgstr ""
+
+msgid "Select the existing snapshot to perform action on."
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Medkit"
+msgstr ""
+
+msgid "Rollback"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Password to encrypt snapshot with"
+msgstr ""
+
+msgid ""
+"The password used to encrypt exported snapshot. It is prefilled with "
+"randomly generated password."
+msgstr ""
+
+msgid "Export selected snapshot"
+msgstr ""
+
+msgid "The following snipet shows how to decrypt exported snapshot:"
+msgstr ""
+
+msgid "Export selected snapshot to be used as Medkit"
+msgstr ""
+
+msgid "Rollback to the selected snapshot and reboot the router"
+msgstr ""
+
+msgid "Remove the selected snapshot"
+msgstr ""
