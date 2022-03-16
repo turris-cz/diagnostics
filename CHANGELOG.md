@@ -6,11 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased]
+## [16.0.0] - 2022-03-16
+
+### Added
+
+- standalone web page to generate and download diagnostics
+- standalone web page to export, remove or rollback system snapshots
+- S.M.A.R.T. drive diagnostics as part of filesystems module
 
 ### Fixed
 
 - follow symlink for `dump_file` text file detection
+- invalid locale `nb` renamed to the correct `nb_NO`
+
+### Changed
+
+- removed old Turris specific firewall diagnostics that are no longer valid
 
 
 ## [15.0.0] - 2021-11-15
