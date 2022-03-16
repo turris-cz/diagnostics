@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2021-11-25 20:50+0000\n"
+"PO-Revision-Date: 2022-03-17 17:54+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/turris-"
-"diagnostics/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
@@ -37,7 +37,7 @@ msgstr "zapísať výstup do súboru"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
-msgstr "zapísať výstup do priečinku, pre každý modul samostatný súbor"
+msgstr "zapísať výstup do priečinku, samostatný súbor pre každý modul"
 
 #: diagnostics.sh:61
 msgid "modules:"
@@ -87,7 +87,7 @@ msgstr ""
 
 #: modules/45_dns.module:4
 msgid "Gather DNS related information."
-msgstr "Zhromaždiť informácie o DNS."
+msgstr "Získať informácie súvisiace s DNS."
 
 #: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
@@ -108,7 +108,7 @@ msgstr "Zobraziť nainštalované balíčky a konfiguráciu OPKG."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
-msgstr "Vyskúšať dostupnosť webstránok Turris."
+msgstr "Otestovať dostupnosť webstránok Turris."
 
 #: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
@@ -132,7 +132,7 @@ msgstr "Výpis konfigurácie systému HaaS (Honeypot as a Service)"
 
 #: modules/95_messages.module:4
 msgid "Read system logs."
-msgstr "Načítať systémové záznamy (logy)."
+msgstr "Načítať systémové záznamy."
 
 #: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
