@@ -8,29 +8,32 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-03 01:19+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
-msgstr ""
+msgstr "skriv ut den här hjälptexten"
 
 #: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
-msgstr ""
+msgstr "lista alla tillgängliga moduler i maskinläsbart format"
 
 #: diagnostics.sh:57
 msgid "run in background"
-msgstr ""
+msgstr "kör i bakgrunden"
 
 #: diagnostics.sh:58
 msgid "print output to a file"
-msgstr ""
+msgstr "skriv ut utmatning till en fil"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
@@ -38,7 +41,7 @@ msgstr ""
 
 #: diagnostics.sh:61
 msgid "modules:"
-msgstr ""
+msgstr "moduler:"
 
 #: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
@@ -46,7 +49,7 @@ msgstr ""
 
 #: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
-msgstr ""
+msgstr "Bekräfta att NTP kan synkronisera tid."
 
 #: modules/18_firmware.module:4
 msgid ""
@@ -55,7 +58,7 @@ msgstr ""
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
-msgstr ""
+msgstr "Lista upptäckt hårdvara."
 
 #: modules/25_filesystems.module:4
 msgid ""
@@ -71,7 +74,7 @@ msgstr ""
 
 #: modules/35_processes.module:4
 msgid "List running processes."
-msgstr ""
+msgstr "Lista processer som körs."
 
 #: modules/40_network.module:4
 msgid ""
@@ -80,7 +83,7 @@ msgstr ""
 
 #: modules/45_dns.module:4
 msgid "Gather DNS related information."
-msgstr ""
+msgstr "Samla in DNS-relaterad information."
 
 #: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
@@ -92,11 +95,11 @@ msgstr ""
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."
-msgstr ""
+msgstr "Info om cron-jobbet."
 
 #: modules/60_packages.module:4
 msgid "List installed packages and OPKG configuration."
-msgstr ""
+msgstr "Lista alla installerade paket och OPKG-konfiguration."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
@@ -108,7 +111,7 @@ msgstr ""
 
 #: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Generera och skicka Turris-avisering."
 
 #: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
@@ -124,8 +127,8 @@ msgstr ""
 
 #: modules/95_messages.module:4
 msgid "Read system logs."
-msgstr ""
+msgstr "Läs systemloggar."
 
 #: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
-msgstr ""
+msgstr "Visa dmesg-utmatningen."
