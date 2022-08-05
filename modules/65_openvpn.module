@@ -1,0 +1,15 @@
+#!modules/module.sh
+
+help="
+$(gettext "Display OpenVPN configuration.")
+"
+
+run () {
+        section "OpenVPN server UCI config"
+        uci show openvpn.server_turris
+
+        section "OpenVPN status log"
+        tail -n 100 /tmp/openvpn-status.log
+}
+
+# vim: ft=sh
