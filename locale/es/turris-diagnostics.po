@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2022-09-10 14:23+0000\n"
+"PO-Revision-Date: 2022-09-11 16:16+0000\n"
 "Last-Translator: Dan Cybersec <dan.cybersec@protonmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/es/>\n"
@@ -26,6 +26,7 @@ msgstr "imprimir este texto de ayuda"
 #: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
 msgstr ""
+"listar todos los módulos disponibles en un formato legible para las máquinas"
 
 #: diagnostics.sh:57
 msgid "run in background"
@@ -45,94 +46,101 @@ msgstr "módulos:"
 
 #: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
-msgstr ""
+msgstr "Información básica que identifica el router y el sistema que utiliza."
 
 #: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
-msgstr ""
+msgstr "Verificar que NTP puede sincronizar la hora."
 
 #: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
+"Obtiene las versiones de los firmware incluyendo la configuración de U-Boot."
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
-msgstr ""
+msgstr "Lista de hardware detectada."
 
 #: modules/25_filesystems.module:4
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
+"Listar todos los puntos y opciones de montaje, y todos los dispositivos de "
+"bloque incluyendo la cantidad de espacio disponible."
 
 #: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
+"Examinar los servicios en funcionamiento y mostrar si los servicios son "
+"lanzados después del inicio."
 
 #: modules/35_processes.module:4
 msgid "List running processes."
-msgstr ""
+msgstr "Listar los procesos en ejecución."
 
 #: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
+"Imprimir los ajustes de red UCI e inalámbrica, las direcciones IP actuales y "
+"las rutas."
 
 #: modules/45_dns.module:4
 msgid "Gather DNS related information."
-msgstr ""
+msgstr "Recopilar información relativa al DNS."
 
 #: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Imprime información acerca de los sockets."
 
 #: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
+"Imprimir los ajusted UCI de cortafuegos y el contenido actual de iptables."
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."
-msgstr ""
+msgstr "Información acerca de cron."
 
 #: modules/60_packages.module:4
-#, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr "enumerar paquetes instalados"
+msgstr "Listar los paquetes instalados y la configuración OPKG."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
-msgstr ""
+msgstr "Verificar si los sitios web de Turris están disponibles."
 
 #: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
-msgstr ""
+msgstr "Imprime el estado y la configuración de la interfaz web de Foris."
 
 #: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Generar y enviar el informe a Turris."
 
 #: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
-msgstr ""
+msgstr "Ejecutar Sentinel Certgen."
 
 #: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Estado de las sondas Sentinel"
 
 #: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Volcado de la configuración del servicio de honeypot (HaaS)"
 
 #: modules/95_messages.module:4
 msgid "Read system logs."
-msgstr ""
+msgstr "Leer los registros del sistema."
 
 #: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
-msgstr ""
+msgstr "Mostrar la salida de dmesg."
 
 #, fuzzy
 #~ msgid "Get the serial number from MOX OTP or atsha204."
