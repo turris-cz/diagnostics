@@ -1,7 +1,7 @@
 #!modules/module.sh
 
 help="
-$(gettext "Prints configuration and state of Foris web interface.")
+$(gettext "Prints configuration and state of reForis web interface.")
 "
 
 run () {
@@ -20,10 +20,6 @@ run () {
 	lighttpd -f /etc/lighttpd/lighttpd.conf -p
 	section "reForis Lighttpd configuration"
 	/usr/libexec/reforis/lighttpd-dynamic
-	check_installed foris && {
-		section "Foris Lighttpd configuration segment"
-		/usr/share/foris/lighttpd-dynamic-conf config
-	}
 
 	section "Fosquitto configuration"
 	dump_file /var/etc/fosquitto.generated.conf
