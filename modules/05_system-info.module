@@ -62,7 +62,7 @@ run () {
 			version_btrfs /dev/mmcblk0p1
 			;;
 		"Turris Mox")
-			version_btrfs /dev/mmcblk1p1
+			version_btrfs /dev/mmcblk0p1
 			;;
 		*)
 			error "Can't identify Turris model"
