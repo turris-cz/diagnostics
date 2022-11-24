@@ -1,5 +1,5 @@
 #!modules/module.sh
-set -eui
+set -eu
 
 help="
 $(gettext "Prints UCI network and wireless settings, current IP addresses, and routes.")
