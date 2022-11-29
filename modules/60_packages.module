@@ -15,6 +15,9 @@ run() {
 	dump_file "/etc/opkg/distfeeds.conf"
 	dump_file "/etc/opkg/customfeeds.conf"
 
+	section "OPKG file consistency check"
+	pkg_check
+
 	# Note: these are public keys so they are public and there is no issue in
 	# including them as they are.
 	section "OPKG public keys"
