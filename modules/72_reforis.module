@@ -21,6 +21,9 @@ run () {
 	section "reForis Lighttpd configuration"
 	/usr/libexec/reforis/lighttpd-dynamic
 
+	section "Lighttpd error log"
+	dump_file /var/log/lighttpd/error.log
+
 	section "Fosquitto configuration"
 	dump_file /var/etc/fosquitto.generated.conf
 }
