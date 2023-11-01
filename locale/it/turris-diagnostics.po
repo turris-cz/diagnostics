@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2022-12-31 23:54+0000\n"
+"PO-Revision-Date: 2023-11-03 05:05+0000\n"
 "Last-Translator: Anselmo <anselmo@casinadicornia.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
@@ -33,11 +33,11 @@ msgstr "esegui in background"
 
 #: diagnostics.sh:58
 msgid "print output to a file"
-msgstr "stampa la risposta in un file"
+msgstr "salva la diagnostica in un file"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "salva i file diagnostici nella cartella specificata"
 
 #: diagnostics.sh:61
 msgid "modules:"
@@ -83,55 +83,57 @@ msgstr "Elenca i processi in esecuzione."
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
+"Stampa i parametri di rete UCI e wireless, gli indirizzi attuali e le regole "
+"di instradamento."
 
 #: modules/45_dns.module:4
 msgid "Gather DNS related information."
-msgstr ""
+msgstr "Raccogli le informazioni relative ai DNS."
 
 #: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Stampa le informazioni sui sockets."
 
 #: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
-msgstr ""
+msgstr "Stampa i parametri del firewall UCI e il contenuto attuale di iptables."
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."
-msgstr ""
+msgstr "Informazioni sul cron."
 
 #: modules/60_packages.module:4
 msgid "List installed packages and OPKG configuration."
-msgstr ""
+msgstr "Elenca i pacchetti installati e la configurazione di OPKG."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
-msgstr ""
+msgstr "Verifica la disponibilità dei siti web Turris."
 
 #: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
-msgstr ""
+msgstr "Stampa configurazione e stato dell'interfaccia web Foris."
 
 #: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Genera e spedisci la notifica a Turris."
 
 #: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
-msgstr ""
+msgstr "Esegui Sentinel Certgen."
 
 #: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Stato delle sonde Sentinel"
 
 #: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Scarica la configurazione del servizio Honeypot (Haas)"
 
 #: modules/95_messages.module:4
 msgid "Read system logs."
-msgstr ""
+msgstr "Leggi i log di sistema."
 
 #: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
-msgstr ""
+msgstr "Visualizza l'output di dmesg."
