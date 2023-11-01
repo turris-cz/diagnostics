@@ -8,60 +8,65 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-21 14:41+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-11-03 05:05+0000\n"
+"Last-Translator: Anselmo <anselmo@casinadicornia.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/turris/"
+"diagnostics-snapshots-web/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 msgid "Turris Minimal Snapshots Manager"
-msgstr ""
+msgstr "Semplice gestore degli snapshot di Turris"
 
 msgid "Minimal Snapshots Manager"
-msgstr ""
+msgstr "Semplice gestore degli snapshot"
 
 msgid "This page allows the minimal management of system snapshots."
-msgstr ""
+msgstr "Questa pagina consente una semplice gestione degli snapshot di sistema."
 
 msgid "Select snapshot"
-msgstr ""
+msgstr "Seleziona snapshot"
 
 msgid "Select the existing snapshot to perform action on."
-msgstr ""
+msgstr "Seleziona uno snapshot esistente su cui eseguire l'azione."
 
 msgid "Export"
-msgstr ""
+msgstr "Esporta"
 
 msgid "Medkit"
-msgstr ""
+msgstr "Medkit"
 
 msgid "Rollback"
-msgstr ""
+msgstr "Ripristina"
 
 msgid "Remove"
-msgstr ""
+msgstr "Rimuovi"
 
 msgid "Password to encrypt snapshot with"
-msgstr ""
+msgstr "Password per la cifratura dello snapshot"
 
 msgid ""
 "The password used to encrypt exported snapshot. It is prefilled with "
 "randomly generated password."
 msgstr ""
+"La password utilizzata per cifrare lo snapshot esportato. Precompilata con "
+"una password casuale."
 
 msgid "Export selected snapshot"
-msgstr ""
+msgstr "Esporta lo snapshot selezionato"
 
 msgid "The following snipet shows how to decrypt exported snapshot:"
-msgstr ""
+msgstr "L'esempio seguente mostra come decifrare lo snapshot esportato:"
 
 msgid "Export selected snapshot to be used as Medkit"
-msgstr ""
+msgstr "Esporta lo snapshot selezionato per utilizzarlo come Medkit"
 
 msgid "Rollback to the selected snapshot and reboot the router"
-msgstr ""
+msgstr "Ripristina lo snapshot selezionato e riavvia il router"
 
 msgid "Remove the selected snapshot"
-msgstr ""
+msgstr "Rimuovi lo snapshot selezionato"
