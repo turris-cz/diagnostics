@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 14:41+0100\n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: 2022-03-10 23:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
@@ -19,59 +19,108 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
-msgid "Turris Minimal Snapshots Manager"
-msgstr "Turris minimal øyeblikkavtrykkshåndterer"
-
-msgid "Minimal Snapshots Manager"
+#: web/snapshots.sh:19
+#, fuzzy
+msgid "Minimal Snapshot Manager | Turris"
 msgstr "Minimal øyeblikkavtrykkshåndterer"
 
-msgid "This page allows the minimal management of system snapshots."
+#: web/snapshots.sh:67
+msgid "Toggle theme (auto)"
+msgstr ""
+
+#: web/snapshots.sh:72
+msgid "Toggle theme"
+msgstr ""
+
+#: web/snapshots.sh:92
+msgid "Light"
+msgstr ""
+
+#: web/snapshots.sh:112
+msgid "Dark"
+msgstr ""
+
+#: web/snapshots.sh:132
+msgid "Auto"
+msgstr ""
+
+#: web/snapshots.sh:145
+msgid "Turris Logo"
+msgstr ""
+
+#: web/snapshots.sh:148
+#, fuzzy
+msgid "Minimal Snapshot Manager"
+msgstr "Minimal øyeblikkavtrykkshåndterer"
+
+#: web/snapshots.sh:150
+#, fuzzy
+msgid "This page allows minimal management of system snapshots."
 msgstr "Denne siden tillater minimal håndtering av systemavtrykk."
 
+#: web/snapshots.sh:156
 msgid "Select snapshot"
 msgstr "Velg avtrykk"
 
-msgid "Select the existing snapshot to perform action on."
+#: web/snapshots.sh:176
+#, fuzzy
+msgid "Select an existing snapshot to perform the action on."
 msgstr "Velg eksisterende avtrykk å utføre handlingen for."
 
+#: web/snapshots.sh:196
 msgid "Export"
 msgstr "Eksporter"
 
+#: web/snapshots.sh:210
 #, fuzzy
 msgid "Medkit"
 msgstr "Førstehjelpsskrin"
 
+#: web/snapshots.sh:224
 msgid "Rollback"
 msgstr "Rull tilbake"
 
+#: web/snapshots.sh:238
 msgid "Remove"
 msgstr "Fjern"
 
-msgid "Password to encrypt snapshot with"
+#: web/snapshots.sh:254
+#, fuzzy
+msgid "Password to encrypt the snapshot with"
 msgstr "Passord å kryptere avtrykket med"
 
+#: web/snapshots.sh:264
 #, fuzzy
 msgid ""
-"The password used to encrypt exported snapshot. It is prefilled with "
-"randomly generated password."
+"Password used to encrypt the exported snapshot. It is prefilled with a "
+"randomly generated one."
 msgstr ""
 "Passord brukt til kryptering av eksportert avtrykk. Det er forhåndsutfylt "
 "med et tilfeldig generert passord."
 
+#: web/snapshots.sh:273
 msgid "Export selected snapshot"
 msgstr "Eksporter valgt avtrykk"
 
+#: web/snapshots.sh:279
 #, fuzzy
-msgid "The following snipet shows how to decrypt exported snapshot:"
+msgid "The following snippet shows how to decrypt an exported snapshot:"
 msgstr ""
 "Følgende tekstsnutt viser deg hvordan du dekrypterer et eksportert avtrykk:"
 
+#: web/snapshots.sh:300
 #, fuzzy
-msgid "Export selected snapshot to be used as Medkit"
+msgid "Export selected snapshot for use as Medkit"
 msgstr "Eksporter valgt avtrykk å bruke som førstehjelpsskrin"
 
-msgid "Rollback to the selected snapshot and reboot the router"
+#: web/snapshots.sh:317
+#, fuzzy
+msgid "Roll back to the selected snapshot and reboot the router"
 msgstr "Rull tilbake til valgt avtrykk og start ruteren på ny"
 
+#: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
 msgstr "Fjern valgt avtrykk"
+
+#~ msgid "Turris Minimal Snapshots Manager"
+#~ msgstr "Turris minimal øyeblikkavtrykkshåndterer"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 14:41+0100\n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: 2022-03-12 19:54+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
@@ -19,55 +19,108 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
-msgid "Turris Minimal Snapshots Manager"
-msgstr "Minimálny správca bodov obnovenia (snapshots) Turris"
-
-msgid "Minimal Snapshots Manager"
+#: web/snapshots.sh:19
+#, fuzzy
+msgid "Minimal Snapshot Manager | Turris"
 msgstr "Minimálny správca bodov obnovenia"
 
-msgid "This page allows the minimal management of system snapshots."
+#: web/snapshots.sh:67
+msgid "Toggle theme (auto)"
+msgstr ""
+
+#: web/snapshots.sh:72
+msgid "Toggle theme"
+msgstr ""
+
+#: web/snapshots.sh:92
+msgid "Light"
+msgstr ""
+
+#: web/snapshots.sh:112
+msgid "Dark"
+msgstr ""
+
+#: web/snapshots.sh:132
+msgid "Auto"
+msgstr ""
+
+#: web/snapshots.sh:145
+msgid "Turris Logo"
+msgstr ""
+
+#: web/snapshots.sh:148
+#, fuzzy
+msgid "Minimal Snapshot Manager"
+msgstr "Minimálny správca bodov obnovenia"
+
+#: web/snapshots.sh:150
+#, fuzzy
+msgid "This page allows minimal management of system snapshots."
 msgstr ""
 "Táto stránka umožňuje minimálne spravovanie systémových bodov obnovenia."
 
+#: web/snapshots.sh:156
 msgid "Select snapshot"
 msgstr "Vyberte bod obnovenia"
 
-msgid "Select the existing snapshot to perform action on."
+#: web/snapshots.sh:176
+#, fuzzy
+msgid "Select an existing snapshot to perform the action on."
 msgstr "Vyberte existujúci bod obnovenia, s ktorým sa má vykonať akcia."
 
+#: web/snapshots.sh:196
 msgid "Export"
 msgstr "Export"
 
+#: web/snapshots.sh:210
 msgid "Medkit"
 msgstr "Medkit"
 
+#: web/snapshots.sh:224
 msgid "Rollback"
 msgstr "Vrátiť späť"
 
+#: web/snapshots.sh:238
 msgid "Remove"
 msgstr "Odstrániť"
 
-msgid "Password to encrypt snapshot with"
+#: web/snapshots.sh:254
+#, fuzzy
+msgid "Password to encrypt the snapshot with"
 msgstr "Heslo na zašifrovanie bodu obnovenia"
 
+#: web/snapshots.sh:264
+#, fuzzy
 msgid ""
-"The password used to encrypt exported snapshot. It is prefilled with "
-"randomly generated password."
+"Password used to encrypt the exported snapshot. It is prefilled with a "
+"randomly generated one."
 msgstr ""
 "Heslo na zašifrovanie exportovaného bodu obnovenia. Predvyplnená hodnota je "
 "náhodne generované heslo."
 
+#: web/snapshots.sh:273
 msgid "Export selected snapshot"
 msgstr "Exportovať vybraný bod obnovenia"
 
-msgid "The following snipet shows how to decrypt exported snapshot:"
-msgstr "Nasledujúca ukážka ilustruje, ako dešifrovať exportovaný bod obnovenia:"
+#: web/snapshots.sh:279
+#, fuzzy
+msgid "The following snippet shows how to decrypt an exported snapshot:"
+msgstr ""
+"Nasledujúca ukážka ilustruje, ako dešifrovať exportovaný bod obnovenia:"
 
-msgid "Export selected snapshot to be used as Medkit"
+#: web/snapshots.sh:300
+#, fuzzy
+msgid "Export selected snapshot for use as Medkit"
 msgstr "Exportovať vybraný bod obnovenia na použitie ako Medkit"
 
-msgid "Rollback to the selected snapshot and reboot the router"
+#: web/snapshots.sh:317
+#, fuzzy
+msgid "Roll back to the selected snapshot and reboot the router"
 msgstr "Vrátiť sa na vybraný bod obnovenia a reštartovať router"
 
+#: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
 msgstr "Odstrániť vybraný bod obnovenia"
+
+#~ msgid "Turris Minimal Snapshots Manager"
+#~ msgstr "Minimálny správca bodov obnovenia (snapshots) Turris"

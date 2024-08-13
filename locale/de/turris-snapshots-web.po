@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 14:41+0100\n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: 2023-08-13 10:46+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/"
@@ -19,58 +19,110 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.0-dev\n"
 
-msgid "Turris Minimal Snapshots Manager"
-msgstr "Turris Minimal-Schnappschuss-Manager"
-
-msgid "Minimal Snapshots Manager"
+#: web/snapshots.sh:19
+#, fuzzy
+msgid "Minimal Snapshot Manager | Turris"
 msgstr "Minimal-Schnappschuss-Manager"
 
-msgid "This page allows the minimal management of system snapshots."
+#: web/snapshots.sh:67
+msgid "Toggle theme (auto)"
+msgstr ""
+
+#: web/snapshots.sh:72
+msgid "Toggle theme"
+msgstr ""
+
+#: web/snapshots.sh:92
+msgid "Light"
+msgstr ""
+
+#: web/snapshots.sh:112
+msgid "Dark"
+msgstr ""
+
+#: web/snapshots.sh:132
+msgid "Auto"
+msgstr ""
+
+#: web/snapshots.sh:145
+msgid "Turris Logo"
+msgstr ""
+
+#: web/snapshots.sh:148
+#, fuzzy
+msgid "Minimal Snapshot Manager"
+msgstr "Minimal-Schnappschuss-Manager"
+
+#: web/snapshots.sh:150
+#, fuzzy
+msgid "This page allows minimal management of system snapshots."
 msgstr ""
 "Diese Seite ermöglicht die grundlegende Verwaltung von System-"
 "Schnappschüssen."
 
+#: web/snapshots.sh:156
 msgid "Select snapshot"
 msgstr "Schnappschuss auswählen"
 
-msgid "Select the existing snapshot to perform action on."
+#: web/snapshots.sh:176
+#, fuzzy
+msgid "Select an existing snapshot to perform the action on."
 msgstr "Wählen Sie einen vorhandenen Schnappschuss, den Sie verwalten wollen."
 
+#: web/snapshots.sh:196
 msgid "Export"
 msgstr "Exportieren"
 
+#: web/snapshots.sh:210
 msgid "Medkit"
 msgstr "Medkit (Verbandskasten)"
 
+#: web/snapshots.sh:224
 msgid "Rollback"
 msgstr "Zurückrollen"
 
+#: web/snapshots.sh:238
 msgid "Remove"
 msgstr "Entfernen"
 
-msgid "Password to encrypt snapshot with"
+#: web/snapshots.sh:254
+#, fuzzy
+msgid "Password to encrypt the snapshot with"
 msgstr "Passwort, mit dem der Schnappschuss verschlüsselt werden soll"
 
+#: web/snapshots.sh:264
+#, fuzzy
 msgid ""
-"The password used to encrypt exported snapshot. It is prefilled with "
-"randomly generated password."
+"Password used to encrypt the exported snapshot. It is prefilled with a "
+"randomly generated one."
 msgstr ""
 "Das Passwort, das für die Verschlüsselung des exportierten Schnappschusses "
 "verwendet wird. Es ist mit einem zufällig ausgewürfelten Passwort vorbelegt."
 
+#: web/snapshots.sh:273
 msgid "Export selected snapshot"
 msgstr "Ausgewählten Schnappschuss exportieren"
 
-msgid "The following snipet shows how to decrypt exported snapshot:"
+#: web/snapshots.sh:279
+#, fuzzy
+msgid "The following snippet shows how to decrypt an exported snapshot:"
 msgstr ""
 "Der folgende Ausschnitt zeigt, wie der exportierte Schnappschuss "
 "entschlüsselt wird:"
 
-msgid "Export selected snapshot to be used as Medkit"
+#: web/snapshots.sh:300
+#, fuzzy
+msgid "Export selected snapshot for use as Medkit"
 msgstr "Ausgewählten Schnappschuss zur Verwendung als Medkit exportieren"
 
-msgid "Rollback to the selected snapshot and reboot the router"
+#: web/snapshots.sh:317
+#, fuzzy
+msgid "Roll back to the selected snapshot and reboot the router"
 msgstr "Auf den ausgewählten Schnappschuss zurückrollen und Router neu starten"
 
+#: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
 msgstr "Augewählten Schnappschuss entfernen"
+
+#~ msgid "Turris Minimal Snapshots Manager"
+#~ msgstr "Turris Minimal-Schnappschuss-Manager"
