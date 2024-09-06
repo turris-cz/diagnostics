@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 13:05+0100\n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: 2023-01-03 16:50+0000\n"
 "Last-Translator: Jonas Wiegner <jonas.wiegner@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/"
@@ -19,25 +19,58 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-msgid "Turris Diagnostics"
+#: web/diagnostics.sh:19
+#, fuzzy
+msgid "Diagnostics | Turris"
+msgstr "Diagnose"
+
+#: web/diagnostics.sh:68
+msgid "Toggle theme (auto)"
+msgstr ""
+
+#: web/diagnostics.sh:73
+msgid "Toggle theme"
+msgstr ""
+
+#: web/diagnostics.sh:93
+msgid "Light"
+msgstr ""
+
+#: web/diagnostics.sh:113
+msgid "Dark"
+msgstr ""
+
+#: web/diagnostics.sh:133
+msgid "Auto"
+msgstr ""
+
+#: web/diagnostics.sh:146
+#, fuzzy
+msgid "Turris Logo"
 msgstr "Turris Diagnose"
 
+#: web/diagnostics.sh:149
 msgid "Diagnostics"
 msgstr "Diagnose"
 
+#: web/diagnostics.sh:151
+#, fuzzy
 msgid ""
-"This page allows you to generate diagnostics report for your router Turris."
+"This page allows you to generate diagnostics report for your Turris router."
 msgstr ""
 "Auf dieser Seite können Sie einen Diagnose-Report für Ihren Turris Router "
 "erstellen."
 
+#: web/diagnostics.sh:159
 msgid "Generate and download diagnostics"
 msgstr "Diagnose-Report erstellen und herunterladen"
 
+#: web/diagnostics.sh:163
+#, fuzzy
 msgid ""
-"Make sure that download is finished before you send it to the support or "
-"disconnect from router's network. The report is being generated during "
-"download so it takes considerable amount of time."
+"Make sure that download is finished before sending it to support or "
+"disconnecting from the router's network. The report is being generated "
+"during download, so it takes a considerable amount of time."
 msgstr ""
 "Stellen Sie sicher, dass der Download abgeschlossen ist, bevor Sie ihn an "
 "den Support senden oder sich vom Netzwerk des Routers trennen. Der Report "

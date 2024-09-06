@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 14:41+0100\n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,52 +17,92 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Turris Minimal Snapshots Manager"
+#: web/snapshots.sh:19
+msgid "Minimal Snapshot Manager | Turris"
 msgstr ""
 
-msgid "Minimal Snapshots Manager"
+#: web/snapshots.sh:67
+msgid "Toggle theme (auto)"
 msgstr ""
 
-msgid "This page allows the minimal management of system snapshots."
+#: web/snapshots.sh:72
+msgid "Toggle theme"
 msgstr ""
 
+#: web/snapshots.sh:92
+msgid "Light"
+msgstr ""
+
+#: web/snapshots.sh:112
+msgid "Dark"
+msgstr ""
+
+#: web/snapshots.sh:132
+msgid "Auto"
+msgstr ""
+
+#: web/snapshots.sh:145
+msgid "Turris Logo"
+msgstr ""
+
+#: web/snapshots.sh:148
+msgid "Minimal Snapshot Manager"
+msgstr ""
+
+#: web/snapshots.sh:150
+msgid "This page allows minimal management of system snapshots."
+msgstr ""
+
+#: web/snapshots.sh:156
 msgid "Select snapshot"
 msgstr ""
 
-msgid "Select the existing snapshot to perform action on."
+#: web/snapshots.sh:176
+msgid "Select an existing snapshot to perform the action on."
 msgstr ""
 
+#: web/snapshots.sh:196
 msgid "Export"
 msgstr ""
 
+#: web/snapshots.sh:210
 msgid "Medkit"
 msgstr ""
 
+#: web/snapshots.sh:224
 msgid "Rollback"
 msgstr ""
 
+#: web/snapshots.sh:238
 msgid "Remove"
 msgstr ""
 
-msgid "Password to encrypt snapshot with"
+#: web/snapshots.sh:254
+msgid "Password to encrypt the snapshot with"
 msgstr ""
 
+#: web/snapshots.sh:264
 msgid ""
-"The password used to encrypt exported snapshot. It is prefilled with "
-"randomly generated password."
+"Password used to encrypt the exported snapshot. It is prefilled with a "
+"randomly generated one."
 msgstr ""
 
+#: web/snapshots.sh:273
 msgid "Export selected snapshot"
 msgstr ""
 
-msgid "The following snipet shows how to decrypt exported snapshot:"
+#: web/snapshots.sh:279
+msgid "The following snippet shows how to decrypt an exported snapshot:"
 msgstr ""
 
-msgid "Export selected snapshot to be used as Medkit"
+#: web/snapshots.sh:300
+msgid "Export selected snapshot for use as Medkit"
 msgstr ""
 
-msgid "Rollback to the selected snapshot and reboot the router"
+#: web/snapshots.sh:317
+msgid "Roll back to the selected snapshot and reboot the router"
 msgstr ""
 
+#: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 13:05+0100\n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: 2022-03-17 17:54+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
@@ -19,24 +19,57 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
-msgid "Turris Diagnostics"
+#: web/diagnostics.sh:19
+#, fuzzy
+msgid "Diagnostics | Turris"
+msgstr "Diagnostiky"
+
+#: web/diagnostics.sh:68
+msgid "Toggle theme (auto)"
+msgstr ""
+
+#: web/diagnostics.sh:73
+msgid "Toggle theme"
+msgstr ""
+
+#: web/diagnostics.sh:93
+msgid "Light"
+msgstr ""
+
+#: web/diagnostics.sh:113
+msgid "Dark"
+msgstr ""
+
+#: web/diagnostics.sh:133
+msgid "Auto"
+msgstr ""
+
+#: web/diagnostics.sh:146
+#, fuzzy
+msgid "Turris Logo"
 msgstr "Diagnostika Turris"
 
+#: web/diagnostics.sh:149
 msgid "Diagnostics"
 msgstr "Diagnostiky"
 
+#: web/diagnostics.sh:151
+#, fuzzy
 msgid ""
-"This page allows you to generate diagnostics report for your router Turris."
+"This page allows you to generate diagnostics report for your Turris router."
 msgstr ""
 "Táto stránka vám umožňuje vytvoriť diagnostickú správu vášho routera Turris."
 
+#: web/diagnostics.sh:159
 msgid "Generate and download diagnostics"
 msgstr "Vytvoriť a stiahnuť diagnostiku"
 
+#: web/diagnostics.sh:163
+#, fuzzy
 msgid ""
-"Make sure that download is finished before you send it to the support or "
-"disconnect from router's network. The report is being generated during "
-"download so it takes considerable amount of time."
+"Make sure that download is finished before sending it to support or "
+"disconnecting from the router's network. The report is being generated "
+"during download, so it takes a considerable amount of time."
 msgstr ""
 "Kým súbor odošlete našej podpore, alebo sa odpojíte od siete routera, "
 "ubezpečte sa, že je úplne stiahnutý. Správa sa vytvára počas sťahovania, a "
