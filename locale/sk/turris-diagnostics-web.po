@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2024-09-09 18:09+0000\n"
+"PO-Revision-Date: 2024-10-30 18:03+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #: web/diagnostics.sh:19
 msgid "Diagnostics | Turris"
@@ -25,7 +25,7 @@ msgstr "Diagnostiky | Turris"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr "Prepnúť tému (automaticky)"
+msgstr "Prepnúť tému (auto)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
@@ -41,11 +41,11 @@ msgstr "Tmavá"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
-msgstr "Automatická"
+msgstr "Automaticky"
 
 #: web/diagnostics.sh:146
 msgid "Turris Logo"
-msgstr "Turris Logo"
+msgstr "Logo Turris"
 
 #: web/diagnostics.sh:149
 msgid "Diagnostics"
