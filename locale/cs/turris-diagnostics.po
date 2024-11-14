@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2021-10-20 12:38+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/turris-"
-"diagnostics/cs/>\n"
+"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"turris-diagnostics/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
@@ -45,7 +45,7 @@ msgstr "moduly:"
 
 #: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
-msgstr "Základní informace identifikující router a systém, který na něm běží."
+msgstr "Základní informace identifikující směrovač a systém, který na něm běží."
 
 #: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
@@ -54,7 +54,7 @@ msgstr "Ověřit, že NTP může synchronizovat čas."
 #: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr "Získává verze firmwaru včetně konfigurace prostředí U-Boot."
+msgstr "Získává verze firmwaru včetně nastavení prostředí U-Boot."
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
@@ -112,7 +112,7 @@ msgstr "Vyzkoušet, zda jsou dostupné weby Turris."
 
 #: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
-msgstr "Vypisuje konfiguraci a stav webového rozhraní Foris."
+msgstr "Vypisuje nastavení a stav webového rozhraní Foris."
 
 #: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
@@ -128,11 +128,11 @@ msgstr "Stav sond systému Sentinel"
 
 #: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
-msgstr "Výpis konfigurace systému HaaS (Honeypot as a Service)"
+msgstr "Výpis nastavení systému HaaS (Honeypot as a Service)"
 
 #: modules/95_messages.module:4
 msgid "Read system logs."
-msgstr "Číst záznamy systému."
+msgstr "Číst záznamy událostí v systému."
 
 #: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
