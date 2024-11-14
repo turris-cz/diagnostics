@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2024-09-25 10:15+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/cs/>\n"
 "Language: cs\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: web/snapshots.sh:19
 msgid "Minimal Snapshot Manager | Turris"
-msgstr "Minimální správce snímků | Turris"
+msgstr "Minimální správce zachycených stavů | Turris"
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr "Přepnout téma (auto)"
+msgstr "Přepnout motiv vzhledu (auto)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr "Přepnout téma"
+msgstr "Přepnout motiv vzhledu"
 
 #: web/snapshots.sh:92
 msgid "Light"
-msgstr "Světlé"
+msgstr "Světlý"
 
 #: web/snapshots.sh:112
 msgid "Dark"
-msgstr "Tmavé"
+msgstr "Tmavý"
 
 #: web/snapshots.sh:132
 msgid "Auto"
@@ -49,19 +49,19 @@ msgstr "Logo Turris"
 
 #: web/snapshots.sh:148
 msgid "Minimal Snapshot Manager"
-msgstr "Minimální správce snímků"
+msgstr "Minimální správce zachycených stavů"
 
 #: web/snapshots.sh:150
 msgid "This page allows minimal management of system snapshots."
-msgstr "Tato stránka umožňuje minimální správu systémových snímků."
+msgstr "Tato stránka umožňuje minimální správu zachycených stavů systému."
 
 #: web/snapshots.sh:156
 msgid "Select snapshot"
-msgstr "Zvolit snímek"
+msgstr "Zvolit zachycený stav"
 
 #: web/snapshots.sh:176
 msgid "Select an existing snapshot to perform the action on."
-msgstr "Zvolte existující snímek, na kterém chcete provést akci."
+msgstr "Zvolte existující zachycený stav, na kterém chcete provést akci."
 
 #: web/snapshots.sh:196
 msgid "Export"
@@ -81,35 +81,36 @@ msgstr "Odstranit"
 
 #: web/snapshots.sh:254
 msgid "Password to encrypt the snapshot with"
-msgstr "Heslo pro zašifrování snímku"
+msgstr "Heslo pro zašifrování zachyceného stavu"
 
 #: web/snapshots.sh:264
 msgid ""
 "Password used to encrypt the exported snapshot. It is prefilled with a "
 "randomly generated one."
 msgstr ""
-"Heslo, které se použije pro zašifrování exportovaného snímku. Předvyplněná "
-"hodnota je náhodně generované heslo."
+"Heslo, které se použije pro zašifrování exportovaného zachyceného stavu. "
+"Předvyplněná hodnota je náhodně generované heslo."
 
 #: web/snapshots.sh:273
 msgid "Export selected snapshot"
-msgstr "Exportovat zvolený snímek"
+msgstr "Exportovat zvolený zachycený stav"
 
 #: web/snapshots.sh:279
 msgid "The following snippet shows how to decrypt an exported snapshot:"
-msgstr "Následující úryvek ukazuje, jak dešifrovat exportovaný snímek:"
+msgstr "Následující úryvek ukazuje, jak rozšifrovat exportovaný zachycený stav:"
 
 #: web/snapshots.sh:300
 msgid "Export selected snapshot for use as Medkit"
-msgstr "Exportovat zvolený snímek, aby byl použitelný jako Medkit"
+msgstr "Exportovat zvolený zachycený stav, aby byl použitelný jako Medkit"
 
 #: web/snapshots.sh:317
 msgid "Roll back to the selected snapshot and reboot the router"
-msgstr "Vrátit se na zvolený snímek a restartovat router"
+msgstr ""
+"Vrátit se do podoby ve zvoleném zachyceném stavu a směrovač zrestartovat"
 
 #: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
-msgstr "Odstranit zvolený snímek"
+msgstr "Odstranit zvolený zachycený stav"
 
 #~ msgid "Turris Minimal Snapshots Manager"
 #~ msgstr "Minimální správce snímků Turris"
