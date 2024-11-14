@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2024-09-25 10:15+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: web/diagnostics.sh:19
 msgid "Diagnostics | Turris"
@@ -25,19 +25,19 @@ msgstr "Diagnostiky | Turris"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr "Přepnout téma (auto)"
+msgstr "Přepnout motiv vzhledu (auto)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
-msgstr "Přepnout téma"
+msgstr "Přepnout motiv vzhledu"
 
 #: web/diagnostics.sh:93
 msgid "Light"
-msgstr "Světlé"
+msgstr "Světlý"
 
 #: web/diagnostics.sh:113
 msgid "Dark"
-msgstr "Tmavé"
+msgstr "Tmavý"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
@@ -55,12 +55,12 @@ msgstr "Diagnostiky"
 msgid ""
 "This page allows you to generate diagnostics report for your Turris router."
 msgstr ""
-"Tato stránka vám umožňuje vygenerovat diagnostickou zprávu pro váš router "
+"Tato stránka vám umožňuje vytvořit diagnostické hlášení pro váš směrovač "
 "Turris."
 
 #: web/diagnostics.sh:159
 msgid "Generate and download diagnostics"
-msgstr "Vygenerovat a stáhnout diagnostiky"
+msgstr "Vytvořit a stáhnout si diagnostiky"
 
 #: web/diagnostics.sh:163
 msgid ""
@@ -68,6 +68,6 @@ msgid ""
 "disconnecting from the router's network. The report is being generated "
 "during download, so it takes a considerable amount of time."
 msgstr ""
-"Ujistěte se, že soubor je zcela stažený před tím, než ho odešlete podpoře "
-"nebo se odpojíte od sítě routeru. Stažení zprávy zabere delší čas, protože "
-"se generuje v průběhu stahování."
+"Předtím, než ho odešlete podpoře, nebo se odpojíte od sítě směrovače ověřte, "
+"zda bylo stahování dokončeno. Stažení hlášení zabere delší dobu, protože je "
+"v průběhu stahování teprve vytvářeno."
