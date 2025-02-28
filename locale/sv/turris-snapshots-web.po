@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2023-09-22 20:59+0000\n"
+"PO-Revision-Date: 2025-02-28 17:56+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: web/snapshots.sh:19
 msgid "Minimal Snapshot Manager | Turris"
@@ -25,27 +25,27 @@ msgstr ""
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Växla tema (auto)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr ""
+msgstr "Växla tema"
 
 #: web/snapshots.sh:92
 msgid "Light"
-msgstr ""
+msgstr "Ljust"
 
 #: web/snapshots.sh:112
 msgid "Dark"
-msgstr ""
+msgstr "Mörkt"
 
 #: web/snapshots.sh:132
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
-msgstr ""
+msgstr "Logga för Turris"
 
 #: web/snapshots.sh:148
 msgid "Minimal Snapshot Manager"
