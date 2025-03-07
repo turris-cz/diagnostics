@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2023-09-02 10:52+0000\n"
+"PO-Revision-Date: 2025-02-28 17:56+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/sv/>\n"
@@ -17,44 +17,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: web/diagnostics.sh:19
-#, fuzzy
 msgid "Diagnostics | Turris"
-msgstr "Diagnostik"
+msgstr "Diagnostik | Turris"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Växla tema (auto)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
-msgstr ""
+msgstr "Växla tema"
 
 #: web/diagnostics.sh:93
 msgid "Light"
-msgstr ""
+msgstr "Ljust"
 
 #: web/diagnostics.sh:113
 msgid "Dark"
-msgstr ""
+msgstr "Mörkt"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #: web/diagnostics.sh:146
-#, fuzzy
 msgid "Turris Logo"
-msgstr "Diagnostik för Turris"
+msgstr "Logga för Turris"
 
 #: web/diagnostics.sh:149
 msgid "Diagnostics"
 msgstr "Diagnostik"
 
 #: web/diagnostics.sh:151
-#, fuzzy
 msgid ""
 "This page allows you to generate diagnostics report for your Turris router."
 msgstr ""

@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [18.2.0] - 2025-03-07
+
+### Added
+
+- Added & updated Weblate translations
+
 ## [18.1.0] - 2024-09-06
 
 ### Added
@@ -15,7 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Migrated snapshots web to latest Bootstrap
 - Migrated diagnostics web to latest Bootstrap
-
 
 ## [18.0.0] - 2023-03-28
 
@@ -29,7 +34,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - network: fix illegal option caused by set
-
 
 ## [17.0.0] - 2022-11-08
 
@@ -45,7 +49,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - foris module: rename to reforis, remove Foris specific diagnostics as Foris was removed in Turris OS 6.0
-
 
 ## [16.0.0] - 2022-03-16
 
@@ -63,7 +66,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - removed old Turris specific firewall diagnostics that are no longer valid
-
 
 ## [15.0.0] - 2021-11-15
 
@@ -84,7 +86,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - packages: limit updater keys we query to `/etc/updater/keys/*.pub` thus
   ignoring the `*.pub.sig` files that are also stored there.
 - `Makefile` used to manage translations was improved.
-
 
 ## [14.0.0] - 2021-06-01
 
@@ -121,7 +122,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - nikola module
 
-
 ## [13.1.2] - 2021-01-25
 
 ### Changed
@@ -131,7 +131,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - `nikola` fixed to call `sentinel-nikola` instead of `nikola`
-
 
 ## [13.1.1] - 2020-12-07
 
@@ -143,7 +142,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Ignored command line options when background mode was used
 
-
 ## [13.1] - 2020-10-28
 
 ### Added
@@ -154,7 +152,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `dns` module: Update list of domain names for resolution attempts
 - Update Norwegian translations
-
 
 ## [13.0.0] - 2020-10-05
 
@@ -183,13 +180,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Virtual module `help` as now help can be obtained with `-h` switch
 
-
 ## [12.3.1] - 2020-09-25
 
 ### Changed
 
 - Update translations
-
 
 ## [12.3] - 2020-09-25
 
@@ -197,22 +192,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix compatibility with a newer version of kresd in `dns` module
 
-
 ## [12.2] - 2020-05-04
 
 ### Changed
 
-- Close *stdin* when running modules
+- Close _stdin_ when running modules
 - Improve `os_release` module error handling
 - Update translations
-
 
 ## [12.1] - 2020-05-04
 
 ### Changed
 
 - Improve `date` module, add country and timezone info
-
 
 ## [12.0] - 2020-05-03
 
@@ -226,24 +218,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Run modules in given order by prepend their names with numbers
 - Refactor and add common modules functions
 - `updater` module
-    - Include UCI config in diagnostics
-    - Improve shell code
+  - Include UCI config in diagnostics
+  - Improve shell code
 - `os_release` module
-    - Fix for latest OpenWrt release
-    - Improve shell code
+  - Fix for latest OpenWrt release
+  - Improve shell code
 - `messages` module
-    - Shell refactoring
+  - Shell refactoring
 - `dns` module
-    - Fix shell quoting and output format
-    - Update list of Turris domains
-
+  - Fix shell quoting and output format
+  - Update list of Turris domains
 
 ## [11.6] - 2020-04-19
 
 ### Changed
 
 - Fix `os_release` module
-
 
 ## [11.5] - 2020-04-11
 
@@ -252,14 +242,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix `nikola` module
 - Refactor modules sections
 
-
 ## [11.4] - 2020-03-09
 
 ### Changed
 
 - Improve `cron` module
 - Update translations
-
 
 ## [11.3] - 2020-03-07
 
@@ -268,13 +256,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Synchronize module description
 - Update translations
 
-
 ## [11.2] - 2019-10-23
 
 ### Added
 
 - Set `TEXTDOMAINDIR` for l10n
-
 
 ## [11.1] - 2019-10-23
 
@@ -283,20 +269,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix Makefile
 - Update translations
 
-
 ## [11.0] - 2019-10-17
 
 ### Added
 
 - l10n support
 
-
 ## [10.1] - 2019-05-06
 
 ### Changed
 
 - Fix `turris_webs` module
-
 
 ## [10.0] - 2019-04-23
 

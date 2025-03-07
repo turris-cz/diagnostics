@@ -8,64 +8,60 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2022-03-10 07:46+0000\n"
-"Last-Translator: Karel Kočí <karel.koci@nic.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/diagnostics-"
-"snapshots-web/cs/>\n"
+"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"diagnostics-snapshots-web/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: web/snapshots.sh:19
-#, fuzzy
 msgid "Minimal Snapshot Manager | Turris"
-msgstr "Minimální správce snímků"
+msgstr "Minimální správce zachycených stavů | Turris"
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Přepnout motiv vzhledu (auto)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr ""
+msgstr "Přepnout motiv vzhledu"
 
 #: web/snapshots.sh:92
 msgid "Light"
-msgstr ""
+msgstr "Světlý"
 
 #: web/snapshots.sh:112
 msgid "Dark"
-msgstr ""
+msgstr "Tmavý"
 
 #: web/snapshots.sh:132
 msgid "Auto"
-msgstr ""
+msgstr "Automaticky"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
-msgstr ""
+msgstr "Logo Turris"
 
 #: web/snapshots.sh:148
-#, fuzzy
 msgid "Minimal Snapshot Manager"
-msgstr "Minimální správce snímků"
+msgstr "Minimální správce zachycených stavů"
 
 #: web/snapshots.sh:150
-#, fuzzy
 msgid "This page allows minimal management of system snapshots."
-msgstr "Tato stránka Vám umožňuje minimální správu systémových snímků."
+msgstr "Tato stránka umožňuje minimální správu zachycených stavů systému."
 
 #: web/snapshots.sh:156
 msgid "Select snapshot"
-msgstr "Zvolte snímek"
+msgstr "Zvolit zachycený stav"
 
 #: web/snapshots.sh:176
-#, fuzzy
 msgid "Select an existing snapshot to perform the action on."
-msgstr "Zvolte existující snímek na kterém chcete provést akci."
+msgstr "Zvolte existující zachycený stav, na kterém chcete provést akci."
 
 #: web/snapshots.sh:196
 msgid "Export"
@@ -84,41 +80,37 @@ msgid "Remove"
 msgstr "Odstranit"
 
 #: web/snapshots.sh:254
-#, fuzzy
 msgid "Password to encrypt the snapshot with"
-msgstr "Heslo pro zašifrování snímku"
+msgstr "Heslo pro zašifrování zachyceného stavu"
 
 #: web/snapshots.sh:264
-#, fuzzy
 msgid ""
 "Password used to encrypt the exported snapshot. It is prefilled with a "
 "randomly generated one."
 msgstr ""
-"Heslo, které se použije pro zašifrování exportovaného snímku. Předvyplněná "
-"hodnota je náhodně generované heslo."
+"Heslo, které se použije pro zašifrování exportovaného zachyceného stavu. "
+"Předvyplněná hodnota je náhodně generované heslo."
 
 #: web/snapshots.sh:273
 msgid "Export selected snapshot"
-msgstr "Exportovat zvolený snímek"
+msgstr "Exportovat zvolený zachycený stav"
 
 #: web/snapshots.sh:279
-#, fuzzy
 msgid "The following snippet shows how to decrypt an exported snapshot:"
-msgstr "Následující úryvek ukazuje jak odšifrovat exportovaný snímek:"
+msgstr "Následující úryvek ukazuje, jak rozšifrovat exportovaný zachycený stav:"
 
 #: web/snapshots.sh:300
-#, fuzzy
 msgid "Export selected snapshot for use as Medkit"
-msgstr "Exportovat zvolený snímek aby byl použitelný jako Medkit"
+msgstr "Exportovat zvolený zachycený stav, aby byl použitelný jako Medkit"
 
 #: web/snapshots.sh:317
-#, fuzzy
 msgid "Roll back to the selected snapshot and reboot the router"
-msgstr "Vrátit se na zvolený snímek a restartovat router"
+msgstr ""
+"Vrátit se do podoby ve zvoleném zachyceném stavu a směrovač zrestartovat"
 
 #: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
-msgstr "Odstranit zvolený snímek"
+msgstr "Odstranit zvolený zachycený stav"
 
 #~ msgid "Turris Minimal Snapshots Manager"
 #~ msgstr "Minimální správce snímků Turris"

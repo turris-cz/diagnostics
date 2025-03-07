@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2022-03-10 23:09+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2024-10-15 07:15+0000\n"
+"Last-Translator: Moha684 <nahil82466@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #: web/diagnostics.sh:19
 #, fuzzy
@@ -26,28 +26,29 @@ msgstr "Diagnostics"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Supprimer le thème (auto)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
-msgstr ""
+msgstr "Supprimer le thème"
 
 #: web/diagnostics.sh:93
+#, fuzzy
 msgid "Light"
-msgstr ""
+msgstr "Lumineux"
 
 #: web/diagnostics.sh:113
+#, fuzzy
 msgid "Dark"
-msgstr ""
+msgstr "Sombre"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
-msgstr ""
+msgstr "Automatique"
 
 #: web/diagnostics.sh:146
-#, fuzzy
 msgid "Turris Logo"
-msgstr "Diagnostic de Turris"
+msgstr "Logo Turris"
 
 #: web/diagnostics.sh:149
 msgid "Diagnostics"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2022-03-17 17:54+0000\n"
+"PO-Revision-Date: 2024-10-30 18:03+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/sk/>\n"
@@ -16,61 +16,58 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #: web/diagnostics.sh:19
-#, fuzzy
 msgid "Diagnostics | Turris"
-msgstr "Diagnostiky"
+msgstr "Diagnostiky | Turris"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Prepnúť tému (auto)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
-msgstr ""
+msgstr "Prepnúť tému"
 
 #: web/diagnostics.sh:93
 msgid "Light"
-msgstr ""
+msgstr "Svetlá"
 
 #: web/diagnostics.sh:113
 msgid "Dark"
-msgstr ""
+msgstr "Tmavá"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
-msgstr ""
+msgstr "Automaticky"
 
 #: web/diagnostics.sh:146
-#, fuzzy
 msgid "Turris Logo"
-msgstr "Diagnostika Turris"
+msgstr "Logo Turris"
 
 #: web/diagnostics.sh:149
 msgid "Diagnostics"
 msgstr "Diagnostiky"
 
 #: web/diagnostics.sh:151
-#, fuzzy
 msgid ""
 "This page allows you to generate diagnostics report for your Turris router."
 msgstr ""
-"Táto stránka vám umožňuje vytvoriť diagnostickú správu vášho routera Turris."
+"Táto stránka vám umožňuje vytvoriť diagnostickú správu o vašom routeri "
+"Turris."
 
 #: web/diagnostics.sh:159
 msgid "Generate and download diagnostics"
 msgstr "Vytvoriť a stiahnuť diagnostiku"
 
 #: web/diagnostics.sh:163
-#, fuzzy
 msgid ""
 "Make sure that download is finished before sending it to support or "
 "disconnecting from the router's network. The report is being generated "
 "during download, so it takes a considerable amount of time."
 msgstr ""
-"Kým súbor odošlete našej podpore, alebo sa odpojíte od siete routera, "
-"ubezpečte sa, že je úplne stiahnutý. Správa sa vytvára počas sťahovania, a "
-"preto jej vytvorenie môže zabrať dosť času."
+"Skôr ako súbor odošlete našej podpore, alebo sa odpojíte od siete routera, "
+"presvedčte sa, že je úplne stiahnutý. Správa sa vytvára počas sťahovania a "
+"jej vytvorenie môže zabrať dosť času."
