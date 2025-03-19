@@ -14,6 +14,9 @@ run () {
 
 	section "Current iptables configuration"
 	iptables-save
+
+	section "Current nftables configuration"
+	nft list ruleset
 }
 
 # vim: ft=sh
