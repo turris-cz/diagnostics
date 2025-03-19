@@ -44,7 +44,6 @@ run () {
 	section "Links"
 	ip -d link
 
-
 	section "IPv4"
 	ip -d -4 address
 	ip -d -4 route
@@ -61,6 +60,21 @@ run () {
 		ethtool -m "$sfp"
 		ethtool -m "$sfp" raw on | hexdump -vC
 	done
+
+	if [ -f /etc/config/watchcat ]; then
+		section "Uci watchcat"
+		uci show watchcat
+	fi
+
+	if [ -f /etc/config/mwan3 ]; then
+		section "Uci mwan3"
+		uci show mwan3
+	fi
+
+	if [ -x "$(which mwan3)" ]; then
+		section "mwan3 status"
+		mwan3 status
+	fi
 }
 
 # vim: ft=sh
