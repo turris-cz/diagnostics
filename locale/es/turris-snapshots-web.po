@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2024-09-07 12:09+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2025-03-22 21:01+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: web/snapshots.sh:19
 msgid "Minimal Snapshot Manager | Turris"
@@ -25,11 +25,11 @@ msgstr "Administrador de instantáneas minimalista | Turris"
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr "Cambiar tema (automático)"
+msgstr "Alternar tema (automático)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr "Cambiar tema"
+msgstr "Alternar tema"
 
 #: web/snapshots.sh:92
 msgid "Light"
@@ -45,7 +45,7 @@ msgstr "Automático"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
-msgstr "Logotipo de Turris"
+msgstr "Logo de Turris"
 
 #: web/snapshots.sh:148
 msgid "Minimal Snapshot Manager"
