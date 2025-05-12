@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"PO-Revision-Date: 2025-05-13 17:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
@@ -96,7 +96,7 @@ msgstr "Vypisuje informace o všech socketech."
 #: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
 msgstr ""
-"Vypsat nastavení brány firewall v rozhraní uci a stávající obsah iptables."
+"Vypsat nastavení brány firewall v rozhraní UCI a stávající obsah iptables."
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."
@@ -104,7 +104,7 @@ msgstr "Informace o naplánovaných úlohách."
 
 #: modules/60_packages.module:4
 msgid "List installed packages and OPKG configuration."
-msgstr "Vypsat nainstalované balíčky a konfiguraci OPKG."
+msgstr "Vypsat nainstalované balíčky a nastavení OPKG."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
