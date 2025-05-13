@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2025-05-13 17:01+0000\n"
+"PO-Revision-Date: 2025-05-14 20:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
 "turris-diagnostics/cs/>\n"
@@ -25,7 +25,7 @@ msgstr "vypsat tuto nápovědu"
 
 #: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
-msgstr "seznam všech dostupných modulů ve strojově čitelném formátu"
+msgstr "seznam všech dostupných modulů (ve strojově čitelném formátu)"
 
 #: diagnostics.sh:57
 msgid "run in background"
@@ -37,7 +37,7 @@ msgstr "vypsat výstup do souboru"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
-msgstr "vypsat výstup do složky do zvlášť souborů pro jednotlivé moduly"
+msgstr "vypsat výstup do složky – pro každý z modulů zvlášť soubor"
 
 #: diagnostics.sh:61
 msgid "modules:"
@@ -45,7 +45,9 @@ msgstr "moduly:"
 
 #: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
-msgstr "Základní informace identifikující směrovač a systém, který na něm běží."
+msgstr ""
+"Základní informace identifikující směrovač a systém, který je na něm "
+"provozován."
 
 #: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
@@ -54,7 +56,7 @@ msgstr "Ověřit, že NTP může synchronizovat čas."
 #: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr "Získává verze firmwaru včetně nastavení prostředí U-Boot."
+msgstr "Získává verze firmwaru včetně nastavení prostředí zavaděče U-Boot."
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
@@ -73,8 +75,7 @@ msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
-"Prozkoumá spuštěné služby a zobrazí, zda jsou služby spouštěné po zavedení "
-"systému."
+"Prozkoumá spuštěné služby a zobrazí, zda jsou spouštěné po zavedení systému."
 
 #: modules/35_processes.module:4
 msgid "List running processes."
