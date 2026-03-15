@@ -8,50 +8,57 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-03-15 19:09+0000\n"
+"Last-Translator: Fln <weblate.org@fln.lt>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
-msgstr ""
+msgstr "atspausdinti šį pagalbos tekstą"
 
 #: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
-msgstr ""
+msgstr "išrašyti visus prieinamus modulius lengvai apdorojamu formatu"
 
 #: diagnostics.sh:57
 msgid "run in background"
-msgstr ""
+msgstr "paleisti fone"
 
 #: diagnostics.sh:58
 msgid "print output to a file"
-msgstr ""
+msgstr "rezultatus spausdinti į failą"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "rezultatus spausdinti į katalogą, moduliui po failą"
 
 #: diagnostics.sh:61
 msgid "modules:"
-msgstr ""
+msgstr "moduliai:"
 
 #: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
 msgstr ""
+"Bazinė informacija maršrutizatoriaus ir jame veikiančios sistemos "
+"identifikavimui."
 
 #: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
-msgstr ""
+msgstr "Patikrinkite ar NTP gali sinchronizuoti laiką."
 
 #: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr ""
+msgstr "Gaunamos firmware versijos kartu su U-Boot konfigūracija."
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
