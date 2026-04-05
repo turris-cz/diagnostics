@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2026-03-20 22:11+0000\n"
+"PO-Revision-Date: 2026-04-06 21:09+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/et/>\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Vaheta kujundust (automaatselt)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
-msgstr ""
+msgstr "Vaheta kujundust"
 
 #: web/diagnostics.sh:93
 msgid "Light"
@@ -41,15 +41,15 @@ msgstr "Tume kujundus"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
-msgstr ""
+msgstr "Automaatne"
 
 #: web/diagnostics.sh:146
 msgid "Turris Logo"
-msgstr ""
+msgstr "Turrise logo"
 
 #: web/diagnostics.sh:149
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostika"
 
 #: web/diagnostics.sh:151
 msgid ""
