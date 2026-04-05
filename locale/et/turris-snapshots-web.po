@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2026-03-20 22:11+0000\n"
+"PO-Revision-Date: 2026-04-06 21:09+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/et/>\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Vaheta kujundust (automaatselt)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr ""
+msgstr "Vaheta kujundust"
 
 #: web/snapshots.sh:92
 msgid "Light"
@@ -41,11 +41,11 @@ msgstr "Tume kujundus"
 
 #: web/snapshots.sh:132
 msgid "Auto"
-msgstr ""
+msgstr "Automaatne"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
-msgstr ""
+msgstr "Turrise logo"
 
 #: web/snapshots.sh:148
 msgid "Minimal Snapshot Manager"
