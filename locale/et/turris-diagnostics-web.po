@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2026-04-06 21:09+0000\n"
+"PO-Revision-Date: 2026-04-08 10:09+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/turris/"
 "diagnostics-web/et/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: web/diagnostics.sh:19
 msgid "Diagnostics | Turris"
-msgstr ""
+msgstr "Diagnostika | Turris"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
@@ -55,10 +55,11 @@ msgstr "Diagnostika"
 msgid ""
 "This page allows you to generate diagnostics report for your Turris router."
 msgstr ""
+"Sellel lehel saad oma Turrise ruuteri jaoks koostada diagnostilisi aruandeid."
 
 #: web/diagnostics.sh:159
 msgid "Generate and download diagnostics"
-msgstr ""
+msgstr "Koosta ja laadi alla diagnostikat"
 
 #: web/diagnostics.sh:163
 msgid ""
@@ -66,3 +67,6 @@ msgid ""
 "disconnecting from the router's network. The report is being generated "
 "during download, so it takes a considerable amount of time."
 msgstr ""
+"Enne, kui edastad aruande kasutajatoele ja/või katkestad ühenduse ruuteriga, "
+"palun kontrolli et allalaadimine on lõppenud ja andmed on loetavad. Aruannet "
+"sisuliselt koostatakse allalaadimise ajal ja selleks võib kuluda aega."
