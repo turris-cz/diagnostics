@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2026-03-20 22:11+0000\n"
+"PO-Revision-Date: 2026-04-08 10:09+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/turris/turris-"
 "diagnostics/et/>\n"
@@ -21,19 +21,19 @@ msgstr ""
 
 #: diagnostics.sh:55
 msgid "print this help text"
-msgstr ""
+msgstr "trüki välja see abiteave"
 
 #: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
-msgstr ""
+msgstr "kuva loendina kõik saadaval lisamoodulid masinloetavas vormingus"
 
 #: diagnostics.sh:57
 msgid "run in background"
-msgstr ""
+msgstr "tööta taustal"
 
 #: diagnostics.sh:58
 msgid "print output to a file"
-msgstr ""
+msgstr "saada väljund faili"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
