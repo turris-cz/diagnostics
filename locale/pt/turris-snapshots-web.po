@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-02 21:58+0000\n"
+"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
+"diagnostics-snapshots-web/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: web/snapshots.sh:19
 msgid "Minimal Snapshot Manager | Turris"
@@ -27,11 +29,11 @@ msgstr ""
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr ""
+msgstr "Comutar tema"
 
 #: web/snapshots.sh:92
 msgid "Light"
-msgstr ""
+msgstr "Claro"
 
 #: web/snapshots.sh:112
 msgid "Dark"
@@ -39,7 +41,7 @@ msgstr ""
 
 #: web/snapshots.sh:132
 msgid "Auto"
-msgstr ""
+msgstr "Automático"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
