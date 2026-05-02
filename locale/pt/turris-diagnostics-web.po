@@ -8,55 +8,59 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-03 22:09+0000\n"
+"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
+"diagnostics-web/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: web/diagnostics.sh:19
 msgid "Diagnostics | Turris"
-msgstr ""
+msgstr "Diagnósticos | Turris"
 
 #: web/diagnostics.sh:68
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Comutar tema (automatico)"
 
 #: web/diagnostics.sh:73
 msgid "Toggle theme"
-msgstr ""
+msgstr "Comutar tema"
 
 #: web/diagnostics.sh:93
 msgid "Light"
-msgstr ""
+msgstr "Claro"
 
 #: web/diagnostics.sh:113
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #: web/diagnostics.sh:133
 msgid "Auto"
-msgstr ""
+msgstr "Automático"
 
 #: web/diagnostics.sh:146
 msgid "Turris Logo"
-msgstr ""
+msgstr "Logotipo do Turris"
 
 #: web/diagnostics.sh:149
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnósticos"
 
 #: web/diagnostics.sh:151
 msgid ""
 "This page allows you to generate diagnostics report for your Turris router."
 msgstr ""
+"Esta página permite-lhe gerar relatórios de diagnóstico para o seu router "
+"Turris."
 
 #: web/diagnostics.sh:159
 msgid "Generate and download diagnostics"
-msgstr ""
+msgstr "Gerar e descarregar diagnósticos"
 
 #: web/diagnostics.sh:163
 msgid ""
@@ -64,3 +68,6 @@ msgid ""
 "disconnecting from the router's network. The report is being generated "
 "during download, so it takes a considerable amount of time."
 msgstr ""
+"Certifique que a descarga é terminada antes de enviá-la para o apoio ou "
+"desligar da rede do router. O relatório é gerado durante a descarga, assim "
+"leva uma quantidade de tempo considerável."
