@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2026-05-02 21:16+0000\n"
+"PO-Revision-Date: 2026-05-03 22:09+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/turris-"
 "diagnostics/pt/>\n"
@@ -25,110 +25,116 @@ msgstr "escreve este texto de ajuda"
 
 #: diagnostics.sh:56
 msgid "list all available modules in machine readable format"
-msgstr ""
+msgstr "listar todos os módulos disponíveis em formato legível por máquina"
 
 #: diagnostics.sh:57
 msgid "run in background"
-msgstr ""
+msgstr "correr nos bastidores"
 
 #: diagnostics.sh:58
 msgid "print output to a file"
-msgstr ""
+msgstr "escrever resultados num ficheiro"
 
 #: diagnostics.sh:59
 msgid "print output to a directory module per file"
-msgstr ""
+msgstr "escrever resultados para um módulo de diretório por ficheiro"
 
 #: diagnostics.sh:61
 msgid "modules:"
-msgstr ""
+msgstr "módulos:"
 
 #: modules/05_system-info.module:4
 msgid "Basic info identifying router and system it is running."
-msgstr ""
+msgstr "Informação básica que identifica o router e o sistema que ele corre."
 
 #: modules/15_ntp.module:4
 msgid "Verify that NTP can synchronize time."
-msgstr ""
+msgstr "Verificar que o NTP pode sincronizar a hora."
 
 #: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
 msgstr ""
+"Obtém versões dos firmwares incluindo a configuração do ambiente U-Boot."
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
-msgstr ""
+msgstr "Listar o hardware detetado."
 
 #: modules/25_filesystems.module:4
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
+"Listar todos os pontos e opções de montagem e todos os dispositivos de bloco "
+"incluindo a quantidade de espaço livre."
 
 #: modules/30_services.module:4
 msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
+"Examina os serviços a correr e mostra se os serviços foram iniciados após o "
+"arranque da máquina."
 
 #: modules/35_processes.module:4
 msgid "List running processes."
-msgstr ""
+msgstr "Listar processos a correr."
 
 #: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
 msgstr ""
+"Escreve definições de rede UCI e sem-fios, endereços IP atuais, e rotas."
 
 #: modules/45_dns.module:4
 msgid "Gather DNS related information."
-msgstr ""
+msgstr "Recolhe informação relacionada com DNS."
 
 #: modules/48_sockets.module:4
 msgid "Prints sockets info about all sockets."
-msgstr ""
+msgstr "Escreve informação de sockets acerca de todos os sockets."
 
 #: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
-msgstr ""
+msgstr "Escreve as definições da firewall UCI e o conteúdo atual do iptables."
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."
-msgstr ""
+msgstr "Informação acerca do cron."
 
 #: modules/60_packages.module:4
 msgid "List installed packages and OPKG configuration."
-msgstr ""
+msgstr "Lista pacotes instalados e a configuração OPKG."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
-msgstr ""
+msgstr "Testa se os webs do Turris estão disponíveis."
 
 #: modules/72_foris.module:4
 msgid "Prints configuration and state of Foris web interface."
-msgstr ""
+msgstr "Escreve configuração e estado da interface web do Foris."
 
 #: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
-msgstr ""
+msgstr "Gera e enviar notificação do Turris."
 
 #: modules/80_certgen.module:4
 msgid "Run Sentinel Certgen."
-msgstr ""
+msgstr "Corre o Sentinela Certgen."
 
 #: modules/85_sentinel.module:4
 msgid "State of Sentinel probes"
-msgstr ""
+msgstr "Estado das sondagens do Sentinela"
 
 #: modules/86_haas.module:4
 msgid "Honeypot as a Service configuration dump"
-msgstr ""
+msgstr "Honeypot como um despejar de configuração de Serviço"
 
 #: modules/95_messages.module:4
 msgid "Read system logs."
-msgstr ""
+msgstr "Ler relatórios do sistema."
 
 #: modules/97_dmesg.module:4
 msgid "Display output of dmesg."
-msgstr ""
+msgstr "Mostrar resultados do dmesg."
