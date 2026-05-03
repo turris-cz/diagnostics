@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2026-05-02 21:58+0000\n"
+"PO-Revision-Date: 2026-05-03 22:09+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/pt/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: web/snapshots.sh:19
 msgid "Minimal Snapshot Manager | Turris"
-msgstr ""
+msgstr "Gestor de Instantâneo Mínimo | Turris"
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Comutar tema (automatico)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
@@ -37,7 +37,7 @@ msgstr "Claro"
 
 #: web/snapshots.sh:112
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #: web/snapshots.sh:132
 msgid "Auto"
@@ -45,66 +45,68 @@ msgstr "Automático"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
-msgstr ""
+msgstr "Logotipo do Turris"
 
 #: web/snapshots.sh:148
 msgid "Minimal Snapshot Manager"
-msgstr ""
+msgstr "Gestor de Instantâneo Mínimo"
 
 #: web/snapshots.sh:150
 msgid "This page allows minimal management of system snapshots."
-msgstr ""
+msgstr "Esta página permite gestão mínima dos instantâneos do sistema."
 
 #: web/snapshots.sh:156
 msgid "Select snapshot"
-msgstr ""
+msgstr "Selecionar instantâneo"
 
 #: web/snapshots.sh:176
 msgid "Select an existing snapshot to perform the action on."
-msgstr ""
+msgstr "Seleciona um instantâneo existente onde se vai efetuar a ação."
 
 #: web/snapshots.sh:196
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: web/snapshots.sh:210
 msgid "Medkit"
-msgstr ""
+msgstr "Medkit"
 
 #: web/snapshots.sh:224
 msgid "Rollback"
-msgstr ""
+msgstr "Reverter"
 
 #: web/snapshots.sh:238
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #: web/snapshots.sh:254
 msgid "Password to encrypt the snapshot with"
-msgstr ""
+msgstr "Palavra passe para encriptar o instantâneo com ela"
 
 #: web/snapshots.sh:264
 msgid ""
 "Password used to encrypt the exported snapshot. It is prefilled with a "
 "randomly generated one."
 msgstr ""
+"Palavra passe usada para encriptar o instantâneo exportado. É pré-preenchida "
+"com uma gerada aleatoriamente."
 
 #: web/snapshots.sh:273
 msgid "Export selected snapshot"
-msgstr ""
+msgstr "Exportar instantâneo selecionado"
 
 #: web/snapshots.sh:279
 msgid "The following snippet shows how to decrypt an exported snapshot:"
-msgstr ""
+msgstr "O seguinte trecho mostra como des-encriptar um instantâneo exportado:"
 
 #: web/snapshots.sh:300
 msgid "Export selected snapshot for use as Medkit"
-msgstr ""
+msgstr "Exportar instantâneo selecionado para usar como Medkit"
 
 #: web/snapshots.sh:317
 msgid "Roll back to the selected snapshot and reboot the router"
-msgstr ""
+msgstr "Reverter para o instantâneo selecionado e reiniciar o router"
 
 #: web/snapshots.sh:334
 msgid "Remove the selected snapshot"
-msgstr ""
+msgstr "Remover o instantâneo selecionado"
