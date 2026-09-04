@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
 "PO-Revision-Date: 2026-09-04 13:50+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Piotr Orzechowski <piotr@orzechowski.tech>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/pl/>\n"
 "Language: pl\n"
@@ -35,15 +35,15 @@ msgstr ""
 
 #: web/snapshots.sh:92
 msgid "Light"
-msgstr ""
+msgstr "Jasny"
 
 #: web/snapshots.sh:112
 msgid "Dark"
-msgstr ""
+msgstr "Ciemny"
 
 #: web/snapshots.sh:132
 msgid "Auto"
-msgstr ""
+msgstr "Automatyczny"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
