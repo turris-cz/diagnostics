@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2023-11-03 05:05+0000\n"
-"Last-Translator: Anselmo <anselmo@casinadicornia.com>\n"
+"PO-Revision-Date: 2026-09-04 13:50+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: web/snapshots.sh:19
 #, fuzzy
@@ -56,8 +56,7 @@ msgstr "Semplice gestore degli snapshot"
 #: web/snapshots.sh:150
 #, fuzzy
 msgid "This page allows minimal management of system snapshots."
-msgstr ""
-"Questa pagina consente una semplice gestione degli snapshot di sistema."
+msgstr "Questa pagina consente una semplice gestione degli snapshot di sistema."
 
 #: web/snapshots.sh:156
 msgid "Select snapshot"
