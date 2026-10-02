@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 09:08+0100\n"
-"PO-Revision-Date: 2026-09-22 20:51+0000\n"
+"PO-Revision-Date: 2026-10-03 18:51+0000\n"
 "Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/turris-"
 "diagnostics/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.10.1.dev0\n"
 
 #: diagnostics.sh:55
 msgid "print this help text"
@@ -49,11 +49,8 @@ msgid "Basic info identifying router and system it is running."
 msgstr "Alapinformációk a routerről és a rajta futó rendszerről."
 
 #: modules/15_ntp.module:4
-#, fuzzy
 msgid "Verify that NTP can synchronize time."
-msgstr ""
-"Nyomtassa ki az aktuális dátumot, és ellenőrizze, hogy az NTP képes-e "
-"szinkronizálni az időt."
+msgstr "Ellenőrizze, hogy az NTP képes-e szinkronizálni az időt."
 
 #: modules/18_firmware.module:4
 msgid ""
@@ -62,18 +59,16 @@ msgstr ""
 "Firmware-verziók lekérése, az U-Boot környezet konfigurációjával együtt."
 
 #: modules/20_lshw.module:4
-#, fuzzy
 msgid "List detected hardware."
-msgstr "USB-n és PCI-n észlelt hardverek listázása."
+msgstr "Észlelt hardverek listázása."
 
 #: modules/25_filesystems.module:4
-#, fuzzy
 msgid ""
 "List all mount points and mount options and all block devices including "
 "amount of free space."
 msgstr ""
-"Sorolja fel az összes csatlakoztatási pontot és csatlakoztatási lehetőséget, "
-"valamint az összes blokkeszközt."
+"Listázza az összes csatolási pontot és csatolási opciót, valamint az összes "
+"blokkeszközt, beleértve a szabad hely mennyiségét is."
 
 #: modules/30_services.module:4
 msgid ""
@@ -112,18 +107,16 @@ msgid "Info about the cron."
 msgstr "Információ a cronról."
 
 #: modules/60_packages.module:4
-#, fuzzy
 msgid "List installed packages and OPKG configuration."
-msgstr "A telepített csomagok listázása."
+msgstr "A telepített csomagok és az OPKG konfiguráció listázása."
 
 #: modules/70_turris-webs.module:4
 msgid "Test whether the Turris webs are available."
-msgstr "Ellenőrizze, hogy a Turris hálózatai rendelkezésre állnak-e."
+msgstr "Tesztelje, hogy a Turris webhelyek elérhetők-e."
 
 #: modules/72_foris.module:4
-#, fuzzy
 msgid "Prints configuration and state of Foris web interface."
-msgstr "Dobja ki a konfigurációt, és próbálja meg futtatni a frissítőt."
+msgstr "Kiírja a Foris webes felület konfigurációját és állapotát."
 
 #: modules/75_notification.module:4
 msgid "Generate and send Turris notification."
