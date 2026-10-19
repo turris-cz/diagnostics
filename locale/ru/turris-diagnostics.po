@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 09:08+0100\n"
+"POT-Creation-Date: 2026-10-19 15:46+0300\n"
 "PO-Revision-Date: 2026-09-04 13:49+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/turris-"
@@ -83,7 +83,8 @@ msgstr "Список запущенных процессов."
 #: modules/40_network.module:4
 msgid ""
 "Prints UCI network and wireless settings, current IP addresses, and routes."
-msgstr "Вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты."
+msgstr ""
+"Вывести сетевые и беспроводные настройки, текущие IP-адреса и маршруты."
 
 #: modules/45_dns.module:4
 msgid "Gather DNS related information."

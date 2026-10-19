@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 09:08+0100\n"
+"POT-Creation-Date: 2026-10-19 15:46+0300\n"
 "PO-Revision-Date: 2026-09-04 13:49+0000\n"
 "Last-Translator: Anselmo <anselmo@casinadicornia.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/turris/turris-"
@@ -96,7 +96,8 @@ msgstr "Stampa le informazioni sui sockets."
 
 #: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
-msgstr "Stampa i parametri del firewall UCI e il contenuto attuale di iptables."
+msgstr ""
+"Stampa i parametri del firewall UCI e il contenuto attuale di iptables."
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."

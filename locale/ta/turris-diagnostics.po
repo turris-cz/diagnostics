@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: turris-diagnostics\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 09:08+0100\n"
+"POT-Creation-Date: 2026-10-19 15:46+0300\n"
 "PO-Revision-Date: 2026-09-04 13:50+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/turris/turris-"
@@ -55,8 +55,7 @@ msgstr "என்.டி.பி நேரத்தை ஒத்திசைக�
 #: modules/18_firmware.module:4
 msgid ""
 "Gets versions of firmwares including the U-Boot environment configuration."
-msgstr ""
-"யு-பூட் சுற்றுச்சூழல் உள்ளமைவு உள்ளிட்ட ஃபார்ம்வேர்களின் பதிப்புகளைப் பெறுகிறது."
+msgstr "யு-பூட் சுற்றுச்சூழல் உள்ளமைவு உள்ளிட்ட ஃபார்ம்வேர்களின் பதிப்புகளைப் பெறுகிறது."
 
 #: modules/20_lshw.module:4
 msgid "List detected hardware."
@@ -75,7 +74,8 @@ msgid ""
 "Examine running services and show whether the services are started after "
 "boot."
 msgstr ""
-"இயங்கும் சேவைகளை ஆராய்ந்து, துவக்கத்திற்குப் பிறகு சேவைகள் தொடங்கப்பட்டதா என்பதைக் காட்டுங்கள்."
+"இயங்கும் சேவைகளை ஆராய்ந்து, துவக்கத்திற்குப் பிறகு சேவைகள் தொடங்கப்பட்டதா என்பதைக் "
+"காட்டுங்கள்."
 
 #: modules/35_processes.module:4
 msgid "List running processes."
@@ -98,8 +98,7 @@ msgstr "அனைத்து சாக்கெட்டுகளையும�
 
 #: modules/50_firewall.module:4
 msgid "Print UCI firewall settings and the current content of iptables."
-msgstr ""
-"யுசிஐ ஃபயர்வால் அமைப்புகள் மற்றும் ஐபிடபிள்சின் தற்போதைய உள்ளடக்கத்தை அச்சிடுக."
+msgstr "யுசிஐ ஃபயர்வால் அமைப்புகள் மற்றும் ஐபிடபிள்சின் தற்போதைய உள்ளடக்கத்தை அச்சிடுக."
 
 #: modules/55_cron.module:4
 msgid "Info about the cron."
