@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the turris-diagnostics package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: turris-diagnostics\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 15:46+0300\n"
+"PO-Revision-Date: 2026-09-04 13:50+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/turris/turris-"
+"diagnostics/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.9\n"
+
+#: diagnostics.sh:55
+msgid "print this help text"
+msgstr "இந்த உதவி உரையை அச்சிடுக"
+
+#: diagnostics.sh:56
+msgid "list all available modules in machine readable format"
+msgstr ""
+"கிடைக்கக்கூடிய அனைத்து தொகுதிகளையும் இயந்திர படிக்கக்கூடிய வடிவத்தில் பட்டியலிடுங்கள்"
+
+#: diagnostics.sh:57
+msgid "run in background"
+msgstr "பின்னணியில் இயக்கவும்"
+
+#: diagnostics.sh:58
+msgid "print output to a file"
+msgstr "வெளியீட்டை ஒரு கோப்பிற்கு அச்சிடுக"
+
+#: diagnostics.sh:59
+msgid "print output to a directory module per file"
+msgstr "ஒரு கோப்பிற்கு ஒரு அடைவு தொகுதிக்கு வெளியீட்டை அச்சிடுக"
+
+#: diagnostics.sh:61
+msgid "modules:"
+msgstr "தொகுதிகள்:"
+
+#: modules/05_system-info.module:4
+msgid "Basic info identifying router and system it is running."
+msgstr "அது இயங்கும் திசைவி மற்றும் அமைப்பை அடையாளம் காணும் அடிப்படை செய்தி."
+
+#: modules/15_ntp.module:4
+msgid "Verify that NTP can synchronize time."
+msgstr "என்.டி.பி நேரத்தை ஒத்திசைக்க முடியும் என்பதை சரிபார்க்கவும்."
+
+#: modules/18_firmware.module:4
+msgid ""
+"Gets versions of firmwares including the U-Boot environment configuration."
+msgstr "யு-பூட் சுற்றுச்சூழல் உள்ளமைவு உள்ளிட்ட ஃபார்ம்வேர்களின் பதிப்புகளைப் பெறுகிறது."
+
+#: modules/20_lshw.module:4
+msgid "List detected hardware."
+msgstr "பட்டியல் கண்டறியப்பட்ட வன்பொருள்."
+
+#: modules/25_filesystems.module:4
+msgid ""
+"List all mount points and mount options and all block devices including "
+"amount of free space."
+msgstr ""
+"அனைத்து மவுண்ட் புள்ளிகள் மற்றும் மவுண்ட் விருப்பங்கள் மற்றும் இலவச இடத்தின் அளவு உட்பட "
+"அனைத்து தொகுதி சாதனங்களையும் பட்டியலிடுங்கள்."
+
+#: modules/30_services.module:4
+msgid ""
+"Examine running services and show whether the services are started after "
+"boot."
+msgstr ""
+"இயங்கும் சேவைகளை ஆராய்ந்து, துவக்கத்திற்குப் பிறகு சேவைகள் தொடங்கப்பட்டதா என்பதைக் "
+"காட்டுங்கள்."
+
+#: modules/35_processes.module:4
+msgid "List running processes."
+msgstr "இயங்கும் செயல்முறைகளை பட்டியலிடுங்கள்."
+
+#: modules/40_network.module:4
+msgid ""
+"Prints UCI network and wireless settings, current IP addresses, and routes."
+msgstr ""
+"யுசிஐ பிணையம் மற்றும் வயர்லெச் அமைப்புகள், தற்போதைய ஐபி முகவரிகள் மற்றும் வழிகளை "
+"அச்சிடுகிறது."
+
+#: modules/45_dns.module:4
+msgid "Gather DNS related information."
+msgstr "டி.என்.எச் தொடர்பான தகவல்களை சேகரிக்கவும்."
+
+#: modules/48_sockets.module:4
+msgid "Prints sockets info about all sockets."
+msgstr "அனைத்து சாக்கெட்டுகளையும் பற்றிய சாக்கெட்டுகள் தகவலை அச்சிடுகின்றன."
+
+#: modules/50_firewall.module:4
+msgid "Print UCI firewall settings and the current content of iptables."
+msgstr "யுசிஐ ஃபயர்வால் அமைப்புகள் மற்றும் ஐபிடபிள்சின் தற்போதைய உள்ளடக்கத்தை அச்சிடுக."
+
+#: modules/55_cron.module:4
+msgid "Info about the cron."
+msgstr "CRON பற்றிய செய்தி."
+
+#: modules/60_packages.module:4
+msgid "List installed packages and OPKG configuration."
+msgstr "நிறுவப்பட்ட தொகுப்புகள் மற்றும் OPKG உள்ளமைவை பட்டியலிடுங்கள்."
+
+#: modules/70_turris-webs.module:4
+msgid "Test whether the Turris webs are available."
+msgstr "டர்ரிச் வலைகள் கிடைக்குமா என்பதை சோதிக்கவும்."
+
+#: modules/72_foris.module:4
+msgid "Prints configuration and state of Foris web interface."
+msgstr "ஃபோரிச் வலை இடைமுகத்தின் உள்ளமைவு மற்றும் நிலையை அச்சிடுகிறது."
+
+#: modules/75_notification.module:4
+msgid "Generate and send Turris notification."
+msgstr "டர்ரிச் அறிவிப்பை உருவாக்கி அனுப்புங்கள்."
+
+#: modules/80_certgen.module:4
+msgid "Run Sentinel Certgen."
+msgstr "சென்டினல் சான்றிதழ் இயக்கவும்."
+
+#: modules/85_sentinel.module:4
+msgid "State of Sentinel probes"
+msgstr "சென்டினல் ஆய்வுகளின் நிலை"
+
+#: modules/86_haas.module:4
+msgid "Honeypot as a Service configuration dump"
+msgstr "பணி உள்ளமைவு டம்பாக அனிபாட்"
+
+#: modules/95_messages.module:4
+msgid "Read system logs."
+msgstr "கணினி பதிவுகளைப் படியுங்கள்."
+
+#: modules/97_dmesg.module:4
+msgid "Display output of dmesg."
+msgstr "DMESG இன் வெளியீட்டைக் காண்பி."

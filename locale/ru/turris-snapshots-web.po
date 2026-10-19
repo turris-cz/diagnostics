@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: turris-snapshots-web\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-28 16:00+0200\n"
-"PO-Revision-Date: 2022-03-11 08:51+0000\n"
+"PO-Revision-Date: 2026-09-04 13:49+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
 "diagnostics-snapshots-web/ru/>\n"
@@ -16,55 +16,52 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: web/snapshots.sh:19
-#, fuzzy
 msgid "Minimal Snapshot Manager | Turris"
-msgstr "Менеджер минимальных образов"
+msgstr "Менеджер минимальных образов | Turris"
 
 #: web/snapshots.sh:67
 msgid "Toggle theme (auto)"
-msgstr ""
+msgstr "Переключение темы (автоматически)"
 
 #: web/snapshots.sh:72
 msgid "Toggle theme"
-msgstr ""
+msgstr "Переключение темы"
 
 #: web/snapshots.sh:92
 msgid "Light"
-msgstr ""
+msgstr "Светлая"
 
 #: web/snapshots.sh:112
 msgid "Dark"
-msgstr ""
+msgstr "Темный"
 
 #: web/snapshots.sh:132
 msgid "Auto"
-msgstr ""
+msgstr "Автоматически"
 
 #: web/snapshots.sh:145
 msgid "Turris Logo"
-msgstr ""
+msgstr "Логотип Turris"
 
 #: web/snapshots.sh:148
-#, fuzzy
 msgid "Minimal Snapshot Manager"
-msgstr "Менеджер минимальных образов"
+msgstr "Минимальный менеджер образов"
 
 #: web/snapshots.sh:150
-#, fuzzy
 msgid "This page allows minimal management of system snapshots."
-msgstr "Эта страница обеспечивает управление образами системы."
+msgstr ""
+"Эта страница позволяет осуществлять минимальное управление образами системы."
 
 #: web/snapshots.sh:156
 msgid "Select snapshot"
 msgstr "Выберите образ"
 
 #: web/snapshots.sh:176
-#, fuzzy
 msgid "Select an existing snapshot to perform the action on."
 msgstr "Выберите существующий образ для действия."
 
@@ -85,12 +82,10 @@ msgid "Remove"
 msgstr "Удаления"
 
 #: web/snapshots.sh:254
-#, fuzzy
 msgid "Password to encrypt the snapshot with"
 msgstr "Пароль для шифрования образа с помощью"
 
 #: web/snapshots.sh:264
-#, fuzzy
 msgid ""
 "Password used to encrypt the exported snapshot. It is prefilled with a "
 "randomly generated one."
@@ -103,20 +98,17 @@ msgid "Export selected snapshot"
 msgstr "Экспортировать выбранный образ"
 
 #: web/snapshots.sh:279
-#, fuzzy
 msgid "The following snippet shows how to decrypt an exported snapshot:"
 msgstr ""
 "В следующем фрагменте показано, как расшифровать экспортированный образ:"
 
 #: web/snapshots.sh:300
-#, fuzzy
 msgid "Export selected snapshot for use as Medkit"
 msgstr "Экспортировать выбранный образ для использования в качестве аптечки"
 
 #: web/snapshots.sh:317
-#, fuzzy
 msgid "Roll back to the selected snapshot and reboot the router"
-msgstr "Откат к выбранному образу и перезагрузка роутера"
+msgstr "Откат к выбранному образу и перезагрузка маршрутизатора"
 
 #: web/snapshots.sh:334
 msgid "Remove the selected snapshot"

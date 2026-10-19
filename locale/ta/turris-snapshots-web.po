@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the turris-snapshots-web package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: turris-snapshots-web\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-28 16:00+0200\n"
+"PO-Revision-Date: 2026-09-04 13:50+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/turris/diagnostics-"
+"snapshots-web/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.9\n"
+
+#: web/snapshots.sh:19
+msgid "Minimal Snapshot Manager | Turris"
+msgstr "குறைந்தபட்ச ச்னாப்சாட் மேலாளர் | டர்ரிச்"
+
+#: web/snapshots.sh:67
+msgid "Toggle theme (auto)"
+msgstr "கருப்பொருள் (ஆட்டோ) மாற்று"
+
+#: web/snapshots.sh:72
+msgid "Toggle theme"
+msgstr "கருப்பொருளை மாற்றவும்"
+
+#: web/snapshots.sh:92
+msgid "Light"
+msgstr "ஒளி"
+
+#: web/snapshots.sh:112
+msgid "Dark"
+msgstr "இருண்ட"
+
+#: web/snapshots.sh:132
+msgid "Auto"
+msgstr "தானி"
+
+#: web/snapshots.sh:145
+msgid "Turris Logo"
+msgstr "கோபுர லோகோ"
+
+#: web/snapshots.sh:148
+msgid "Minimal Snapshot Manager"
+msgstr "குறைந்தபட்ச ச்னாப்சாட் மேலாளர்"
+
+#: web/snapshots.sh:150
+msgid "This page allows minimal management of system snapshots."
+msgstr ""
+"இந்த பக்கம் கணினி ச்னாப்சாட்களின் குறைந்தபட்ச நிர்வாகத்தை அனுமதிக்கிறது."
+
+#: web/snapshots.sh:156
+msgid "Select snapshot"
+msgstr "ச்னாப்சாட் என்பதைத் தேர்ந்தெடுக்கவும்"
+
+#: web/snapshots.sh:176
+msgid "Select an existing snapshot to perform the action on."
+msgstr "செயலைச் செய்ய ஏற்கனவே உள்ள ச்னாப்சாட்டைத் தேர்ந்தெடுக்கவும்."
+
+#: web/snapshots.sh:196
+msgid "Export"
+msgstr "ஏற்றுமதி"
+
+#: web/snapshots.sh:210
+msgid "Medkit"
+msgstr "தடியல்கள்"
+
+#: web/snapshots.sh:224
+msgid "Rollback"
+msgstr "மறுசீரமைப்பு"
+
+#: web/snapshots.sh:238
+msgid "Remove"
+msgstr "அகற்று"
+
+#: web/snapshots.sh:254
+msgid "Password to encrypt the snapshot with"
+msgstr "ச்னாப்சாட்டை குறியாக்க கடவுச்சொல்"
+
+#: web/snapshots.sh:264
+msgid ""
+"Password used to encrypt the exported snapshot. It is prefilled with a "
+"randomly generated one."
+msgstr ""
+"ஏற்றுமதி செய்யப்பட்ட ச்னாப்சாட்டை குறியாக்கப் பயன்படுத்தப்படும் கடவுச்சொல். இது தோராயமாக "
+"உருவாக்கப்பட்ட ஒன்றைக் கொண்டு முன்கூட்டியே நிரப்பப்படுகிறது."
+
+#: web/snapshots.sh:273
+msgid "Export selected snapshot"
+msgstr "தேர்ந்தெடுக்கப்பட்ட ச்னாப்சாட்டை ஏற்றுமதி செய்யுங்கள்"
+
+#: web/snapshots.sh:279
+msgid "The following snippet shows how to decrypt an exported snapshot:"
+msgstr ""
+"ஏற்றுமதி செய்யப்பட்ட ச்னாப்சாட்டை எவ்வாறு மறைகுறியாக்குவது என்பதை பின்வரும் துணுக்கை "
+"காட்டுகிறது:"
+
+#: web/snapshots.sh:300
+msgid "Export selected snapshot for use as Medkit"
+msgstr ""
+"தேர்ந்தெடுக்கப்பட்ட ச்னாப்சாட்டை மெட்கிட்டாக பயன்படுத்த ஏற்றுமதி செய்யுங்கள்"
+
+#: web/snapshots.sh:317
+msgid "Roll back to the selected snapshot and reboot the router"
+msgstr ""
+"தேர்ந்தெடுக்கப்பட்ட ச்னாப்சாட்டுக்குச் சென்று திசைவியை மீண்டும் துவக்கவும்"
+
+#: web/snapshots.sh:334
+msgid "Remove the selected snapshot"
+msgstr "தேர்ந்தெடுக்கப்பட்ட ச்னாப்சாட்டை அகற்றவும்"
